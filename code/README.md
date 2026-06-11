@@ -159,3 +159,6 @@ M&A events are relatively rare (low base rate), performance will be measured usi
 - Produce live predictions for current universe with ranked probability scores
 - Write full technical documentation: data dictionaries, model cards, API specs
 - Deliver final presentation
+
+
+

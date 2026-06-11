@@ -1,0 +1,9 @@
+package,required,installed,purpose
+pandas,True,True,DataFrames and CSV outputs
+numpy,False,True,Numerical operations
+requests,False,False,Convenient HTTP client; stdlib urllib is used as fallback
+yfinance,False,False,Prototype market data pull
+sklearn,False,True,Baseline models and metrics from Week 5 onward
+mlflow,False,False,Local experiment tracking
+wandb,False,False,Cloud experiment tracking option
+sec_edgar_downloader,False,False,Optional SEC filings downloader wrapper

@@ -1,0 +1,29 @@
+{
+  "project_name": "mna_prediction_market_signals_genai",
+  "week": 1,
+  "as_of_date": "2026-06-10",
+  "prediction_unit": "company-quarter / company-month",
+  "prediction_horizon_months": [
+    3,
+    6
+  ],
+  "primary_label": "acquired_or_announced_target_within_6_months",
+  "secondary_labels": [
+    "announced_acquirer_within_6_months",
+    "strategically_compatible_pair_within_6_months"
+  ],
+  "initial_universe": "S&P 500 seed list for prototype; Russell 1000 target for full build",
+  "training_window": {
+    "prototype_start": "2018-01-01",
+    "prototype_end": "2024-12-31",
+    "live_scoring_start": "2025-01-01"
+  },
+  "ranking_metrics": [
+    "precision_at_50",
+    "hit_rate_at_k",
+    "roc_auc",
+    "event_capture_rate",
+    "brier_score"
+  ],
+  "point_in_time_rule": "All features must be timestamped and available before the prediction date."
+}
