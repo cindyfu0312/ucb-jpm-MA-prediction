@@ -36,6 +36,93 @@ The resulting model supports event-driven trading strategies including merger ar
 
 
 
+## Current Local Data Pipeline
+
+The current prototype links three local datasets by ticker:
+
+| **File** | **Role** | **Key Columns** |
+| -------- | -------- | --------------- |
+| `data/raw/index/us_listed_companies_sec.csv` | US-listed company universe from the SEC ticker master | `ticker`, `company_name`, `exchange`, `cik` |
+| `data/raw/market/daily_prices.csv` | Daily OHLCV market history | `date`, `ticker`, `open`, `high`, `low`, `close`, `volume`, `ret` |
+| `data/raw/events/ma_events.csv` | Cleaned M&A ground-truth events | `announcement_date`, `target_ticker`, `acquirer_ticker`, `deal_status`, `close_date`, `deal_value_usd` |
+
+### 1. Universe Construction
+
+The project now uses a broad US-listed universe instead of only Russell 1000 constituents.
+
+```bash
+python3 code/download_us_listed_companies.py
+```
+
+This writes `data/raw/index/us_listed_companies_sec.csv`, which is used as the ticker and company-name master for matching M&A targets. A broad universe is important because M&A target events are rare; limiting the sample to Russell 1000 creates too few positive labels for machine learning.
+
+### 2. M&A Event Cleaning
+
+The raw S&P Global transaction spreadsheet is cleaned into the Week 1 event schema with:
+
+```bash
+python3 code/clean_ma_events.py
+```
+
+The cleaner keeps US transactions where the target can be mapped to a listed ticker. The buyer can be public, private, foreign, PE-backed, or unknown; therefore `acquirer_ticker` is allowed to be blank. The output is:
+
+- `data/raw/events/ma_events.csv`: compact event label file used by analysis notebooks
+- `data/raw/events/ma_events_match_audit.csv`: audit file with original target/buyer names and ticker-match details
+
+For target prediction, `target_ticker` and `announcement_date` are the most important fields. `acquirer_ticker` is useful for acquirer prediction and pair modeling, but it should not be required because many buyers are not public US-listed companies.
+
+### 3. Linking OHLCV to M&A Labels
+
+The main modeling table should be a ticker-date panel. For each company and each prediction date (`as_of_date`), features must be built only from OHLCV data available on or before that date:
+
+| **Feature Group** | **Examples from OHLCV** |
+| ----------------- | ----------------------- |
+| Return momentum | 5-day, 20-day, 60-day cumulative return |
+| Volatility | rolling 20-day and 60-day return volatility |
+| Liquidity | average dollar volume, volume z-score, turnover proxy |
+| Price pressure | abnormal return vs. market/sector, drawdown, gap moves |
+| Pre-event drift | cumulative return in windows before the prediction date |
+
+Labels are then assigned from `ma_events.csv` using future announcement dates:
+
+```text
+label_target_within_6m = 1
+if target_ticker == ticker
+and announcement_date > as_of_date
+and announcement_date <= as_of_date + 6 months
+```
+
+The same pattern can be used for acquirer labels when `acquirer_ticker` is available:
+
+```text
+label_acquirer_within_6m = 1
+if acquirer_ticker == ticker
+and announcement_date > as_of_date
+and announcement_date <= as_of_date + 6 months
+```
+
+This alignment is the core connection between market data and M&A prediction: OHLCV data provides pre-announcement signals, while cleaned M&A events provide future labels. The strict rule is that no feature may use price, volume, filing, or news information after `as_of_date`.
+
+### 4. Modeling Dataset Shape
+
+A supervised-learning dataset should have one row per `(ticker, as_of_date)`:
+
+| **Column Type** | **Examples** |
+| --------------- | ------------ |
+| Entity keys | `ticker`, `cik`, `company_name`, `exchange` |
+| Time key | `as_of_date` |
+| Market features | `ret_20d`, `ret_60d`, `vol_20d`, `volume_zscore_20d`, `avg_dollar_volume_20d` |
+| Event history features | prior target count, prior acquirer count, days since last event |
+| Forward labels | `label_target_within_6m`, `label_acquirer_within_6m` |
+
+For machine learning, the most practical first target is `label_target_within_6m`, because target tickers are cleaner and more consistently observable than acquirer tickers. Once this baseline works, the project can add acquirer prediction and target-acquirer pair scoring.
+
+### 5. Important Week 1 Caveat
+
+`code/week1_russell1000_analysis.ipynb` still uses `data/raw/index/russell1000_membership.csv` as its universe. If the notebook is run unchanged, it will drop M&A events whose targets are outside the Russell 1000. To train on all listed companies, the analysis notebook should be updated to use `data/raw/index/us_listed_companies_sec.csv`, and OHLCV data should be downloaded for that broader ticker set.
+
+
+
 ## Methodologies
 
 ### 1. **Merger-Arb Fund Scoring**
@@ -159,6 +246,5 @@ M&A events are relatively rare (low base rate), performance will be measured usi
 - Produce live predictions for current universe with ranked probability scores
 - Write full technical documentation: data dictionaries, model cards, API specs
 - Deliver final presentation
-
 
 
