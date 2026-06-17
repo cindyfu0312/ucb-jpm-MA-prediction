@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import difflib
+import os
 import re
 from pathlib import Path
 
@@ -116,7 +117,10 @@ def clean_events(
     require_acquirer_ticker: bool = False,
     company_level_only: bool = False,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    raw = pd.read_excel(source_path, sheet_name="Transactions Statistics")
+    if source_path.suffix.lower() == ".csv":
+        raw = pd.read_csv(source_path)
+    else:
+        raw = pd.read_excel(source_path, sheet_name="Transactions Statistics")
     universe = pd.read_csv(universe_path)
     name_to_ticker = build_name_map(universe)
     match_keys = list(name_to_ticker)
@@ -234,8 +238,8 @@ def main() -> None:
     output.to_csv(args.output, index=False)
     audit.to_csv(args.audit, index=False)
 
-    print(f"Wrote {len(output):,} cleaned M&A events to {args.output.relative_to(PROJECT_ROOT)}")
-    print(f"Wrote {len(audit):,} matched event audit rows to {args.audit.relative_to(PROJECT_ROOT)}")
+    print(f"Wrote {len(output):,} cleaned M&A events to {os.path.relpath(args.output, PROJECT_ROOT)}")
+    print(f"Wrote {len(audit):,} matched event audit rows to {os.path.relpath(args.audit, PROJECT_ROOT)}")
 
 
 if __name__ == "__main__":

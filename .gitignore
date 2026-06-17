@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- macOS ---
+.DS_Store
+
+# --- Proprietary source data: do NOT commit (S&P Global / Capital IQ license) ---
+data/raw/events/*.xlsx
+data/raw/events/SPGlobal_*
+# CIQ earnings-call transcripts (licensed) + ticker->companyid crosswalk (embeds CIQ entity names)
+data/raw/text/
+data/raw/index/ticker_to_ciq_*
+
+# --- Large regenerable data outputs (re-create by running the scripts) ---
+data/raw/news/
+data/raw/funds/
