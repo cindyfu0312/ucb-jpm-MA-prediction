@@ -1,0 +1,15 @@
+# Python dependencies for the M&A prediction pipeline.
+# Setup:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+# --- Core data pipeline ---
+pandas>=2.2            # build_ma_prediction_dataset.py, clean_ma_events.py, download_us_listed_companies.py
+openpyxl>=3.1          # read the S&P Global .xlsx source in clean_ma_events.py
+
+# --- SEC filings downloader (GenAI track) ---
+sec-edgar-downloader>=5.0   # code/download.py
+
+# --- WRDS (Capital IQ transcripts, CRSP, etc.) ---
+wrds>=3.2              # code/download_transcripts_wrds.py
+
+# --- Notebooks in VS Code ---
+ipykernel>=6.29        # run code/week1_russell1000_analysis.ipynb
