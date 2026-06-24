@@ -1,2 +1,2 @@
 source,url,checked_at,status,row_count,elapsed_seconds,error
-SEC company_tickers.json,https://www.sec.gov/files/company_tickers.json,2026-06-10T22:56:12+00:00,blocked,0,0.0,"ValueError(""SEC_USER_AGENT is not set. Use: export SEC_USER_AGENT='Name email@example.com'"")"
+SEC company_tickers.json,https://www.sec.gov/files/company_tickers.json,2026-06-16T01:32:02+00:00,blocked,0,0.0,"ValueError(""SEC_USER_AGENT is not set. Use: export SEC_USER_AGENT='Name email@example.com'"")"

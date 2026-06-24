@@ -1,6 +1,6 @@
 {
   "inputs": {
-    "membership": "data/raw/index/russell1000_membership.csv",
+    "membership": "data/raw/index/us_listed_companies_sec.csv",
     "prices": "data/raw/market/daily_prices.csv",
     "events_optional": "data/raw/events/ma_events.csv"
   },
@@ -13,7 +13,7 @@
     "reports/week1/russell1000_analysis/sector_distribution.csv",
     "reports/week1/russell1000_analysis/universe_summary.csv"
   ],
-  "universe_rows": 1003,
-  "price_rows": 38918,
-  "event_rows": 0
+  "universe_rows": 7615,
+  "price_rows": 8445,
+  "event_rows": 200
 }

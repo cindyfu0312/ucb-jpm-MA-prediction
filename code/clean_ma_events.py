@@ -113,8 +113,10 @@ def clean_events(
     source_path: Path,
     universe_path: Path,
     fuzzy_cutoff: float | None = None,
+    require_target_ticker: bool = False,
     require_acquirer_ticker: bool = False,
     company_level_only: bool = False,
+    include_spinoff: bool = False,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     raw = pd.read_excel(source_path, sheet_name="Transactions Statistics")
     universe = pd.read_csv(universe_path)
@@ -127,6 +129,8 @@ def clean_events(
 
     is_usa = events["Country/Region"].astype(str).str.strip().str.upper().eq("USA")
     events = events.loc[is_usa].copy()
+    if not include_spinoff:
+        events = events.loc[events["Transaction Type"].astype(str).str.contains("Acquisition", case=False, na=False)].copy()
     if company_level_only:
         transaction_type = events["Transaction Type"].astype(str)
         is_company_level_deal = transaction_type.str.contains(
@@ -153,23 +157,32 @@ def clean_events(
 
     if require_acquirer_ticker:
         cleaned = events.dropna(subset=["target_ticker", "acquirer_ticker"]).copy()
-    else:
+    elif require_target_ticker:
         cleaned = events.dropna(subset=["target_ticker"]).copy()
+    else:
+        cleaned = events.copy()
 
     deal_value_m = cleaned["Deal Value ($M)"].combine_first(cleaned["Transaction Value ($M)"])
     cleaned["deal_value_usd"] = (pd.to_numeric(deal_value_m, errors="coerce") * 1_000_000).round().astype("Int64")
 
     output = pd.DataFrame(
         {
+            "transaction_id": cleaned["Transaction ID"],
             "announcement_date": cleaned["Announcement Date"].dt.date,
-            "target_ticker": cleaned["target_ticker"].astype(str).str.upper(),
+            "target_name": cleaned["Target or Issuer"],
+            "target_ticker": cleaned["target_ticker"].astype("string").str.upper(),
+            "acquirer_name": cleaned["Buyer"],
             "acquirer_ticker": cleaned["acquirer_ticker"].astype("string").str.upper(),
+            "seller_name": cleaned["Seller"],
+            "transaction_type": cleaned["Transaction Type"],
             "deal_status": cleaned["Status"],
             "close_date": cleaned["Completion Date"].dt.date,
             "deal_value_usd": cleaned["deal_value_usd"],
+            "primary_industry": cleaned["Primary Industry (MI)"],
+            "country_region": cleaned["Country/Region"],
         }
     )
-    output = output.sort_values(["announcement_date", "target_ticker"], ascending=[False, True]).reset_index(drop=True)
+    output = output.sort_values(["announcement_date", "transaction_id"], ascending=[False, True]).reset_index(drop=True)
 
     audit_columns = [
         "Transaction ID",
@@ -208,6 +221,11 @@ def parse_args() -> argparse.Namespace:
         help="Optional fuzzy matching cutoff. Omit for safer exact normalized name matching only.",
     )
     parser.add_argument(
+        "--require-target-ticker",
+        action="store_true",
+        help="Keep only deals where the target can be mapped to the selected ticker universe.",
+    )
+    parser.add_argument(
         "--require-acquirer-ticker",
         action="store_true",
         help="Keep only deals where the buyer can also be mapped to the selected ticker universe.",
@@ -216,6 +234,11 @@ def parse_args() -> argparse.Namespace:
         "--company-level-only",
         action="store_true",
         help="Exclude asset/branch acquisitions and spinoff/splitoff transactions.",
+    )
+    parser.add_argument(
+        "--include-spinoff",
+        action="store_true",
+        help="Also keep spinoff/splitoff events. By default only acquisition-style M&A events are kept.",
     )
     return parser.parse_args()
 
@@ -226,8 +249,10 @@ def main() -> None:
         source_path=args.source,
         universe_path=args.universe,
         fuzzy_cutoff=args.fuzzy_cutoff,
+        require_target_ticker=args.require_target_ticker,
         require_acquirer_ticker=args.require_acquirer_ticker,
         company_level_only=args.company_level_only,
+        include_spinoff=args.include_spinoff,
     )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)

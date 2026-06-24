@@ -1,0 +1,101 @@
+news_count,avg_sentiment,std_sentiment,pos_ratio,neg_ratio,ma_keyword_count,ma_keyword_ratio,max_sentiment,min_sentiment,transaction_id,window,label,announcement_date,primary_industry,deal_value_usd,transaction_type
+11,0.2998,0.2750324344509207,0.7272727272727273,0.09090909090909091,2,0.18181818181818182,0.6808,-0.2732,SPTRD2153936,baseline,0,2025-06-17,Asset Management,8000000.0,Acquisition of Whole Company (incl. Majority Stake)
+1,0.7003,0.0,1.0,0.0,0,0.0,0.7003,0.7003,SPTRD2153936,pre,1,2025-06-17,Asset Management,8000000.0,Acquisition of Whole Company (incl. Majority Stake)
+6,0.3163833333333334,0.5422932737202465,0.8333333333333334,0.16666666666666666,0,0.0,0.7003,-0.8591,SPTRD2157952,baseline,0,2025-06-27,Cargo Ground Transportation,,Acquisition of Whole Company (incl. Majority Stake)
+3,-0.1968,0.27831722907502515,0.0,0.3333333333333333,0,0.0,0.0,-0.5904,SPTRD2157952,pre,1,2025-06-27,Cargo Ground Transportation,,Acquisition of Whole Company (incl. Majority Stake)
+1,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2158999,baseline,0,2025-07-16,Health Care Equipment,,Acquisition of Whole Company (incl. Majority Stake)
+3,0.5015999999999999,0.14778310683791526,1.0,0.0,0,0.0,0.6369,0.296,SPTRD2158999,pre,1,2025-07-16,Health Care Equipment,,Acquisition of Whole Company (incl. Majority Stake)
+17,-0.06654117647058821,0.30006316797482246,0.17647058823529413,0.23529411764705882,1,0.058823529411764705,0.5106,-0.6705,SPTRD2159036,pre,1,2025-07-16,Health Care Services,,Acquisition of Whole Company (incl. Majority Stake)
+8,0.162375,0.22095472811189174,0.375,0.0,0,0.0,0.5319,0.0,SPTRD2160050,pre,1,2025-07-22,Renewable Electricity,,Acquisition of Asset or Branch
+1,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2160938,baseline,0,2025-07-28,Food Retail,,Acquisition of Whole Company (incl. Majority Stake)
+5,0.13808,0.1795114079940325,0.4,0.0,0,0.0,0.4404,0.0,SPTRD2161940,baseline,0,2025-07-30,Health Care Technology,,Acquisition of Whole Company (incl. Majority Stake)
+1,0.4767,0.0,1.0,0.0,0,0.0,0.4767,0.4767,SPTRD2163859,baseline,0,2025-08-12,Managed Health Care,,Acquisition of Whole Company (incl. Majority Stake)
+1,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2173548,baseline,0,2025-10-09,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+3,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2173807,baseline,0,2025-10-14,Asset Management,,Acquisition of Whole Company (incl. Majority Stake)
+2,0.37895,0.37895,0.5,0.0,0,0.0,0.7579,0.0,SPTRD2173807,pre,1,2025-10-14,Asset Management,,Acquisition of Whole Company (incl. Majority Stake)
+12,0.058499999999999996,0.33500899987910776,0.4166666666666667,0.16666666666666666,0,0.0,0.5994,-0.6369,SPTRD2175475,baseline,0,2025-10-22,Movies and Entertainment,,Acquisition of Minority Stake
+23,0.05114782608695652,0.36216443883427274,0.2608695652173913,0.17391304347826086,0,0.0,0.8979,-0.6124,SPTRD2175475,pre,1,2025-10-22,Movies and Entertainment,,Acquisition of Minority Stake
+44,0.07730227272727273,0.337172402278821,0.4318181818181818,0.1590909090909091,3,0.06818181818181818,0.765,-0.8625,SPTRD2175548,baseline,0,2025-10-16,Insurance Broker,,Acquisition of Whole Company (incl. Majority Stake)
+38,0.08468421052631578,0.3311083886189693,0.3684210526315789,0.21052631578947367,2,0.05263157894736842,0.7964,-0.5719,SPTRD2175548,pre,1,2025-10-16,Insurance Broker,,Acquisition of Whole Company (incl. Majority Stake)
+18,0.0025888888888888875,0.29419682921640683,0.16666666666666666,0.16666666666666666,0,0.0,0.5106,-0.7506,SPTRD2176706,pre,1,2025-10-31,Specialty Chemicals,,Acquisition of Whole Company (incl. Majority Stake)
+48,0.0633375,0.25666221042533055,0.2708333333333333,0.08333333333333333,0,0.0,0.6808,-0.6249,SPTRD2178536,baseline,0,2025-11-12,Diversified Support Services,,Acquisition of Whole Company (incl. Majority Stake)
+47,0.17982765957446809,0.2816406966347466,0.425531914893617,0.10638297872340426,1,0.02127659574468085,0.8442,-0.34,SPTRD2180097,baseline,0,2025-11-20,Construction and Engineering,,Acquisition of Whole Company (incl. Majority Stake)
+46,0.2091586956521739,0.32875986186305,0.4782608695652174,0.08695652173913043,0,0.0,0.8442,-0.4767,SPTRD2180097,pre,1,2025-11-20,Construction and Engineering,,Acquisition of Whole Company (incl. Majority Stake)
+2,0.17,0.17,0.5,0.0,0,0.0,0.34,0.0,SPTRD2183068,pre,1,2025-12-09,Leisure Facilities,,Acquisition of Whole Company (incl. Majority Stake)
+3,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2183234,baseline,0,2025-12-01,Unclassified,,Acquisition of Whole Company (incl. Majority Stake)
+30,-0.0011899999999999836,0.2965300224822663,0.3333333333333333,0.26666666666666666,0,0.0,0.743,-0.6597,SPTRD2188154,baseline,0,2025-10-09,Research and Consulting Services,,Acquisition of Whole Company (incl. Majority Stake)
+34,0.1378764705882353,0.36594977561121167,0.4411764705882353,0.14705882352941177,1,0.029411764705882353,0.7506,-0.7351,SPTRD2188154,pre,1,2025-10-09,Research and Consulting Services,,Acquisition of Whole Company (incl. Majority Stake)
+41,0.13600243902439024,0.44993454889209616,0.5121951219512195,0.2926829268292683,1,0.024390243902439025,0.8555,-0.9493,SPTRD2192834,baseline,0,2025-12-31,Asset Management,,Acquisition of Whole Company (incl. Majority Stake)
+88,-0.024114772727272728,0.28639929316022344,0.13636363636363635,0.20454545454545456,0,0.0,0.7184,-0.8481,SPTRD2192834,pre,1,2025-12-31,Asset Management,,Acquisition of Whole Company (incl. Majority Stake)
+39,0.1544230769230769,0.2928049210227655,0.3333333333333333,0.07692307692307693,2,0.05128205128205128,0.7845,-0.5267,SPTRD2194729,baseline,0,2025-12-31,Unclassified,150500000.0,Acquisition of Asset or Branch
+5,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2197858,baseline,0,2025-10-29,Unclassified,,Acquisition of Asset or Branch
+6,0.20125,0.2880660095070804,0.3333333333333333,0.0,0,0.0,0.6808,0.0,SPTRD2197858,pre,1,2025-10-29,Unclassified,,Acquisition of Asset or Branch
+42,0.11686190476190478,0.3109681257225883,0.4523809523809524,0.19047619047619047,1,0.023809523809523808,0.5719,-0.4939,SPTRD2203608,baseline,0,2025-12-18,Electrical Components and Equipment: Heavy,6000000000.0,Acquisition of Whole Company (incl. Majority Stake)
+3,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2203608,pre,1,2025-12-18,Electrical Components and Equipment: Heavy,6000000000.0,Acquisition of Whole Company (incl. Majority Stake)
+19,0.026915789473684216,0.15339080210933492,0.10526315789473684,0.05263157894736842,0,0.0,0.5574,-0.296,SPTRD2215613,baseline,0,2025-10-01,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+51,0.03424117647058823,0.36731919878314884,0.3137254901960784,0.23529411764705882,1,0.0196078431372549,0.8271,-0.85,SPTRD2215613,pre,1,2025-10-01,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2204943,pre,1,2025-12-09,Unclassified,51300000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2204943,baseline,0,2025-12-09,Unclassified,51300000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2172011,pre,1,2025-10-01,Mortgage Banks and Brokers,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2172011,baseline,0,2025-10-01,Mortgage Banks and Brokers,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2173548,pre,1,2025-10-09,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2183234,pre,1,2025-12-01,Unclassified,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2175098,pre,1,2025-10-21,Unclassified,93200000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2175098,baseline,0,2025-10-21,Unclassified,93200000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2194729,pre,1,2025-12-31,Unclassified,150500000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2171711,pre,1,2025-10-01,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2171711,baseline,0,2025-10-01,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2181934,pre,1,2025-12-02,Human Resource and Employment Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2181934,baseline,0,2025-12-02,Human Resource and Employment Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2160938,pre,1,2025-07-28,Food Retail,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2176320,pre,1,2025-10-28,Environmental and Facilities Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2176320,baseline,0,2025-10-28,Environmental and Facilities Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2161940,pre,1,2025-07-30,Health Care Technology,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2183068,baseline,0,2025-12-09,Leisure Facilities,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2169427,pre,1,2025-09-12,Broadcasting,1000000.0,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2169427,baseline,0,2025-09-12,Broadcasting,1000000.0,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2171767,pre,1,2025-10-02,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2171767,baseline,0,2025-10-02,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2156261,pre,1,2025-07-02,Pharmaceuticals,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2156261,baseline,0,2025-07-02,Pharmaceuticals,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2163859,pre,1,2025-08-12,Managed Health Care,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2163924,pre,1,2025-08-12,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2163924,baseline,0,2025-08-12,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185336,pre,1,2025-12-22,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185336,baseline,0,2025-12-22,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185705,pre,1,2025-11-20,Unclassified,4450000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185705,baseline,0,2025-11-20,Unclassified,4450000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2179533,pre,1,2025-11-18,Broadcasting,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2179533,baseline,0,2025-11-18,Broadcasting,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2178536,pre,1,2025-11-12,Diversified Support Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185574,pre,1,2025-12-22,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185574,baseline,0,2025-12-22,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2176706,baseline,0,2025-10-31,Specialty Chemicals,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2158486,pre,1,2025-07-14,Unclassified,4000000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2158486,baseline,0,2025-07-14,Unclassified,4000000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2183062,pre,1,2025-12-09,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2183062,baseline,0,2025-12-09,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2157252,pre,1,2025-07-08,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2157252,baseline,0,2025-07-08,Application Software,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2159063,pre,1,2025-06-26,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2159063,baseline,0,2025-06-26,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2158173,pre,1,2025-07-10,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2158173,baseline,0,2025-07-10,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2172589,pre,1,2025-09-30,"Containers and Packaging: Metal, Glass, and Plastic",,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2172589,baseline,0,2025-09-30,"Containers and Packaging: Metal, Glass, and Plastic",,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185343,pre,1,2025-12-19,Application Software,240000000.0,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2185343,baseline,0,2025-12-19,Application Software,240000000.0,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2153767,pre,1,2025-06-17,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2153767,baseline,0,2025-06-17,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2160050,baseline,0,2025-07-22,Renewable Electricity,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2162497,pre,1,2025-08-04,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2162497,baseline,0,2025-08-04,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2173440,pre,1,2025-10-01,Oil and Gas Equipment and Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2173440,baseline,0,2025-10-01,Oil and Gas Equipment and Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2159036,baseline,0,2025-07-16,Health Care Services,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2182092,pre,1,2025-12-02,Unclassified,55500000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2182092,baseline,0,2025-12-02,Unclassified,55500000.0,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2160113,pre,1,2025-07-23,Machinery and Supplies and Components: Industrial,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2160113,baseline,0,2025-07-23,Machinery and Supplies and Components: Industrial,,Acquisition of Whole Company (incl. Majority Stake)
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2165284,pre,1,2025-08-20,Unclassified,,Acquisition of Asset or Branch
+0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,SPTRD2165284,baseline,0,2025-08-20,Unclassified,,Acquisition of Asset or Branch

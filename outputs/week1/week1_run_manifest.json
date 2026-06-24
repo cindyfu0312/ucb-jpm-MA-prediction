@@ -1,12 +1,12 @@
 {
-  "run_id": "week1_20260610T225407Z",
-  "created_at_utc": "2026-06-10T22:54:07+00:00",
+  "run_id": "week1_20260616T013202Z",
+  "created_at_utc": "2026-06-16T01:32:02+00:00",
   "project_root": "/Users/cindyfu/Desktop/UCB/Industry Project - JPM",
   "notebook": "code/week1_foundation.ipynb",
   "config": {
     "project_name": "mna_prediction_market_signals_genai",
     "week": 1,
-    "as_of_date": "2026-06-10",
+    "as_of_date": "2026-06-15",
     "prediction_unit": "company-quarter / company-month",
     "prediction_horizon_months": [
       3,
@@ -35,7 +35,7 @@
   "sec_smoke_test": {
     "source": "SEC company_tickers.json",
     "url": "https://www.sec.gov/files/company_tickers.json",
-    "checked_at": "2026-06-10T22:54:07+00:00",
+    "checked_at": "2026-06-16T01:32:02+00:00",
     "status": "blocked",
     "row_count": 0,
     "elapsed_seconds": 0.0,
@@ -46,7 +46,7 @@
     "tickers": "JPM,MSFT,PFE",
     "start": "2024-01-01",
     "end": "2024-02-01",
-    "checked_at": "2026-06-10T22:54:07+00:00",
+    "checked_at": "2026-06-16T01:32:02+00:00",
     "status": "blocked",
     "row_count": 0,
     "elapsed_seconds": 0.0,

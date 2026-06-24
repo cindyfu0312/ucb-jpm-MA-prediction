@@ -1,7 +1,7 @@
 {
   "project_name": "mna_prediction_market_signals_genai",
   "week": 1,
-  "as_of_date": "2026-06-10",
+  "as_of_date": "2026-06-15",
   "prediction_unit": "company-quarter / company-month",
   "prediction_horizon_months": [
     3,

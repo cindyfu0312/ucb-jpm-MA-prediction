@@ -1,6 +1,6 @@
 metric,value
-rows,1003
-unique_tickers,1003
+rows,7615
+unique_tickers,7613
 missing_sector,0
-missing_permno,1003
-missing_gvkey,1003
+missing_permno,0
+missing_gvkey,0
