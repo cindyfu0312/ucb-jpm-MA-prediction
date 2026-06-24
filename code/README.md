@@ -1,250 +1,119 @@
-# M&A Prediction - Industry Project Proposal
+# M&A Prediction — Market Signals & Generative AI
 
 **Dexin Fu, Ronald Liu**
 
+*Merger-arbitrage prediction · event-driven strategy · GenAI signal extraction*
 
+A data-driven framework to identify, **before public announcement**, which US-listed companies are likely to participate in M&A over a 3–6 month horizon — as **targets**, **acquirers**, or strategically compatible **pairs**. It fuses point-in-time market signals, structured fund disclosures, and LLM-based text analysis into per-company probability scores for event-driven and merger-arbitrage workflows.
 
-## Project Objective
+## Objective
 
-Develop a multi-signal predictive model to identify, before public announcement, which companies are likely to:
-
-- Be acquired (target identification)
-- Act as acquirers (acquirer identification)
--  Form strategically compatible acquisition pairs 
-
-The resulting model supports event-driven trading strategies including merger arbitrage, risk trading, and institutional market intelligence workflows.
-
-
+Produce a probability score for each company in the universe indicating its likelihood of an M&A event within 3–6 months, to detect potential **acquisition targets**, likely **acquirers**, and compatible **pairs**.
 
 ## Research Questions
 
-- Can public market data and corporate disclosures predict M&A activity prior to announcement?
-- Do unusual options trading patterns contain early signals of acquisitions?
-- Can Generative AI extract strategic intent from filings and earnings transcripts at scale?
-- What structural industry consolidation patterns reliably precede acquisitions?
-
-
+- Can public market data and corporate disclosures predict M&A before announcement?
+- Can GenAI extract strategic intent from filings and transcripts at scale?
+- What industry-consolidation patterns reliably precede deals?
 
 ## Data Sources
 
-| **Category**              | **Sources**                                                  |
-| ------------------------- | ------------------------------------------------------------ |
-| **Corporate Disclosures** | SEC filings (10-K, 10-Q, 8-K), earnings call transcripts, investor  presentations, press releases |
-| **Market Data**           | Stock prices & returns, volatility, liquidity metrics, options  trading activity |
-| **External Information**  | News articles, analyst reports, industry M&A databases       |
-| **Fund Disclosures**      | ETF daily/periodic holdings, mutual fund N-PORT/N-CEN schedules,  historical holdings time-series |
+| Category | Sources |
+|---|---|
+| Corporate disclosures | 10-K, 10-Q, 8-K; earnings transcripts; investor presentations; press releases |
+| Market data | Daily prices/returns; realized volatility; liquidity (dollar volume, turnover) |
+| External | News; analyst reports; industry M&A databases (S&P Capital IQ) |
+| Fund disclosures | ETF holdings; mutual-fund N-PORT/N-CEN; historical holdings time-series |
 
-
-
-## Current Local Data Pipeline
-
-The current prototype links three local datasets by ticker:
-
-| **File** | **Role** | **Key Columns** |
-| -------- | -------- | --------------- |
-| `data/raw/index/us_listed_companies_sec.csv` | US-listed company universe from the SEC ticker master | `ticker`, `company_name`, `exchange`, `cik` |
-| `data/raw/market/daily_prices.csv` | Daily OHLCV market history | `date`, `ticker`, `open`, `high`, `low`, `close`, `volume`, `ret` |
-| `data/raw/events/ma_events.csv` | Cleaned M&A ground-truth events | `announcement_date`, `target_ticker`, `acquirer_ticker`, `deal_status`, `close_date`, `deal_value_usd` |
-
-### 1. Universe Construction
-
-The project now uses a broad US-listed universe instead of only Russell 1000 constituents.
+## Quickstart
 
 ```bash
-python3 code/download_us_listed_companies.py
+# one-time environment setup
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+
+# run the pipeline (from repo root)
+python code/download_us_listed_companies.py                  # 1. company universe (SEC, free)
+python code/clean_ma_events.py \                             # 2. clean S&P deals -> labels
+    --source data/raw/events/<your-S&P-export>.csv \
+    --company-level-only
+python code/build_ma_prediction_dataset.py                   # 3. build the modeling panel
 ```
 
-This writes `data/raw/index/us_listed_companies_sec.csv`, which is used as the ticker and company-name master for matching M&A targets. A broad universe is important because M&A target events are rare; limiting the sample to Russell 1000 creates too few positive labels for machine learning.
+Produces `data/interim/ma_prediction_panel.csv` (one row per company-month, features + labels) and a coverage report under `reports/week1/`.
 
-### 2. M&A Event Cleaning
+## Pipeline (current implementation)
 
-The raw S&P Global transaction spreadsheet is cleaned into the Week 1 event schema with:
+Three scripts turn raw market + M&A data into a supervised, point-in-time modeling table, linked by ticker.
 
-```bash
-python3 code/clean_ma_events.py
-```
+| File | Role | Key columns |
+|---|---|---|
+| `data/raw/index/us_listed_companies_sec.csv` | US-listed universe (SEC ticker master) | `ticker, company_name, exchange, cik` |
+| `data/raw/market/daily_prices.csv` | Daily OHLCV history | `date, ticker, open, high, low, close, volume, ret` |
+| `data/raw/events/ma_events.csv` | Cleaned M&A ground-truth events | `announcement_date, target_ticker, acquirer_ticker, deal_status, close_date, deal_value_usd` |
 
-The cleaner keeps US transactions where the target can be mapped to a listed ticker. The buyer can be public, private, foreign, PE-backed, or unknown; therefore `acquirer_ticker` is allowed to be blank. The output is:
+### 1. Universe — `download_us_listed_companies.py`
+Downloads the SEC ticker master (NYSE / Nasdaq / NYSE American) → ~7,600 companies. A broad universe matters because M&A targets are rare; restricting to Russell 1000 yields too few positive labels.
 
-- `data/raw/events/ma_events.csv`: compact event label file used by analysis notebooks
-- `data/raw/events/ma_events_match_audit.csv`: audit file with original target/buyer names and ticker-match details
+### 2. Events → labels — `clean_ma_events.py`
+Cleans a raw **S&P Capital IQ** transactions export into the event schema. Keeps US deals whose **target** maps to a listed ticker (name normalization → ticker; `--company-level-only` drops asset/branch and spinoff deals). `acquirer_ticker` may be blank — many buyers are private, PE-backed, or foreign. Reads `.csv` or `.xlsx`. Also writes `ma_events_match_audit.csv` for match QA.
 
-For target prediction, `target_ticker` and `announcement_date` are the most important fields. `acquirer_ticker` is useful for acquirer prediction and pair modeling, but it should not be required because many buyers are not public US-listed companies.
+### 3. Modeling panel — `build_ma_prediction_dataset.py`
+Builds one row per `(ticker, as_of_date)` (monthly by default). For each row:
+- **Features (past only):** `ret_5d/20d/60d`, `vol_20d/60d`, `avg_dollar_volume_20d`, `volume_zscore_20d`, `drawdown_60d`, plus event history (`prior_*_event_count`, `days_since_prior_*_event`).
+- **Labels (future only):** `label_target_within_6m`, `label_acquirer_within_6m` = 1 if the company is announced in that role within the next *H* months.
 
-### 3. Linking OHLCV to M&A Labels
+The strict past/future split is the core discipline — **no feature may use information after `as_of_date`.** A coverage report (`reports/week1/ma_prediction_data_coverage.csv`) tracks join rates and positive-label counts.
 
-The main modeling table should be a ticker-date panel. For each company and each prediction date (`as_of_date`), features must be built only from OHLCV data available on or before that date:
+> **Current data status.** The committed `daily_prices.csv` is a 2-month, ~1,000-large-cap sample, so only a fraction of matched targets have price history (most positives are censored). Dropping in **multi-year, full-universe** OHLCV (same WRDS/CRSP source) makes the panel trainable with no code changes.
 
-| **Feature Group** | **Examples from OHLCV** |
-| ----------------- | ----------------------- |
-| Return momentum | 5-day, 20-day, 60-day cumulative return |
-| Volatility | rolling 20-day and 60-day return volatility |
-| Liquidity | average dollar volume, volume z-score, turnover proxy |
-| Price pressure | abnormal return vs. market/sector, drawdown, gap moves |
-| Pre-event drift | cumulative return in windows before the prediction date |
+## Modeling approach
 
-Labels are then assigned from `ma_events.csv` using future announcement dates:
+The first and most reliable target is `label_target_within_6m` (target tickers are cleaner than acquirer tickers). Once the market-signal baseline works, add acquirer prediction and target–acquirer pair scoring. Two extension tracks layer additional signals onto the same panel:
 
-```text
-label_target_within_6m = 1
-if target_ticker == ticker
-and announcement_date > as_of_date
-and announcement_date <= as_of_date + 6 months
-```
+### Track A — Merger-Arb Fund Scoring
+Quantify the **ex-ante probability that announced deals close** and rank merger-arb funds by skill. Normalize ETF/MF holdings (incl. hedge legs: long target / short acquirer); engineer deal-level features (spread, deal type, financing, days-to-close) and fund-level features (entry timing, sizing, turnover); fit a calibrated completion model; score funds via **hit rate, Brier, log loss, realized spread capture**; detect rebalance signals from top-quartile funds.
 
-The same pattern can be used for acquirer labels when `acquirer_ticker` is available:
+### Track B — GenAI Signal Extraction
+Use LLMs to convert unstructured text into quantitative strategic-intent indicators — "strategic alternatives," "portfolio optimization," "capital allocation flexibility," "exploring partnerships," and sentiment trajectory across consecutive filings. Prompt-based extraction over 10-K/10-Q/8-K, transcripts, and press releases; per-company per-period time-series; validate against historical announcement dates. (`code/download.py` fetches the underlying SEC filings.)
 
-```text
-label_acquirer_within_6m = 1
-if acquirer_ticker == ticker
-and announcement_date > as_of_date
-and announcement_date <= as_of_date + 6 months
-```
+> Market-microstructure / options-based detection (unusual options activity, IV skew, block trades) is intentionally **out of scope** for this project.
 
-This alignment is the core connection between market data and M&A prediction: OHLCV data provides pre-announcement signals, while cleaned M&A events provide future labels. The strict rule is that no feature may use price, volume, filing, or news information after `as_of_date`.
+## Evaluation Framework
 
-### 4. Modeling Dataset Shape
+M&A is a rare event, so performance is measured with **ranking-based** metrics, not raw accuracy.
 
-A supervised-learning dataset should have one row per `(ticker, as_of_date)`:
+| Metric | Description | Target |
+|---|---|---|
+| Precision@50 | Acquisitions correctly identified in the top-50 predictions | 10–15 hits |
+| Hit rate | Share of top-*N* predictions that are actual targets | > 20% |
+| ROC-AUC | Area under ROC across the universe | > 0.70 |
+| Event capture | Share of actual events in the top-ranked tier | > 30% |
+| Brier score | Calibration quality of completion estimates (fund track) | < 0.15 |
 
-| **Column Type** | **Examples** |
-| --------------- | ------------ |
-| Entity keys | `ticker`, `cik`, `company_name`, `exchange` |
-| Time key | `as_of_date` |
-| Market features | `ret_20d`, `ret_60d`, `vol_20d`, `volume_zscore_20d`, `avg_dollar_volume_20d` |
-| Event history features | prior target count, prior acquirer count, days since last event |
-| Forward labels | `label_target_within_6m`, `label_acquirer_within_6m` |
+## Weekly Plan (7 Weeks)
 
-For machine learning, the most practical first target is `label_target_within_6m`, because target tickers are cleaner and more consistently observable than acquirer tickers. Once this baseline works, the project can add acquirer prediction and target-acquirer pair scoring.
+| Wk | Phase | Key activities | Deliverables |
+|:--:|---|---|---|
+| 1 | Foundation | Scope, KPIs; stand up data pipelines (SEC, market); env & version control; define universe & window | Scoping doc, data-access confirmation, infra checklist |
+| 2 | Market data ✅ | Pull returns/volume/volatility/liquidity; build momentum, volatility, volume-z, drawdown features; QA & survivorship handling | **Market feature panel (done)**, QA report |
+| 3 | AI / NLP | Parse filings; strategic-intent & sentiment prompts; LLM inference → per-company signals; validate vs. announcement dates | NLP signal dataset, prompt library, validation report |
+| 4 | Fund analytics | Collect ETF/MF holdings; normalize schema incl. hedge legs; deal- & fund-level features; skill metrics; rank funds | Fund-skill ranking, rebalance-signal feed |
+| 5 | Modeling | Merge market + NLP + fund signals; train logistic / GBM / ensemble; time-series CV; calibrate | Model artifacts, probability scores, CV results |
+| 6 | Validation | Backtest; compute metrics; simulate long top-*N* strategy (P&L, Sharpe); benchmark; SHAP | Backtest report, strategy P&L, importance dashboard |
+| 7 | Delivery | Finalize inference-ready pipeline; live ranked predictions; docs + model cards; final deck | Live predictions, documentation, final deck |
 
-### 5. Important Week 1 Caveat
+*Weekly status report every Friday.*
 
-`code/week1_russell1000_analysis.ipynb` still uses `data/raw/index/russell1000_membership.csv` as its universe. If the notebook is run unchanged, it will drop M&A events whose targets are outside the Russell 1000. To train on all listed companies, the analysis notebook should be updated to use `data/raw/index/us_listed_companies_sec.csv`, and OHLCV data should be downloaded for that broader ticker set.
+## Assumptions & Risks
 
+| Risk | Mitigation |
+|---|---|
+| Data-access delays (market feeds) | Backups (Yahoo Finance, Stooq, WRDS) identified early |
+| Low M&A base rate in test window | Rank-based metrics (Precision@K, AUC); broaden the universe |
+| LLM inference cost / latency | Batch offline; cache; consider distilled models |
+| Look-ahead bias in features | Strict point-in-time discipline; time-series CV |
 
+## Phase 2 (preview)
 
-## Methodologies
-
-### 1. **Merger-Arb Fund Scoring**
-
-Quantify the ex-ante probability that individual announced M&A deals will close, and attribute outcomes to fund-specific selection and sizing decisions.
-
-**Goals:**
-
-- Rank merger-arb ETFs and mutual funds by skill using calibration and outcome-based metrics (Brier score, log loss, hit rate, realized spread capture)
-- Detect and act on rebalance signals from high-skill providers to predict spread compression/expansion
-- Identify short-term P&L drivers around deal milestones
-
-**Key Metrics:**
-
-- Hit rate: proportion of predicted completions that close
-- Brier score / log loss: probabilistic calibration quality
-- Realized spread capture: actual vs. theoretical arbitrage spread earned
-- Entry timing relative to announcement
-
-### 2. **Generative AI Signal Extraction**
-
-Deploy large language models (LLMs) to extract strategic and structural signals from unstructured corporate documents at scale. 
-
-**Target Signals:**
-
-- "Strategic alternatives": signals board-level review of corporate structure
-- "Portfolio optimization": indicates potential divestitures or consolidation
-- "Capital allocation flexibility": signals financial readiness for transactions
-- "Exploring partnerships": early indicator of strategic deal interest
-- Sentiment trajectory across consecutive quarterly filings
-
-**Methodology:**
-
-- Summarize corporate strategy sections across 10-K/10-Q/8-K filings
-- Identify language indicating strategic review or potential transactions
-- Convert qualitative signals into quantitative time-series indicators
-- Sentiment analysis over earnings call transcripts (management tone shifts)
-
-### 3. **Market Microstructure Detection**
-
-Identify abnormal trading behavior that historically precedes M&A announcements, capturing informed trading or market anticipation of corporate events.
-
-**Signals Monitored:**
-
-- Unusual options activity: abnormal call option buying volumes
-- Volatility skew changes: implied vol surface distortions pre-announcement
-- Abnormal stock price drift: sustained upward pressure without news catalyst
-- Large institutional block trades: dark pool and lit market accumulation
-- Put/call ratio divergence from sector norms
-
-
-
-## Evaluation Framework 
-
-M&A events are relatively rare (low base rate), performance will be measured using ranking-based metrics rather than simple classification accuracy.
-
-| **Metric**             | **Description**                                              | **Target** |
-| ---------------------- | ------------------------------------------------------------ | ---------- |
-| **Precision@50**       | Acquisitions correctly identified in top 50 predictions      | 10–15 hits |
-| **Hit Rate**           | Proportion of top-N predictions that are actual targets      | > 20%      |
-| **ROC-AUC**            | Area under the ROC curve across the full universe            | > 0.70     |
-| **Event Capture Rate** | % of actual M&A events captured within top-ranked tier       | > 30%      |
-| **Brier Score**        | Probabilistic calibration quality of deal-completion estimates | < 0.15     |
-
-
-
-## Planned Timeline
-
-### Week 1: **Scoping, Data Access & Infrastructure Setup**
-
-- Finalize project scope, KPIs, and success criteria with stakeholders
-- Establish data pipelines: SEC EDGAR API, market data feeds (Bloomberg/Refinitiv/WRDS), options data
-- Set up cloud infrastructure, version control, and experiment tracking (MLflow/W&B)
-- Conduct literature review on M&A prediction, merger arbitrage, and informed trading detection
-- Define target universe (e.g., Russell 1000 or S&P 500 constituents) and historical training window
-
-### Week 2: **Data Collection & Feature Engineering (Market)**
-
-- Pull historical stock returns, volume, liquidity, and volatility data for universe
-- Download options chain data: open interest, IV, put/call ratios, skew metrics
-- Construct baseline market features: abnormal returns (CAPM-adjusted), volume z-scores,  IV percentile rank 
-- Build  options signal layer: call OI anomaly scores, skew change detectors, block  trade flags
-- Verify data quality, handle survivorship bias, and align fiscal calendars 
-
-### Week 3:  **GenAI Pipeline**
-
-- Ingest and parse SEC filings (10-K, 10-Q, 8-K) via EDGAR full-text search
-- Design prompt templates for strategic intent detection, sentiment scoring, and language pattern extraction
-- Run LLM inference over filings to generate per-company, per-period signal scores
-- Process earnings call transcripts: management tone analysis, forward-looking language flags
-- Validate extracted signals against known M&A announcement dates (historical ground truth)
-
-### Week 4: **Fund Scoring**
-
-- Collect ETF/mutual fund holdings data (N-PORT, N-CEN, daily ETF disclosures)
-- Normalize holdings schema: identifiers, weights, hedge legs, entry/exit dates
-- Compute deal-level features: spread at entry, time-weighted spread, deal type dummies, financing indicators
-- Implement fund skill metrics: hit rate, Brier score, log loss, realized spread capture
-- Rank providers; detect rebalance signals from top-quartile funds
-
-### Week 5: **Model Integration & Probability Scoring** 
-
-- Combine market signals, NLP signals, and fund rebalance signals into unified feature store
-- Train baseline models: logistic regression, gradient boosting (XGBoost/LightGBM), ensemble
-- Implement label construction: binary (acquired within 6 months) and time-to-event (survival model)
-- Run cross-validation with time-series splits; prevent look-ahead bias
-- Produce per-company probability scores and calibrate outputs (Platt scaling / isotonic regression)
-
-### Week 6:  Backtesting, Evaluation & Strategy Simulation
-
-- Run full historical backtest across defined test window (e.g., 2018–2024)
-- Compute all evaluation metrics: Precision@50, Hit Rate, ROC-AUC, Event Capture Rate, Brier Score
-- Simulate merger arbitrage strategy: long top-N predicted targets, measure realized P&L and Sharpe
-- Compare against naive and benchmark strategies (random, sector-avg, published M&A predictors)
-- Conduct feature importance and SHAP analysis; identify top predictive drivers per signal category
-
-### Week 7:  Refinement, Documentation & Delivery
-
-- Incorporate feedback from Week 6 review; tune models and rebalance signal weights
-- Finalize scoring pipeline for prospective use (inference-ready, scheduled refresh)
-- Produce live predictions for current universe with ranked probability scores
-- Write full technical documentation: data dictionaries, model cards, API specs
-- Deliver final presentation
-
-
+Real-time monitoring & alerts · pair-level target–acquirer matching · portfolio integration for position sizing · expanded mid-cap and international coverage.

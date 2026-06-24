@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -219,8 +220,8 @@ def main() -> None:
     panel.to_csv(args.output, index=False)
     coverage.to_csv(args.coverage_output, index=False)
 
-    print(f"Wrote {len(panel):,} panel rows to {args.output.relative_to(PROJECT_ROOT)}")
-    print(f"Wrote coverage report to {args.coverage_output.relative_to(PROJECT_ROOT)}")
+    print(f"Wrote {len(panel):,} panel rows to {os.path.relpath(args.output, PROJECT_ROOT)}")
+    print(f"Wrote coverage report to {os.path.relpath(args.coverage_output, PROJECT_ROOT)}")
     print(coverage.to_string(index=False))
 
 
