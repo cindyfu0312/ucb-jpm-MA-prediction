@@ -34,10 +34,14 @@ python3 -m venv .venv
 
 # run the pipeline (from repo root)
 python code/download_us_listed_companies.py                  # 1. company universe (SEC, free)
-python code/clean_ma_events.py \                             # 2. clean S&P deals -> labels
-    --source data/raw/events/<your-S&P-export>.csv \
-    --company-level-only
+python code/clean_ma_events.py \                             # 2. clean S&P deals ($1B+) -> labels
+    --source data/raw/events/SPGlobal_TransactionsStatistics_2016-2021.xlsx \
+             data/raw/events/SPGlobal_TransactionsStatistics_2021-2026.xlsx \
+    --company-level-only --min-deal-value-usd 1e9
 python code/build_ma_prediction_dataset.py                   # 3. build the modeling panel
+
+# optional: news-NLP track (code/week2_news_ma_prediction.ipynb)
+python code/download_news_ma_events.py --n-events 300        # 4. cache GDELT+EDGAR news, resumable
 ```
 
 Produces `data/interim/ma_prediction_panel.csv` (one row per company-month, features + labels) and a coverage report under `reports/week1/`.
@@ -50,13 +54,18 @@ Three scripts turn raw market + M&A data into a supervised, point-in-time modeli
 |---|---|---|
 | `data/raw/index/us_listed_companies_sec.csv` | US-listed universe (SEC ticker master) | `ticker, company_name, exchange, cik` |
 | `data/raw/market/daily_prices.csv` | Daily OHLCV history | `date, ticker, open, high, low, close, volume, ret` |
-| `data/raw/events/ma_events.csv` | Cleaned M&A ground-truth events | `announcement_date, target_ticker, acquirer_ticker, deal_status, close_date, deal_value_usd` |
+| `data/raw/events/ma_events.csv` | Cleaned M&A ground-truth events, $1B+ deals, 2016-2026 | `announcement_date, target_ticker, acquirer_ticker, deal_status, close_date, deal_value_usd` |
 
 ### 1. Universe — `download_us_listed_companies.py`
 Downloads the SEC ticker master (NYSE / Nasdaq / NYSE American) → ~7,600 companies. A broad universe matters because M&A targets are rare; restricting to Russell 1000 yields too few positive labels.
 
 ### 2. Events → labels — `clean_ma_events.py`
-Cleans a raw **S&P Capital IQ** transactions export into the event schema. Keeps US deals whose **target** maps to a listed ticker (name normalization → ticker; `--company-level-only` drops asset/branch and spinoff deals). `acquirer_ticker` may be blank — many buyers are private, PE-backed, or foreign. Reads `.csv` or `.xlsx`. Also writes `ma_events_match_audit.csv` for match QA.
+Cleans raw **S&P Capital IQ** transactions exports into the event schema. Accepts multiple `--source` files (concatenated + deduped by Transaction ID) and an optional `--min-deal-value-usd` floor — the default sources are two exports pre-filtered to deals **>= $1B**, giving ~2,029 US company-level events spanning 2016-2026. Name normalization maps target/buyer → ticker where possible (`--company-level-only` drops asset/branch and spinoff deals); `acquirer_ticker` may be blank — many buyers are private, PE-backed, or foreign. Reads `.csv` or `.xlsx`. Also writes `ma_events_match_audit.csv` for match QA.
+
+Restricting to $1B+ deals is deliberate: large targets are overwhelmingly public, name-recognizable companies, which is the regime where the free news-NLP track below actually has recall.
+
+### News-NLP track — `download_news_ma_events.py` + `week2_news_ma_prediction.ipynb`
+`download_news_ma_events.py` samples events from `ma_events.csv` and caches GDELT + SEC EDGAR full-text-search headlines for two 90-day windows per target (`pre` = run-up to announcement, `baseline` = a quiet period 180 days earlier) into `data/raw/news/ma_event_news.csv`. The cache is **local, gitignored, and resumable** — re-running only fetches `(transaction_id, window)` pairs not already cached, so the GDELT-rate-limited scraping cost is paid once and can be topped up over multiple runs (`--n-events N`). `week2_news_ma_prediction.ipynb` loads that cache and builds NLP features across four layers: VADER sentiment, FinBERT (finance-tuned BERT) sentiment, TF-IDF + log-odds data-driven distinctive terms, and NMF topic modeling — then trains logistic regression / random forest classifiers on the resulting feature matrix.
 
 ### 3. Modeling panel — `build_ma_prediction_dataset.py`
 Builds one row per `(ticker, as_of_date)` (monthly by default). For each row:

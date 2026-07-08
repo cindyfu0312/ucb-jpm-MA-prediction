@@ -10,7 +10,10 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SOURCE = PROJECT_ROOT / "data" / "raw" / "events" / "SPGlobal_TransactionsStatistics_10-Jun-2026.xlsx"
+DEFAULT_SOURCES = [
+    PROJECT_ROOT / "data" / "raw" / "events" / "SPGlobal_TransactionsStatistics_2016-2021.xlsx",
+    PROJECT_ROOT / "data" / "raw" / "events" / "SPGlobal_TransactionsStatistics_2021-2026.xlsx",
+]
 DEFAULT_UNIVERSE = PROJECT_ROOT / "data" / "raw" / "index" / "us_listed_companies_sec.csv"
 DEFAULT_OUTPUT = PROJECT_ROOT / "data" / "raw" / "events" / "ma_events.csv"
 DEFAULT_AUDIT = PROJECT_ROOT / "data" / "raw" / "events" / "ma_events_match_audit.csv"
@@ -110,19 +113,34 @@ def match_company_name(
     return pd.NA, "no_match", normalized
 
 
+def _read_one(source_path: Path) -> pd.DataFrame:
+    if source_path.suffix.lower() == ".csv":
+        return pd.read_csv(source_path)
+    return pd.read_excel(source_path, sheet_name="Transactions Statistics")
+
+
+def load_sources(source_paths: list[Path]) -> pd.DataFrame:
+    """Concatenate one or more S&P Global exports and dedupe by Transaction ID.
+
+    The 2016-2021 and 2021-2026 exports overlap by a handful of boundary rows;
+    keep the last occurrence so a later (more complete) export wins on conflict.
+    """
+    frames = [_read_one(p) for p in source_paths]
+    combined = pd.concat(frames, ignore_index=True)
+    return combined.drop_duplicates(subset=["Transaction ID"], keep="last").reset_index(drop=True)
+
+
 def clean_events(
-    source_path: Path,
+    source_paths: list[Path],
     universe_path: Path,
     fuzzy_cutoff: float | None = None,
     require_target_ticker: bool = False,
     require_acquirer_ticker: bool = False,
     company_level_only: bool = False,
     include_spinoff: bool = False,
+    min_deal_value_usd: float | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    if source_path.suffix.lower() == ".csv":
-        raw = pd.read_csv(source_path)
-    else:
-        raw = pd.read_excel(source_path, sheet_name="Transactions Statistics")
+    raw = load_sources(source_paths)
     universe = pd.read_csv(universe_path)
     name_to_ticker = build_name_map(universe)
     match_keys = list(name_to_ticker)
@@ -145,6 +163,11 @@ def clean_events(
         )
         events = events.loc[is_company_level_deal].copy()
 
+    deal_value_m = events["Deal Value ($M)"].combine_first(events["Transaction Value ($M)"])
+    events["deal_value_usd"] = (pd.to_numeric(deal_value_m, errors="coerce") * 1_000_000).round().astype("Int64")
+    if min_deal_value_usd is not None:
+        events = events.loc[events["deal_value_usd"] >= min_deal_value_usd].copy()
+
     target_matches = events["Target or Issuer"].apply(
         lambda value: match_company_name(value, name_to_ticker, match_keys, fuzzy_cutoff)
     )
@@ -165,9 +188,6 @@ def clean_events(
         cleaned = events.dropna(subset=["target_ticker"]).copy()
     else:
         cleaned = events.copy()
-
-    deal_value_m = cleaned["Deal Value ($M)"].combine_first(cleaned["Transaction Value ($M)"])
-    cleaned["deal_value_usd"] = (pd.to_numeric(deal_value_m, errors="coerce") * 1_000_000).round().astype("Int64")
 
     output = pd.DataFrame(
         {
@@ -214,7 +234,14 @@ def clean_events(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Clean SPGlobal M&A transactions into the Week 1 event schema.")
-    parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE)
+    parser.add_argument(
+        "--source",
+        type=Path,
+        nargs="+",
+        default=DEFAULT_SOURCES,
+        help="One or more S&P Global exports (.csv or .xlsx). Multiple sources are concatenated "
+             "and deduped by Transaction ID (last wins on overlap).",
+    )
     parser.add_argument("--universe", type=Path, default=DEFAULT_UNIVERSE)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--audit", type=Path, default=DEFAULT_AUDIT)
@@ -244,19 +271,27 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Also keep spinoff/splitoff events. By default only acquisition-style M&A events are kept.",
     )
+    parser.add_argument(
+        "--min-deal-value-usd",
+        type=float,
+        default=None,
+        help="Drop deals below this USD threshold (e.g. 1e9 for $1B+ only). "
+             "The default source files are already pre-filtered to >= $1B at export time.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     output, audit = clean_events(
-        source_path=args.source,
+        source_paths=args.source,
         universe_path=args.universe,
         fuzzy_cutoff=args.fuzzy_cutoff,
         require_target_ticker=args.require_target_ticker,
         require_acquirer_ticker=args.require_acquirer_ticker,
         company_level_only=args.company_level_only,
         include_spinoff=args.include_spinoff,
+        min_deal_value_usd=args.min_deal_value_usd,
     )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)

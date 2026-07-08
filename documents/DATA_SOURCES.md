@@ -20,15 +20,17 @@ OHLCV (`date, ticker, open, high, low, close, volume, ret`) plus `shares_out, ma
 
 | | |
 |---|---|
-| **Origin** | S&P Capital IQ — Transactions Statistics export (raw: `SPGlobal_transactions_2022-2026.csv`, ~66k rows) |
+| **Origin** | S&P Capital IQ — Transactions Statistics exports, **pre-filtered to deal value >= $1B at export time**: `SPGlobal_TransactionsStatistics_2016-2021.xlsx` + `SPGlobal_TransactionsStatistics_2021-2026.xlsx` |
 | **Access** | Proprietary (S&P Capital IQ) |
 | **Producer** | `code/clean_ma_events.py` |
-| **Frequency** | Event-driven (one row per deal); export is a periodic snapshot |
-| **Range / size** | Announced 2022-06-27 → 2026-06-15 · ~318 cleaned events |
+| **Frequency** | Event-driven (one row per deal); exports are periodic snapshots |
+| **Range / size** | Announced 2016-06-24 → 2026-06-16 · ~2,029 cleaned events (company-level, >= $1B) |
 
-Cleaned schema: `announcement_date, target_ticker, acquirer_ticker, deal_status, close_date, deal_value_usd`. `acquirer_ticker` is often blank (private/PE/foreign buyers).
+Cleaned schema: `announcement_date, target_ticker, acquirer_ticker, deal_status, close_date, deal_value_usd`. `acquirer_ticker` is often blank (private/PE/foreign buyers); `target_ticker` coverage is low (~5%) since most $1B+ targets are matched by name for news search rather than ticker.
 
-**Processing:** keep USA deals; `--company-level-only` keeps whole-company / minority-stake deals (drops asset and spinoff deals); map target & buyer names → tickers via a normalized-name map from the SEC ticker master (exact by default, optional `--fuzzy-cutoff`); keep rows whose target maps; `deal_value_usd = (Deal Value $M ⟶ Transaction Value $M) × 1e6`. Also writes `ma_events_match_audit.csv` for match QA.
+**Processing:** `--source` accepts multiple exports, concatenated and deduped by `Transaction ID` (later file wins on the small boundary overlap between the two ranges); keep USA deals; `--company-level-only` keeps whole-company / minority-stake deals (drops asset and spinoff deals); `--min-deal-value-usd 1e9` enforces the $1B floor even though the source exports are already filtered upstream; map target & buyer names → tickers via a normalized-name map from the SEC ticker master (exact by default, optional `--fuzzy-cutoff`); `deal_value_usd = (Deal Value $M ⟶ Transaction Value $M) × 1e6`. Also writes `ma_events_match_audit.csv` for match QA.
+
+**Why $1B+ only:** large deals are the regime where the *target* is overwhelmingly likely to be a real, name-recognizable public company — which is exactly what makes free, name-based news search (§4b below) recall anything at all. Below that threshold most targets are micro-cap or private, and GDELT/EDGAR coverage collapses to near zero.
 
 ---
 
@@ -59,6 +61,34 @@ One row per 8-K: `cik, ticker, filing_date, items, is_mna_leading, is_completion
 | **Range / size** | ~2017 → present · generated on demand, not committed |
 
 Article rows: `ticker, company, seen_date, title, domain, sourcecountry, language, is_reuters, is_major_wire, url`. Wire flags use exact host matching against `reuters/apnews/bloomberg/cnbc/ft/wsj`; `--mna-only` appends M&A keywords. Recall is uneven and the endpoint rate-limits — best for targeted spot-checks, not a full-universe sweep.
+
+---
+
+## 4b. Pre-/post-announcement news for M&A events — `data/raw/news/ma_event_news.csv` (persistent local cache)
+
+| | |
+|---|---|
+| **Origin** | GDELT DOC 2.0 API + SEC EDGAR full-text search (`efts.sec.gov/LATEST/search-index`) |
+| **Access** | Free (no key) |
+| **Producer** | `code/download_news_ma_events.py` |
+| **Frequency** | On demand, incremental |
+| **Range / size** | Depends on how many events have been scraped — safe to top up over multiple runs |
+
+Purpose-built for the week-2 news-NLP notebook (`code/week2_news_ma_prediction.ipynb`): for a sample of
+$1B+ events from `ma_events.csv`, fetches headlines for two 90-day windows per target company —
+`pre` (label=1, the run-up minus a 7-day blackout) and `baseline` (label=0, the same window shifted
+back 180 days). Google News RSS is deliberately excluded from this pipeline: it has no historical
+date filter, so it cannot serve 2016-2025 announcement windows.
+
+Row schema: `transaction_id, window, label, company_name, title, date, domain, source, url` (one row
+per article; a sentinel empty-title row marks an (event, window) that was scraped but found nothing).
+
+**This is a local, gitignored, append-only cache, not a one-shot pull.** Re-running the script only
+fetches `(transaction_id, window)` pairs not already present, so the (slow, GDELT-rate-limited)
+scraping cost is paid once and can be topped up incrementally:
+```bash
+python code/download_news_ma_events.py --n-events 300   # add up to 300 more events' worth of coverage
+```
 
 ---
 
@@ -109,7 +139,7 @@ Every source joins by `(ticker, date)` using a **knowable-as-of** date, never a 
 
 | Tier | Sources |
 |---|---|
-| **Free** | 8-K events (§3), GDELT news (§4), fund holdings (§5) |
+| **Free** | 8-K events (§3), GDELT news (§4), M&A event news cache (§4b), fund holdings (§5) |
 | **WRDS account** | Daily prices/CRSP (§1), transcripts (§6) |
 | **Proprietary S&P export** | M&A event labels (§2) |
 

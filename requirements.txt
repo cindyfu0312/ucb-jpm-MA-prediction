@@ -11,5 +11,11 @@ sec-edgar-downloader>=5.0   # code/download.py
 # --- WRDS (Capital IQ transcripts, CRSP, etc.) ---
 wrds>=3.2              # code/download_transcripts_wrds.py
 
+# --- News-NLP track (code/download_news_ma_events.py, week2 notebook) ---
+vaderSentiment>=3.3    # lexicon sentiment baseline
+scikit-learn>=1.3      # TF-IDF, log-odds terms, NMF topics, LogReg/RandomForest
+torch>=2.0             # backend for FinBERT (CPU is fine)
+transformers>=4.40     # ProsusAI/finbert finance-tuned sentiment classifier
+
 # --- Notebooks in VS Code ---
-ipykernel>=6.29        # run code/week1_russell1000_analysis.ipynb
+ipykernel>=6.29        # run code/week1_russell1000_analysis.ipynb, week2_news_ma_prediction.ipynb

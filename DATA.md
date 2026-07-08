@@ -9,7 +9,8 @@
 |---|---|---|
 | `download_us_listed_companies.py` | `data/raw/index/us_listed_companies_sec.csv` | SEC universe (~7.6k cos) |
 | `download_news_edgar.py --only-priced` | `data/raw/news/edgar_8k_events.csv` | 8-K event feed; `is_mna_leading` (1.01/1.02) vs `is_completion` (2.01 = outcome, do not use as a feature) |
-| `download_news_gdelt.py --companies "..."` | `data/raw/news/gdelt_articles.csv` | headlines + Reuters/wire flags; rate-limited → spot-checks only |
+| `download_news_gdelt.py --companies "..."` | `data/raw/news/gdelt_articles.csv` | universe-wide headlines + Reuters/wire flags; rate-limited → spot-checks only |
+| `download_news_ma_events.py --n-events 300` | `data/raw/news/ma_event_news.csv` | GDELT + SEC EDGAR full-text-search headlines for pre-/post-announcement windows of large M&A events; **persistent, resumable local cache** — re-running only fetches (transaction_id, window) pairs not already cached |
 | `download_fund_holdings.py` | `data/raw/funds/` | N-PORT merger-arb fund holdings (long/short legs) |
 | `build_ma_prediction_dataset.py` | `data/interim/ma_prediction_panel.csv` | the modeling panel |
 
@@ -23,7 +24,7 @@
 ### Needs the proprietary S&P Capital IQ export
 | Script | Output | Notes |
 |---|---|---|
-| `clean_ma_events.py --source <S&P export>.csv --company-level-only` | `data/raw/events/ma_events.csv` | M&A labels (reads `.csv` or `.xlsx`) |
+| `clean_ma_events.py --source <2016-2021.xlsx> <2021-2026.xlsx> --company-level-only --min-deal-value-usd 1e9` | `data/raw/events/ma_events.csv` | M&A labels, US company-level deals >= $1B, 2016-2026 (reads `.csv` or `.xlsx`, multiple `--source` files are concatenated + deduped by Transaction ID) |
 
 ## Not in git (gitignored)
 - **Proprietary** — S&P export, CIQ transcripts, ticker→companyid crosswalk. Share via Drive, or pull from your own WRDS/CIQ.

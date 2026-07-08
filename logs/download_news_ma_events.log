@@ -1,0 +1,379 @@
+Event pool: 300 events (of 2,029 total) | already cached: 0 events
+  [1/300] 'Concho Resources Inc.' -> 92 articles
+  ... checkpoint: 1 events cached, 92 rows
+  [2/300] 'DentaQuest Group, Inc.*' -> 36 articles
+  [3/300] 'Thunder Bridge Capital Partners IV Inc.' -> 0 articles
+  [4/300] 'Isle of Capri Casinos, Inc.' -> 5 articles
+  [5/300] 'BioTelemetry, Inc.' -> 4 articles
+  [6/300] 'Promedior, Inc.*' -> 15 articles
+  ... checkpoint: 6 events cached, 155 rows
+  [7/300] 'Cooper Tire & Rubber Company' -> 69 articles
+  ... checkpoint: 7 events cached, 224 rows
+  [8/300] 'Wiz, Inc.' -> 2 articles
+  [9/300] 'MB Financial, Inc.' -> 0 articles
+  [10/300] 'The New York Metropolitan Baseball Club Inc.*' -> 0 articles
+  [11/300] 'Cayan LLC*' -> 84 articles
+  ... checkpoint: 11 events cached, 315 rows
+  [12/300] 'Statsig, Inc.*' -> 5 articles
+  [13/300] 'Community Oncology Revitalization Enterprise Ventures, LLC' -> 0 articles
+  [14/300] 'Alani Nutrition, LLC' -> 0 articles
+  [15/300] 'Dollar Shave Club, Inc.*' -> 0 articles
+  [16/300] 'Hulu, LLC' -> 24 articles
+  [17/300] 'Khosla Ventures Acquisition Co. II' -> 0 articles
+  [18/300] 'GCI Liberty, Inc.' -> 61 articles
+  ... checkpoint: 18 events cached, 413 rows
+  [19/300] 'Flagstar Bancorp, Inc.*' -> 71 articles
+  ... checkpoint: 19 events cached, 484 rows
+  [20/300] 'First Data Corporation*' -> 144 articles
+  ... checkpoint: 20 events cached, 628 rows
+  [21/300] 'Kaman Corporation*' -> 10 articles
+  [22/300] 'Spring Valley Acquisition Corp.' -> 4 articles
+  [23/300] 'Mountain Lake Acquisition Corp. II' -> 2 articles
+  [24/300] 'Kaman Distribution Group*' -> 4 articles
+  [25/300] 'io Products, Inc.' -> 17 articles
+  [26/300] 'The Los Angeles Lakers, Inc.' -> 68 articles
+  ... checkpoint: 26 events cached, 735 rows
+  [27/300] 'Raytheon Company' -> 41 articles
+  [28/300] 'Callidus Software Inc.' -> 6 articles
+  [29/300] 'WCA Waste Corporation' -> 10 articles
+  ... checkpoint: 29 events cached, 792 rows
+  [30/300] 'North Coast Medical Supply, LLC*' -> 0 articles
+  [31/300] 'CTI BioPharma Corp.' -> 25 articles
+  [32/300] 'Puget Holdings LLC' -> 119 articles
+  ... checkpoint: 32 events cached, 938 rows
+  [33/300] 'Coterra Energy Inc.' -> 102 articles
+  ... checkpoint: 33 events cached, 1,040 rows
+  [34/300] 'Service Finance Company, LLC' -> 185 articles
+  ... checkpoint: 34 events cached, 1,225 rows
+  [35/300] 'LiveRamp Holdings, Inc.' -> 34 articles
+  [36/300] 'VWR Corporation' -> 10 articles
+  [37/300] 'Targa Badlands LLC' -> 0 articles
+  [38/300] 'Continental Building Products, Inc.*' -> 41 articles
+  ... checkpoint: 38 events cached, 1,312 rows
+  [39/300] 'Parfums de Coeur, Ltd.*' -> 5 articles
+  [40/300] 'AMSURG Corp.' -> 0 articles
+  [41/300] 'Archimedes Tech SPAC Partners II Co.' -> 0 articles
+  [42/300] 'Great River Hydro, LLC*' -> 0 articles
+  [43/300] 'Scout Clean Energy LLC' -> 21 articles
+  [44/300] 'Foundation Medicine, Inc.*' -> 49 articles
+  ... checkpoint: 44 events cached, 1,395 rows
+  [45/300] 'ArcLight Clean Transition Corp.' -> 1 articles
+  [46/300] 'MG LLC*' -> 0 articles
+  [47/300] 'HPS Investment Partners, LLC' -> 51 articles
+  ... checkpoint: 47 events cached, 1,450 rows
+  [48/300] 'PDB Sports, Ltd.' -> 0 articles
+  [49/300] 'Presidio, Inc.*' -> 24 articles
+  [50/300] 'NewHold Investment Corp.*' -> 3 articles
+  [51/300] 'Instructure Holdings, Inc.' -> 10 articles
+  [52/300] 'Cox Communications, Inc.' -> 91 articles
+  ... checkpoint: 52 events cached, 1,581 rows
+  [53/300] 'Credit Karma, Inc.*' -> 0 articles
+  [54/300] 'CXApp Holding Corp.' -> 0 articles
+  [55/300] 'NexTier Oilfield Solutions Inc.*' -> 10 articles
+  [56/300] 'Revint Holdings, LLC' -> 0 articles
+  [57/300] 'TC PipeLines, LP*' -> 0 articles
+  [58/300] 'Altimeter Growth Corp.' -> 0 articles
+  [59/300] 'Zayo Group Holdings Inc.' -> 0 articles
+  [60/300] 'Mr. Cooper Group Inc.' -> 0 articles
+  [61/300] 'Gannett Co., Inc.' -> 0 articles
+  [62/300] 'AVX Corporation' -> 0 articles
+  [63/300] 'Continental Resources, Inc.' -> 14 articles
+  [64/300] 'Screaming Eagle Acquisition Corp.' -> 3 articles
+  [65/300] 'EnergySolutions, Inc.*' -> 0 articles
+  [66/300] 'WorkForce Software, LLC' -> 0 articles
+  ... checkpoint: 66 events cached, 1,632 rows
+  [67/300] 'Crunchyroll, Inc.' -> 0 articles
+  [68/300] 'TIER REIT, Inc.' -> 0 articles
+  [69/300] 'LifeLock, Inc.' -> 0 articles
+  [70/300] 'Good Works Acquisition Corp.' -> 0 articles
+  [71/300] 'Oldcastle BuildingEnvelope, Inc.*' -> 0 articles
+  [72/300] 'Hillandale Farms of Pa., Inc.' -> 0 articles
+  [73/300] 'Honey Science Corporation' -> 0 articles
+  [74/300] 'GSN Games, Inc.' -> 0 articles
+  [75/300] 'VelosBio, Inc.*' -> 0 articles
+  [76/300] 'Avon Products, Inc.' -> 101 articles
+  ... checkpoint: 76 events cached, 1,751 rows
+  [77/300] 'Victor Sierra Aviation Holdings LLC/Jet Parts Engineering, LLC*' -> 0 articles
+  [78/300] 'Hologic, Inc.*' -> 55 articles
+  ... checkpoint: 78 events cached, 1,809 rows
+  [79/300] 'CoreSite Realty Corporation*' -> 0 articles
+  [80/300] 'Niacet Corporation*' -> 0 articles
+  [81/300] 'Pandora Media, Inc.' -> 0 articles
+  [82/300] 'Big River Steel LLC' -> 0 articles
+  [83/300] 'Legato Merger Corp.' -> 0 articles
+  [84/300] 'Sekisui House U.S., Inc.' -> 0 articles
+  [85/300] 'Supreme Holdings, Inc.*' -> 0 articles
+  [86/300] 'Plum Wireless, Inc.' -> 0 articles
+  [87/300] 'BioLegend, Inc.' -> 0 articles
+  [88/300] 'LifeScan, Inc.*' -> 0 articles
+  [89/300] 'Cloverleaf Cold Storage Co.' -> 0 articles
+  [90/300] 'Diamond Offshore Drilling, Inc.' -> 0 articles
+  [91/300] 'Soleno Therapeutics, Inc.*' -> 0 articles
+  [92/300] 'Rackspace Hosting, Inc.*' -> 0 articles
+  [93/300] 'PNG Companies, LLC*' -> 0 articles
+  [94/300] 'Sykes Enterprises, Incorporated' -> 46 articles
+  ... checkpoint: 94 events cached, 1,886 rows
+  [95/300] 'Cura Partners, Inc.*' -> 26 articles
+  [96/300] 'NextGen Acquisition Corp. II' -> 0 articles
+  [97/300] 'Oncor Electric Delivery Company LLC*' -> 4 articles
+  [98/300] 'Armada Acquisition Corp. II' -> 0 articles
+  [99/300] 'Bettera Brands, LLC*' -> 0 articles
+  [100/300] 'Advanced Disposal Services, Inc.' -> 0 articles
+  [101/300] 'Masimo Corporation' -> 0 articles
+  [102/300] 'Custom Truck/Utility One Source GP/Blackstone UOS Feeder Fund VI/Blackstone UOS*' -> 0 articles
+  [103/300] 'Wyatt Technology Corporation' -> 0 articles
+  [104/300] 'Venafi, Inc.*' -> 0 articles
+  [105/300] 'vLex, LLC*' -> 0 articles
+  [106/300] 'Reebok International Ltd.' -> 0 articles
+  ... checkpoint: 106 events cached, 1,937 rows
+  [107/300] 'Tuscan Holdings Corp.' -> 0 articles
+  [108/300] 'Boardriders, Inc.' -> 0 articles
+  [109/300] 'HD Supply Holdings, Inc.' -> 0 articles
+  [110/300] 'Fire & Security Holdings, LLC*' -> 0 articles
+  [111/300] '89bio, Inc.*' -> 0 articles
+  [112/300] 'Anchor Glass Container Corporation*' -> 0 articles
+  [113/300] 'Waddington Group Inc.' -> 0 articles
+  [114/300] 'LifeCell Corporation' -> 0 articles
+  [115/300] 'IASIS Healthcare LLC*' -> 0 articles
+  [116/300] 'Direct General Life Insurance Company / NSM Sales Corporation / Association Bene' -> 0 articles
+  [117/300] 'Simply Storage Management, LLC' -> 0 articles
+  [118/300] 'Artius Acquisition Inc.' -> 0 articles
+  [119/300] 'Crown Pine Timber 1, L.P.*' -> 0 articles
+  [120/300] 'Meridian Bancorp, Inc.' -> 0 articles
+  [121/300] 'Apptio, Inc.*' -> 0 articles
+  [122/300] 'EVO Payments, Inc.' -> 0 articles
+  [123/300] 'DigitalBridge Group, Inc.' -> 0 articles
+  [124/300] 'CarVal Investors LP' -> 0 articles
+  [125/300] 'Trading Technologies International, Inc.*' -> 0 articles
+  [126/300] 'Synopsys Software Integrity Group, Inc.*' -> 0 articles
+  [127/300] 'ServiceChannel.com, Inc.*' -> 0 articles
+  [128/300] 'Corvidia Therapeutics, Inc.*' -> 0 articles
+  [129/300] '1-800 CONTACTS, Inc.' -> 0 articles
+  [130/300] 'Freshly Inc.*' -> 0 articles
+  [131/300] 'AuditBoard, Inc.*' -> 0 articles
+  ... checkpoint: 131 events cached, 1,987 rows
+  [132/300] 'Jnana Therapeutics Inc.*' -> 0 articles
+  [133/300] 'Capella Education Company*' -> 0 articles
+  [134/300] 'IFM Therapeutics, LLC*' -> 0 articles
+  [135/300] 'Williams Olefins, LLC' -> 0 articles
+  [136/300] 'Acelity, Inc.' -> 0 articles
+  [137/300] 'Tesaro, Inc.*' -> 0 articles
+  [138/300] 'BroadSoft, Inc.*' -> 0 articles
+  [139/300] 'Auth0, Inc.*' -> 0 articles
+  [140/300] 'Human Immunology Biosciences, Inc.*' -> 0 articles
+  [141/300] 'CM Life Sciences, Inc.' -> 0 articles
+  [142/300] 'Independent Bank Group, Inc.' -> 0 articles
+  [143/300] 'Navitas Midstream Partners, LLC*' -> 5 articles
+  [144/300] 'Flexential Colorado LLC*' -> 0 articles
+  [145/300] 'Perspecta Inc.*' -> 47 articles
+  ... checkpoint: 145 events cached, 2,064 rows
+  [146/300] 'Riverbend Oil & Gas VI, L.L.C./Riverbend Oil & Gas VI-B, L.L.C./Riverbend Oil &*' -> 0 articles
+  [147/300] 'Valley Proteins, Inc.' -> 0 articles
+  [148/300] 'TeneoBio, Inc.*' -> 0 articles
+  [149/300] 'Universal Music Group, Inc.' -> 43 articles
+  ... checkpoint: 149 events cached, 2,114 rows
+  [150/300] 'Novo Oil & Gas Holdings, LLC*' -> 0 articles
+  [151/300] 'Tesla, Inc.' -> 134 articles
+  ... checkpoint: 151 events cached, 2,250 rows
+  [152/300] "Sotheby's" -> 7 articles
+  [153/300] 'SkyWater Technology, Inc.*' -> 4 articles
+  [154/300] 'Phillips 66 Partners LP' -> 62 articles
+  ... checkpoint: 154 events cached, 2,324 rows
+  [155/300] 'Artisan Design Group, LLC*' -> 1 articles
+  [156/300] 'Modular Space Holdings, Inc.*' -> 58 articles
+  ... checkpoint: 156 events cached, 2,384 rows
+  [157/300] 'Deltek, Inc.*' -> 2 articles
+  [158/300] 'LanguageLine Solutions, Inc.*' -> 0 articles
+  [159/300] 'Verint Systems Inc.*' -> 2 articles
+  [160/300] 'NeoTract, Inc.*' -> 0 articles
+  [161/300] 'Kite Pharma, Inc.*' -> 15 articles
+  [162/300] 'Headwaters Incorporated' -> 11 articles
+  [163/300] 'CIOX Health, LLC*' -> 0 articles
+  [164/300] 'VPC Impact Acquisition Holdings' -> 1 articles
+  [165/300] 'Brex Inc.' -> 2 articles
+  [166/300] 'Swift Transportation Company' -> 57 articles
+  ... checkpoint: 166 events cached, 2,483 rows
+  [167/300] 'Baltimore Orioles, Inc.' -> 0 articles
+  [168/300] 'Forum Merger III Corporation' -> 12 articles
+  [169/300] 'Paradox, Inc.' -> 3 articles
+  [170/300] 'U.S. data center business of American Tower Corporation' -> 0 articles
+  [171/300] 'Consolidated Aerospace Manufacturing, LLC' -> 0 articles
+  [172/300] 'Coterra Energy Operating Co' -> 0 articles
+  [173/300] 'HFF, Inc.' -> 14 articles
+  [174/300] 'Quest Software, Inc.*' -> 39 articles
+  ... checkpoint: 174 events cached, 2,561 rows
+  [175/300] 'PGC Holdings Corp.' -> 4 articles
+  [176/300] 'Kate Therapeutics Inc.*' -> 0 articles
+  [177/300] 'Nielsen Global Connect' -> 67 articles
+  ... checkpoint: 177 events cached, 2,634 rows
+  [178/300] 'Retail Properties of America, Inc.' -> 10 articles
+  [179/300] 'CC Neuberger Principal Holdings II' -> 0 articles
+  [180/300] 'DT Cloud Star Acquisition Corporation' -> 11 articles
+  [181/300] 'PDV Holding, Inc.' -> 0 articles
+  [182/300] 'CFN Holding Company, Inc.' -> 0 articles
+  [183/300] 'American Railcar Industries, Inc.' -> 26 articles
+  ... checkpoint: 183 events cached, 2,688 rows
+  [184/300] 'Integrated DNA Technologies, Inc.*' -> 0 articles
+  [185/300] 'Spirit Realty Capital, Inc.' -> 24 articles
+  [186/300] 'New Alvogen Group Holdings, Inc.' -> 0 articles
+  [187/300] 'Milacron Holdings Corp.' -> 10 articles
+  [188/300] 'Alacer Gold Corp.' -> 43 articles
+  ... checkpoint: 188 events cached, 2,769 rows
+  [189/300] 'Magellan Midstream Partners, L.P.' -> 32 articles
+  [190/300] 'AdvancePierre Foods Holdings, Inc.' -> 16 articles
+  [191/300] 'Signify Health, Inc.*' -> 13 articles
+  ... checkpoint: 191 events cached, 2,830 rows
+  [192/300] 'InterPrivate Acquisition Corp.' -> 0 articles
+  [193/300] 'Preferred Apartment Communities, Inc.' -> 11 articles
+  [194/300] 'Horizon Therapeutics Public Limited Company' -> 0 articles
+  [195/300] 'Cheney Bros., Inc.*' -> 0 articles
+  [196/300] 'ProfoundBio, Inc.' -> 0 articles
+  [197/300] 'Vine Hill Capital Investment Corp.' -> 1 articles
+  [198/300] 'Northfield Park Associates, LLC' -> 0 articles
+  [199/300] 'International Media Acquisition Corp.' -> 61 articles
+  ... checkpoint: 199 events cached, 2,914 rows
+  [200/300] 'Bankrate, Inc.' -> 6 articles
+  [201/300] 'Seal for Life Industries, LLC*' -> 0 articles
+  [202/300] 'Endeavor Energy Resources, LP' -> 13 articles
+  [203/300] 'Guild Holdings Company*' -> 24 articles
+  [204/300] 'SCANA Corporation' -> 47 articles
+  ... checkpoint: 204 events cached, 3,007 rows
+  [205/300] 'Foley Products Company, LLC' -> 0 articles
+  [206/300] 'Southern Natural Gas Company, L.L.C.*' -> 0 articles
+  [207/300] 'Vocera Communications, Inc.' -> 46 articles
+  ... checkpoint: 207 events cached, 3,057 rows
+  [208/300] 'National Diversified Sales, Inc.' -> 0 articles
+  [209/300] 'MoneyLion Inc.' -> 6 articles
+  [210/300] 'Asklepios BioPharmaceutical, Inc.*' -> 46 articles
+  ... checkpoint: 210 events cached, 3,111 rows
+  [211/300] 'Synovus Financial Corp.' -> 98 articles
+  ... checkpoint: 211 events cached, 3,209 rows
+  [212/300] 'Scottrade Bank' -> 0 articles
+  [213/300] 'Gores Holdings VI, Inc.' -> 5 articles
+  [214/300] 'Retina Consultants of America*' -> 6 articles
+  [215/300] 'Cleco Group LLC*' -> 3 articles
+  [216/300] 'Capstan Therapeutics, Inc.*' -> 0 articles
+  [217/300] 'Nortek Inc.' -> 7 articles
+  [218/300] 'POWER Engineers, Incorporated' -> 81 articles
+  ... checkpoint: 218 events cached, 3,316 rows
+  [219/300] 'Prometheus Biosciences, Inc.*' -> 31 articles
+  [220/300] 'Villaris Therapeutics, Inc.*' -> 0 articles
+  [221/300] 'At Home Group Inc.*' -> 269 articles
+  ... checkpoint: 221 events cached, 3,618 rows
+  [222/300] 'LifeSci Acquisition II Corp.*' -> 0 articles
+  [223/300] 'Panther Purchaser, L.P.*' -> 0 articles
+  [224/300] 'Barings LLC' -> 120 articles
+  ... checkpoint: 224 events cached, 3,742 rows
+  [225/300] 'Meridian Bioscience, Inc.*' -> 41 articles
+  [226/300] 'Guardian Pipeline, L.L.C./Midwestern Gas Transmission Company/Viking Gas Transmi' -> 0 articles
+  [227/300] 'MetroNet Holdings, LLC' -> 82 articles
+  ... checkpoint: 227 events cached, 3,867 rows
+  [228/300] 'Vectren Corporation' -> 91 articles
+  ... checkpoint: 228 events cached, 3,958 rows
+  [229/300] 'Performance Predictions LLC' -> 1 articles
+  [230/300] 'RSP Permian, Inc.' -> 64 articles
+  ... checkpoint: 230 events cached, 4,024 rows
+  [231/300] 'HashiCorp, Inc.*' -> 47 articles
+  [232/300] 'Vaccine Company, Inc.' -> 30 articles
+  ... checkpoint: 232 events cached, 4,101 rows
+  [233/300] 'Energy Transfer Partners, L.P.' -> 0 articles
+  [234/300] 'Heavy Construction Systems Specialists, LLC*' -> 0 articles
+  [235/300] 'SP Plus Corporation' -> 57 articles
+  ... checkpoint: 235 events cached, 4,162 rows
+  [236/300] 'Pearce Services, LLC' -> 6 articles
+  [237/300] 'West Corporation' -> 83 articles
+  ... checkpoint: 237 events cached, 4,253 rows
+  [238/300] 'Anaplan, Inc.*' -> 35 articles
+  [239/300] 'FCB Financial Holdings, Inc.' -> 27 articles
+  ... checkpoint: 239 events cached, 4,316 rows
+  [240/300] 'VNGR Beverage, LLC*' -> 0 articles
+  [241/300] 'Elo Touch Solutions, Inc.*' -> 0 articles
+  [242/300] 'Tahoe Resources Inc.' -> 41 articles
+  [243/300] 'Channel Biosciences, LLC' -> 0 articles
+  [244/300] 'Clario*' -> 46 articles
+  ... checkpoint: 244 events cached, 4,409 rows
+  [245/300] 'Cogentrix Energy Power Management, LLC*' -> 0 articles
+  [246/300] 'BA Sports Nutrition, LLC' -> 3 articles
+  [247/300] 'Hudson Executive Investment Corp.' -> 2 articles
+  [248/300] 'Cantel Medical LLC' -> 77 articles
+  ... checkpoint: 248 events cached, 4,495 rows
+  [249/300] 'Altimar Acquisition Corporation' -> 3 articles
+  [250/300] 'JFB Construction Holdings' -> 13 articles
+  [251/300] 'Royal Adhesives & Sealants, LLC*' -> 0 articles
+  [252/300] 'Yankees Entertainment & Sports Network, LLC d/b/a YES Network*' -> 0 articles
+  [253/300] 'Hilton Worldwide Holdings Inc.*' -> 34 articles
+  ... checkpoint: 253 events cached, 4,550 rows
+  [254/300] 'Akero Therapeutics, Inc.*' -> 8 articles
+  [255/300] 'Endeavor Group Holdings, Inc.' -> 207 articles
+  ... checkpoint: 255 events cached, 4,765 rows
+  [256/300] 'Discovery Midstream Partners, LLC*' -> 2 articles
+  [257/300] 'Kellanova' -> 54 articles
+  ... checkpoint: 257 events cached, 4,822 rows
+  [258/300] 'Petrohawk Energy Corporation' -> 3 articles/Users/cindyfu/Desktop/UCB/Industry Project - JPM/code/download_news_ma_events.py:248: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  n_events: int,
+
+  [259/300] 'CenterState Bank Corporation' -> 54 articles
+  ... checkpoint: 259 events cached, 4,880 rows
+  [260/300] 'NuVasive, Inc.' -> 55 articles
+  ... checkpoint: 260 events cached, 4,935 rows
+  [261/300] 'Vivint Smart Home, Inc.' -> 55 articles
+  ... checkpoint: 261 events cached, 4,990 rows
+  [262/300] 'FirstMark Horizon Acquisition Corp.' -> 0 articles
+  [263/300] 'Embrace Pet Insurance Agency LLC' -> 0 articles
+  [264/300] 'Intersil Corporation' -> 10 articles
+  [265/300] 'Plantronics, Inc.' -> 47 articles
+  ... checkpoint: 265 events cached, 5,051 rows
+  [266/300] 'HRBeauty LLC' -> 0 articles
+  [267/300] 'RayzeBio, Inc.*' -> 3 articles
+  [268/300] 'Acetylon Pharmaceuticals, Inc.' -> 0 articles
+  [269/300] 'Pivotal Software, Inc.' -> 11 articles
+  [270/300] 'VG Acquisition Corp.' -> 17 articles
+  [271/300] 'Straight Smile, LLC' -> 31 articles
+  ... checkpoint: 271 events cached, 5,119 rows
+  [272/300] 'Excellergy Inc.*' -> 1 articles
+  [273/300] 'Watermark Lodging Trust, Inc.' -> 8 articles
+  [274/300] 'PathAI, Inc.*' -> 27 articles
+  [275/300] 'Azure Summit Technology, Inc.' -> 0 articles
+  [276/300] 'Duck Creek Technologies LLC*' -> 10 articles
+  ... checkpoint: 276 events cached, 5,169 rows
+  [277/300] 'MainSource Financial Group, Inc.' -> 48 articles
+  [278/300] 'INEOS Composites Limited*' -> 0 articles
+  ... checkpoint: 278 events cached, 5,219 rows
+  [279/300] 'Raptor Technologies, LLC*' -> 72 articles
+  ... checkpoint: 279 events cached, 5,291 rows
+  [280/300] 'Cadence Bank' -> 81 articles
+  ... checkpoint: 280 events cached, 5,372 rows
+  [281/300] 'New Hanover Regional Medical Center, Inc.' -> 45 articles
+  [282/300] 'WK Kellogg Co*' -> 4 articles
+  ... checkpoint: 282 events cached, 5,422 rows
+  [283/300] 'CBS Studios Inc.' -> 39 articles
+  [284/300] 'Avalon Acquisition Inc.' -> 1 articles
+  [285/300] 'Reorganized ISA S.A.' -> 0 articles
+  [286/300] 'CST Brands, Inc.' -> 10 articles
+  ... checkpoint: 286 events cached, 5,476 rows
+  [287/300] 'SolarCity Corporation' -> 28 articles
+  [288/300] 'Deltic Timber Corporation' -> 8 articles
+  [289/300] 'Anixter International Inc.*' -> 50 articles
+  ... checkpoint: 289 events cached, 5,563 rows
+  [290/300] 'Open Systems International, Inc.' -> 177 articles
+  ... checkpoint: 290 events cached, 5,740 rows
+  [291/300] 'Brag House Holdings, Inc.' -> 14 articles
+  [292/300] 'Brocade Communications Systems LLC' -> 13 articles
+  [293/300] 'Duo Security, Inc.*' -> 75 articles
+  ... checkpoint: 293 events cached, 5,842 rows
+  [294/300] 'CIIG Merger Corp.' -> 1 articles
+  [295/300] 'Rover Group, Inc.' -> 49 articles
+  ... checkpoint: 295 events cached, 5,893 rows
+  [296/300] 'Diversey Holdings, Ltd.*' -> 56 articles
+  ... checkpoint: 296 events cached, 5,949 rows
+  [297/300] 'Sweetwater Royalties LLC' -> 0 articles
+  [298/300] 'GE Transportation' -> 45 articles
+  [299/300] 'Paya, Inc.*' -> 6 articles
+  ... checkpoint: 299 events cached, 6,002 rows
+  [300/300] 'Electrical Power Products, Inc.' -> 3 articles
+
+Done. Cache: 6,006 rows across 300 events -> data/raw/news/ma_event_news.csv
+  Articles with text: 5,671 | events with >=1 article: 155
+source
+gdelt    3522
+edgar    2149
