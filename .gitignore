@@ -24,3 +24,9 @@ data/raw/index/ticker_to_ciq_*
 # --- Large regenerable data outputs (re-create by running the scripts) ---
 data/raw/news/
 data/raw/funds/
+
+# --- Secrets: API keys live in .env, never in git ---
+.env
+
+# --- Paid LLM outputs (regenerable with an OpenAI key; see DATA.md) ---
+data/raw/llm/
