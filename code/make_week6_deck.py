@@ -386,6 +386,68 @@ def main() -> None:
             positive=True)
     add_footer(s)
 
+    # ── 5b. The exact call — nothing hidden (detailed prompt walk-through) ────
+    s = new_slide()
+    add_header(s, "The Exact Call — Nothing Hidden",
+               "One API call per window = fixed instructions + this window's text → 17 forced fields. "
+               "The 0/1 label is never in the prompt.")
+    # anti-leakage banner FIRST (the answer to \"aren't you leaking the answer?\")
+    _box(s, Inches(0.40), Inches(1.30), Inches(12.53), Inches(0.66), fill=GOLD)
+    _text(s, Inches(0.55), Inches(1.31), Inches(12.2), Inches(0.64),
+          [[("The model never sees:  ", {"bold": True, "color": NAVY}),
+            ("the announcement date · whether this is a run-up or a “quiet” window · the outcome.  "
+             "It scores blind — the 1/0 label lives only in our spreadsheet, never in the prompt. "
+             "That is what makes the comparison fair.", {"color": NAVY})]],
+          size=12, color=NAVY, anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.0)
+
+    sys_txt = ("You are a financial-news analyst scoring M&A-precursor signals for ONE US public "
+               "company from a single ~90-day period of its news coverage. Judge ONLY from the text "
+               "provided. Do not use any memory of real-world outcomes for this specific company. "
+               "Score each dimension 0–10 (0 = no evidence, 10 = overwhelming). Be conservative: "
+               "for most companies in most periods, most dimensions score 0–2.")
+
+    # LEFT: the full outgoing message (SYSTEM + USER), verbatim structure
+    _box(s, Inches(0.40), Inches(2.08), Inches(7.35), Inches(4.55), fill=LIGHT_GRAY)
+    left = [
+        [("①  SYSTEM MESSAGE", {"bold": True, "color": BLUE, "size": 11.5}),
+         ("   — role + rules, identical for every call", {"size": 9.5, "color": NAVY})],
+        [(sys_txt, {"size": 9.5})],
+        "",
+        [("②  USER MESSAGE", {"bold": True, "color": BLUE, "size": 11.5}),
+         (f"   — only THIS window's text  ({stats.get('example_company', 'example')})", {"size": 9.5, "color": NAVY})],
+    ]
+    left += [[(ln, {"size": 9})] for ln in (stats.get("example_prompt_lines") or [])]
+    left.append([("Score the signals defined in the schema, based ONLY on the text above.",
+                  {"size": 9, "color": NAVY})])
+    left.append("")
+    left.append([("＋  response_format = strict JSON schema  →  forces the 17 fields at right",
+                  {"bold": True, "color": GOLD, "size": 9.5})])
+    _text(s, Inches(0.55), Inches(2.18), Inches(7.05), Inches(4.35), left,
+          size=9.5, color=DARK_TEXT, line_spacing=1.02)
+
+    # RIGHT-top: the 17 forced fields — the "labels" the model must fill in
+    _box(s, Inches(7.92), Inches(2.08), Inches(5.01), Inches(1.86), fill=NAVY)
+    _text(s, Inches(8.05), Inches(2.13), Inches(4.8), Inches(0.30),
+          "③  THE 17 FIELDS WE FORCE (the labels we ask for)", size=10.5, color=AMBER, bold=True)
+    _text(s, Inches(8.05), Inches(2.46), Inches(4.78), Inches(1.42),
+          ["10 M&A-precursor signals, each 0–10 + a definition:",
+           "  rumor · strategic-review · activist · mgmt-instability",
+           "  distress · undervaluation · sector-consolidation",
+           "  antitrust · divestiture · growth (control dim.)",
+           "acquisition_likelihood 0–100   ·   info_quality 0–10",
+           "dominant_theme · evidence_quotes (≤3) · rationale",
+           "recognized_company / recognized_deal → memorization flag"],
+          size=9.5, color=LIGHT_BLUE, line_spacing=1.06)
+
+    # RIGHT-bottom: what it returns
+    _box(s, Inches(7.92), Inches(4.02), Inches(5.01), Inches(2.61), fill=NAVY)
+    _text(s, Inches(8.05), Inches(4.07), Inches(4.8), Inches(0.30),
+          "④  IT RETURNS — strict JSON, one call", size=10.5, color=AMBER, bold=True)
+    _text(s, Inches(8.05), Inches(4.40), Inches(4.78), Inches(2.15),
+          (stats.get("example_response_lines") or ["{ … }"]),
+          size=8, color=LIGHT_BLUE, line_spacing=1.0)
+    add_footer(s)
+
     # ── 5. Results A/B/C ─────────────────────────────────────────────────────
     s = new_slide()
     add_header(s, "Results: Classic NLP vs LLM vs Combined",
@@ -419,31 +481,43 @@ def main() -> None:
     # ── 6b. Intuition: why the AUC is flat ───────────────────────────────────
     if cases:
         s = new_slide()
-        add_header(s, "Why the AUC Is Flat: Two Companies Tell the Story",
-                   "Same pipeline, same scoring — but deal chatter lands in the “right” window only half the time")
+        add_header(s, "Why the AUC Is Flat — In Plain English",
+                   "AUC ≈ 0.5 = shown a run-up window and a quiet window, the model can't tell which is which")
+        # plain-language explainer, written directly on the slide
+        _box(s, Inches(0.40), Inches(1.30), Inches(12.53), Inches(1.06), fill=LIGHT_BLUE)
+        _text(s, Inches(0.58), Inches(1.34), Inches(12.2), Inches(1.00),
+              [[("The bet:  ", {"bold": True, "color": NAVY}),
+                ("deal chatter should appear MORE in the 90 days before an announcement than in an earlier "
+                 "“quiet” period. When that holds, the model ranks the run-up higher and AUC climbs toward 1.0.",
+                 {"color": NAVY})],
+               [("What actually happens:  ", {"bold": True, "color": NAVY}),
+                ("it holds for some companies (left) — but for just as many, the chatter surfaces in the "
+                 "“quiet” window instead (right), because deal talk leaks on its own schedule, not on our "
+                 "calendar. The two cancel out, so the model does no better than a coin flip → AUC ≈ 0.5.",
+                 {"color": NAVY})]],
+              size=11.5, color=NAVY, line_spacing=1.04)
         for x, key, head_txt, fill in [
-                (Inches(0.40), "signal", "SIGNAL — chatter in the run-up (ranked correctly)", LIGHT_GREEN),
-                (Inches(6.77), "inversion", "INVERSION — chatter in the “quiet” window (wrong-way pair)", LIGHT_PINK)]:
+                (Inches(0.40), "signal", "✓  READS CORRECTLY — chatter in the run-up (what we hoped for)", LIGHT_GREEN),
+                (Inches(6.77), "inversion", "✗  READS BACKWARDS — chatter in the “quiet” window", LIGHT_PINK)]:
             c = cases[key]
-            _box(s, x, Inches(1.45), Inches(6.15), Inches(0.42), fill=NAVY)
-            _text(s, x, Inches(1.46), Inches(6.15), Inches(0.40), head_txt, size=12.5,
+            _box(s, x, Inches(2.50), Inches(6.15), Inches(0.42), fill=NAVY)
+            _text(s, x, Inches(2.51), Inches(6.15), Inches(0.40), head_txt, size=11.5,
                   color=WHITE, bold=True, align=PP_ALIGN.CENTER)
-            _box(s, x, Inches(1.87), Inches(6.15), Inches(3.65), fill=fill)
-            _text(s, x + Inches(0.15), Inches(2.00), Inches(5.85), Inches(3.4),
-                  [[(c["name"], {"bold": True, "size": 15})],
+            _box(s, x, Inches(2.92), Inches(6.15), Inches(2.95), fill=fill)
+            _text(s, x + Inches(0.15), Inches(3.02), Inches(5.85), Inches(2.78),
+                  [[(c["name"], {"bold": True, "size": 14})],
+                   [("LLM's acquisition_likelihood (0–100):   ", {"size": 11}),
+                    (f"quiet {c['base']}  →  run-up {c['pre']}", {"bold": True, "size": 13})],
                    "",
-                   [("acquisition_likelihood:   ", {}),
-                    (f"baseline {c['base']}   →   pre {c['pre']}", {"bold": True, "size": 14})],
-                   "",
-                   [("run-up window evidence:", {"bold": True})],
-                   f"“{c['quote_pre']}”",
-                   [("quiet window evidence:", {"bold": True})],
-                   f"“{c['quote_base']}”"],
-                  size=11.5, color=DARK_TEXT, line_spacing=1.12)
+                   [("what it read in the run-up window:", {"bold": True, "size": 10.5})],
+                   [(f"“{c['quote_pre']}”", {"size": 10.5})],
+                   [("what it read in the quiet window:", {"bold": True, "size": 10.5})],
+                   [(f"“{c['quote_base']}”", {"size": 10.5})]],
+                  size=11, color=DARK_TEXT, line_spacing=1.1)
         callout(s, f"Across {cases['n_pairs']} paired companies: {cases['n_up']} scored higher in the "
-                   f"run-up · {cases['n_dn']} lower · {cases['n_zero']} unchanged — ups and downs "
-                   f"balance, so the paired test stays ns and AUC ≈ 0.5.",
-                positive=False, y=Inches(5.85), h=Inches(0.85))
+                   f"run-up · {cases['n_dn']} lower · {cases['n_zero']} tied — the ups and downs roughly "
+                   f"balance, and a balanced split is exactly what AUC ≈ 0.5 looks like.",
+                positive=False, y=Inches(5.96), h=Inches(0.82))
         add_footer(s)
 
     # ── 6c. Correlation: are LLM signals new information? ───────────────────
