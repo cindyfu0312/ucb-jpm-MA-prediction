@@ -1,7 +1,7 @@
 {
   "n_events_total": 2673,
-  "n_events_cached": 59,
-  "n_articles_cached": 1198,
+  "n_events_cached": 126,
+  "n_articles_cached": 2869,
   "llm_total_cost": 0.36,
   "llm_calls_ok": 250,
   "llm_tokens": 355069,
@@ -47,25 +47,25 @@
   "auc": {
     "A: classic NLP (week4)": {
       "Logistic Regression": {
-        "auc": 0.298,
-        "lo": 0.028,
-        "hi": 0.701,
-        "pr": 0.481,
-        "cv": 0.405
+        "auc": 0.44,
+        "lo": 0.111,
+        "hi": 0.8,
+        "pr": 0.609,
+        "cv": 0.4
       },
       "Random Forest": {
-        "auc": 0.357,
-        "lo": 0.059,
-        "hi": 0.7,
-        "pr": 0.475,
-        "cv": 0.404
+        "auc": 0.333,
+        "lo": 0.05,
+        "hi": 0.676,
+        "pr": 0.467,
+        "cv": 0.411
       },
       "Gradient Boosting": {
-        "auc": 0.179,
+        "auc": 0.25,
         "lo": 0.0,
-        "hi": 0.464,
-        "pr": 0.437,
-        "cv": 0.384
+        "hi": 0.575,
+        "pr": 0.443,
+        "cv": 0.427
       }
     },
     "B: LLM signals only": {
@@ -93,30 +93,31 @@
     },
     "C: combined A+B": {
       "Logistic Regression": {
-        "auc": 0.31,
-        "lo": 0.048,
-        "hi": 0.643,
-        "pr": 0.475,
-        "cv": 0.326
+        "auc": 0.452,
+        "lo": 0.119,
+        "hi": 0.8,
+        "pr": 0.56,
+        "cv": 0.318
       },
       "Random Forest": {
-        "auc": 0.488,
-        "lo": 0.138,
-        "hi": 0.833,
-        "pr": 0.654,
-        "cv": 0.453
+        "auc": 0.429,
+        "lo": 0.111,
+        "hi": 0.775,
+        "pr": 0.551,
+        "cv": 0.465
       },
       "Gradient Boosting": {
-        "auc": 0.333,
-        "lo": 0.05,
-        "hi": 0.667,
-        "pr": 0.499,
-        "cv": 0.407
+        "auc": 0.357,
+        "lo": 0.0,
+        "hi": 0.715,
+        "pr": 0.594,
+        "cv": 0.429
       }
     }
   },
   "n_model_rows": 65,
   "n_test_rows": 13,
+  "n_events_llm_scored": 37,
   "split_date": "2023-06-12",
   "probe": {
     "gpt-5-mini": {
@@ -149,6 +150,38 @@
       "gpt-5": 0.548
     },
     "cost_ratio": 4.3
+  },
+  "criteria": [
+    {
+      "criterion": "(1) Best AUC across A/B/C",
+      "threshold": "< 0.58 -> null",
+      "observed": "0.536",
+      "fired": true
+    },
+    {
+      "criterion": "(2) LLM lift: best(B,C) - best(A)",
+      "threshold": ">= +0.05 -> lift",
+      "observed": "+0.095",
+      "fired": true
+    },
+    {
+      "criterion": "(3) Probe accuracy (chance 50%)",
+      "threshold": ">= 60% -> contaminated",
+      "observed": "51.7%",
+      "fired": false
+    },
+    {
+      "criterion": "(4) Masking dAUC (unmasked-masked)",
+      "threshold": ">= +0.05 -> contaminated",
+      "observed": "+0.060",
+      "fired": true
+    }
+  ],
+  "registered": {
+    "null_ceiling": 0.58,
+    "lift_min": 0.05,
+    "probe_acc_max": 0.6,
+    "mask_delta_max": 0.05
   },
   "verdict": "NULL RESULT, CONSISTENT WITH WEEK 4: even a generative LLM reading the same free-news corpus cannot separate pre-announcement windows from quiet periods. This strengthens the week-4 conclusion \u2014 the information is absent from the source, not merely hard to extract. Next: richer text (full articles, filings bodies) or paid/insider-adjacent sources.",
   "contaminated": true,
