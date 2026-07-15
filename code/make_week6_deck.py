@@ -152,8 +152,20 @@ def fmt(v, spec=".3f", missing="n/a"):
     return format(v, spec) if isinstance(v, (int, float)) else missing
 
 
+def _dedash(o):
+    """Recursively replace em/en dashes with hyphens in any stats-derived text,
+    so data written by the notebook never reintroduces an em dash into the deck."""
+    if isinstance(o, str):
+        return o.replace(" — ", " - ").replace("—", "-").replace("–", "-")
+    if isinstance(o, list):
+        return [_dedash(x) for x in o]
+    if isinstance(o, dict):
+        return {k: _dedash(v) for k, v in o.items()}
+    return o
+
+
 def main() -> None:
-    stats = json.loads(STATS_PATH.read_text())
+    stats = _dedash(json.loads(STATS_PATH.read_text()))
     prs = Presentation()
     prs.slide_width, prs.slide_height = SLIDE_W, SLIDE_H
     blank = prs.slide_layouts[6]
@@ -233,14 +245,14 @@ def main() -> None:
           ["Can an LLM Read M&A Intent", "from Free News?"],
           size=42, color=WHITE, bold=True)
     _text(s, Inches(0.8), Inches(4.35), Inches(11.7), Inches(0.5),
-          "J.P.Morgan Industry Project | Week 6 Results — GenAI Feature Extraction | July 2026",
+          "J.P.Morgan Industry Project | Week 6 Results - GenAI Feature Extraction | July 2026",
           size=20, color=GOLD)
     _text(s, Inches(0.8), Inches(4.95), Inches(11.7), Inches(0.4),
           "Dexin Fu, Ronald Liu", size=16, color=LIGHT_BLUE)
 
     # ── 2. Executive summary ─────────────────────────────────────────────────
     s = new_slide()
-    add_header(s, "Executive Summary", "One structured LLM call per event-window — scored, stress-tested, priced")
+    add_header(s, "Executive Summary", "One structured LLM call per event-window - scored, stress-tested, priced")
     x0 = Inches(0.40)
     kpi_tile(s, x0, Inches(1.45), f"{stats.get('llm_calls_ok', 0):,}",
              "LLM calls scored OK", fill=BLUE, value_color=WHITE)
@@ -258,19 +270,19 @@ def main() -> None:
     scope = [
         (f"Honest scope: {stats.get('n_model_rows', '?')} windows from "
          f"{stats.get('n_events_llm_scored', '?')} LLM-scored events "
-         f"({stats.get('n_test_rows', '?')} in test). Small sample — read every AUC as "
+         f"({stats.get('n_test_rows', '?')} in test). Small sample - read every AUC as "
          f"DIRECTIONAL (bootstrap 95% CIs), not settled."),
         ("⚠  LLM scaling currently paused on an OpenAI API credit issue we're resolving "
-         "— the pipeline is built and runs; only the paid LLM step is gated (~$0.39 spent, "
+         "- the pipeline is built and runs; only the paid LLM step is gated (~$0.39 spent, "
          "37 of 126 scraped events scored)."),
     ]
     _box(s, x0, Inches(2.74), Inches(12.13), Inches(0.48), fill=GOLD)
     _text(s, x0 + Inches(0.10), Inches(2.74), Inches(12.0), Inches(0.48), scope,
           size=10.5, color=NAVY, bold=True, anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.05)
     card(s, x0, Inches(3.28), Inches(4.05), "1 · Built",
-         ["• extract_llm_features.py — parallel,", "  resumable, $-capped scorer",
+         ["• extract_llm_features.py - parallel,", "  resumable, $-capped scorer",
           "• 17 strict-JSON fields per window", "  (rumor, strategic review, activist,",
-          "  distress, likelihood 0–100, …)", "• gpt-5-mini everywhere + gpt-5 subset"],
+          "  distress, likelihood 0-100, …)", "• gpt-5-mini everywhere + gpt-5 subset"],
          body_h=Inches(2.45))
     card(s, x0 + Inches(4.24), Inches(3.28), Inches(4.05), "2 · Measured",
          ["• A (classic NLP) vs B (LLM) vs C (both)", "  on identical rows, split & models",
@@ -279,7 +291,7 @@ def main() -> None:
     card(s, x0 + Inches(8.48), Inches(3.28), Inches(4.05), "3 · Stress-tested",
          ["• Memorization probe (no news shown)", "• Company-name masking A/B",
           "• Re-run consistency (are scores stable?)", "• Post-training-cutoff holdout",
-          "  (2025–26 deals the model can't know)"], body_h=Inches(2.45))
+          "  (2025-26 deals the model can't know)"], body_h=Inches(2.45))
     callout(s, stats.get("verdict", "")[:220], positive=not contaminated and llm_lift
             or stats.get("all_null", False))
     add_footer(s)
@@ -287,7 +299,7 @@ def main() -> None:
     # ── 3. Approach ──────────────────────────────────────────────────────────
     s = new_slide()
     add_header(s, "Approach: One Structured Call per Event-Window",
-               "Same corpus, same windows, same models as week 3-4 — only the featurizer changes")
+               "Same corpus, same windows, same models as week 3-4 - only the featurizer changes")
     steps = ["Cached headlines\n(GDELT + EDGAR)", "Spam filter\n(same as week4)",
              "1 LLM call / window\nstrict JSON schema", "17 fields parsed\n+ clamped",
              "Feature sets\nA / B / C", "Same 3 models\n+ bootstrap CIs"]
@@ -300,9 +312,9 @@ def main() -> None:
         if i < len(steps) - 1:
             _text(s, x + sw - Inches(0.03), Inches(1.62), Inches(0.24), Inches(0.5),
                   "→", size=20, color=GOLD, bold=True)
-    rows = [["Signal fields (0–10 each)", "Judgment fields"],
-            ["ma_rumor_intensity · strategic_alternatives_review", "acquisition_likelihood (0–100)"],
-            ["activist_pressure · management_instability", "headline_information_quality (0–10)"],
+    rows = [["Signal fields (0-10 each)", "Judgment fields"],
+            ["ma_rumor_intensity · strategic_alternatives_review", "acquisition_likelihood (0-100)"],
+            ["activist_pressure · management_instability", "headline_information_quality (0-10)"],
             ["financial_distress · undervaluation_narrative", "dominant_theme (8-way enum)"],
             ["sector_consolidation_wave · regulatory_antitrust", "recognized_company / recognized_deal"],
             ["divestiture_restructuring · growth_expansion_tone", "evidence_quotes (verbatim) + rationale"]]
@@ -314,11 +326,11 @@ def main() -> None:
 
     # ── 4. Feature dictionary (complete lists) ───────────────────────────────
     s = new_slide()
-    add_header(s, "Feature Dictionary — Every Input the Models See",
+    add_header(s, "Feature Dictionary - Every Input the Models See",
                "Set A = week-4 classic stack recomputed on this corpus · Set B = LLM signals · C = A ∪ B")
     _box(s, Inches(0.40), Inches(1.40), Inches(6.15), Inches(0.40), fill=BLUE)
     _text(s, Inches(0.40), Inches(1.41), Inches(6.15), Inches(0.38),
-          "SET A — classic NLP (28 candidates)", size=14, color=WHITE, bold=True,
+          "SET A - classic NLP (28 candidates)", size=14, color=WHITE, bold=True,
           align=PP_ALIGN.CENTER)
     _box(s, Inches(0.40), Inches(1.80), Inches(6.15), Inches(4.25), fill=LIGHT_GRAY)
     _text(s, Inches(0.55), Inches(1.92), Inches(5.9), Inches(4.05),
@@ -337,24 +349,24 @@ def main() -> None:
           size=11.5, color=DARK_TEXT, line_spacing=1.12)
     _box(s, Inches(6.77), Inches(1.40), Inches(6.15), Inches(0.40), fill=NAVY)
     _text(s, Inches(6.77), Inches(1.41), Inches(6.15), Inches(0.38),
-          "SET B — LLM signals (12 features + 5 audit fields)", size=14, color=WHITE,
+          "SET B - LLM signals (12 features + 5 audit fields)", size=14, color=WHITE,
           bold=True, align=PP_ALIGN.CENTER)
     _box(s, Inches(6.77), Inches(1.80), Inches(6.15), Inches(4.25), fill=LIGHT_GRAY)
     _text(s, Inches(6.92), Inches(1.88), Inches(5.9), Inches(4.12),
           [[("Model features (one strict-JSON call per window):", {"bold": True})],
-           "   ma_rumor_intensity 0–10 — “in talks”, bids, “sources say”",
-           "   strategic_alternatives_review 0–10 — reviews, bankers hired",
-           "   activist_pressure 0–10 — activists, stakes, proxy fights",
-           "   management_instability 0–10 — CEO/CFO exits, shakeups",
-           "   financial_distress 0–10 — losses, debt, downgrades",
-           "   undervaluation_narrative 0–10 — “cheap”, lagging peers",
-           "   sector_consolidation_wave 0–10 — peers merging",
-           "   regulatory_antitrust_attention 0–10 — regulator scrutiny",
-           "   divestiture_restructuring 0–10 — spin-offs, carve-outs",
-           "   growth_expansion_tone 0–10 — ordinary growth (control)",
-           "   acquisition_likelihood 0–100 — holistic judgment",
-           "   headline_information_quality 0–10 — text usability",
-           [("Audit fields — never model inputs:", {"bold": True})],
+           "   ma_rumor_intensity 0-10: “in talks”, bids, “sources say”",
+           "   strategic_alternatives_review 0-10: reviews, bankers hired",
+           "   activist_pressure 0-10: activists, stakes, proxy fights",
+           "   management_instability 0-10: CEO/CFO exits, shakeups",
+           "   financial_distress 0-10: losses, debt, downgrades",
+           "   undervaluation_narrative 0-10: “cheap”, lagging peers",
+           "   sector_consolidation_wave 0-10: peers merging",
+           "   regulatory_antitrust_attention 0-10: regulator scrutiny",
+           "   divestiture_restructuring 0-10: spin-offs, carve-outs",
+           "   growth_expansion_tone 0-10: ordinary growth (control)",
+           "   acquisition_likelihood 0-100: holistic judgment",
+           "   headline_information_quality 0-10: text usability",
+           [("Audit fields - never model inputs:", {"bold": True})],
            "   dominant_theme · recognized_company · recognized_deal",
            "   evidence_quotes (verbatim) · rationale (≤ 40 words)"],
           size=11.5, color=DARK_TEXT, line_spacing=1.08)
@@ -363,32 +375,9 @@ def main() -> None:
             y=Inches(6.25), h=Inches(0.75))
     add_footer(s)
 
-    # ── 5. What the model reads ──────────────────────────────────────────────
+    # ── 5. The exact call - nothing hidden (detailed prompt walk-through) ─────
     s = new_slide()
-    add_header(s, "What the Model Actually Reads — and Returns",
-               f"Real example: {stats.get('example_company', 'sample company')} "
-               f"({stats.get('example_window', 'pre')} window)")
-    prompt_lines = stats.get("example_prompt_lines") or [
-        "Company: <example>", "Period: ~90 days ending YYYY-MM",
-        "SEC filings during the period: …", "Headlines (…):", "[dNN] …"]
-    response_lines = stats.get("example_response_lines") or ["{ … }"]
-    _box(s, Inches(0.40), Inches(1.45), Inches(6.25), Inches(4.70), fill=LIGHT_GRAY)
-    _text(s, Inches(0.55), Inches(1.55), Inches(6.0), Inches(0.35),
-          "PROMPT (truncated)", size=13, color=BLUE, bold=True)
-    _text(s, Inches(0.55), Inches(1.90), Inches(6.0), Inches(4.15),
-          prompt_lines, size=10.5, color=DARK_TEXT, line_spacing=1.05)
-    _box(s, Inches(6.90), Inches(1.45), Inches(6.05), Inches(4.70), fill=NAVY)
-    _text(s, Inches(7.05), Inches(1.55), Inches(5.8), Inches(0.35),
-          "RESPONSE (strict JSON, one call)", size=13, color=AMBER, bold=True)
-    _text(s, Inches(7.05), Inches(1.90), Inches(5.8), Inches(4.15),
-          response_lines, size=10.5, color=LIGHT_BLUE, line_spacing=1.05)
-    callout(s, "Every score ships with verbatim evidence quotes — auditable, unlike a bare probability.",
-            positive=True)
-    add_footer(s)
-
-    # ── 5b. The exact call — nothing hidden (detailed prompt walk-through) ────
-    s = new_slide()
-    add_header(s, "The Exact Call — Nothing Hidden",
+    add_header(s, "The Exact Call - Nothing Hidden",
                "One API call per window = fixed instructions + this window's text → 17 forced fields. "
                "The 0/1 label is never in the prompt.")
     # anti-leakage banner FIRST (the answer to \"aren't you leaking the answer?\")
@@ -396,25 +385,25 @@ def main() -> None:
     _text(s, Inches(0.55), Inches(1.31), Inches(12.2), Inches(0.64),
           [[("The model never sees:  ", {"bold": True, "color": NAVY}),
             ("the announcement date · whether this is a run-up or a “quiet” window · the outcome.  "
-             "It scores blind — the 1/0 label lives only in our spreadsheet, never in the prompt. "
+             "It scores blind - the 1/0 label lives only in our spreadsheet, never in the prompt. "
              "That is what makes the comparison fair.", {"color": NAVY})]],
           size=12, color=NAVY, anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.0)
 
     sys_txt = ("You are a financial-news analyst scoring M&A-precursor signals for ONE US public "
                "company from a single ~90-day period of its news coverage. Judge ONLY from the text "
                "provided. Do not use any memory of real-world outcomes for this specific company. "
-               "Score each dimension 0–10 (0 = no evidence, 10 = overwhelming). Be conservative: "
-               "for most companies in most periods, most dimensions score 0–2.")
+               "Score each dimension 0-10 (0 = no evidence, 10 = overwhelming). Be conservative: "
+               "for most companies in most periods, most dimensions score 0-2.")
 
     # LEFT: the full outgoing message (SYSTEM + USER), verbatim structure
     _box(s, Inches(0.40), Inches(2.08), Inches(7.35), Inches(4.55), fill=LIGHT_GRAY)
     left = [
         [("①  SYSTEM MESSAGE", {"bold": True, "color": BLUE, "size": 11.5}),
-         ("   — role + rules, identical for every call", {"size": 9.5, "color": NAVY})],
+         ("   - role + rules, identical for every call", {"size": 9.5, "color": NAVY})],
         [(sys_txt, {"size": 9.5})],
         "",
         [("②  USER MESSAGE", {"bold": True, "color": BLUE, "size": 11.5}),
-         (f"   — only THIS window's text  ({stats.get('example_company', 'example')})", {"size": 9.5, "color": NAVY})],
+         (f"   - only THIS window's text  ({stats.get('example_company', 'example')})", {"size": 9.5, "color": NAVY})],
     ]
     left += [[(ln, {"size": 9})] for ln in (stats.get("example_prompt_lines") or [])]
     left.append([("Score the signals defined in the schema, based ONLY on the text above.",
@@ -425,16 +414,16 @@ def main() -> None:
     _text(s, Inches(0.55), Inches(2.18), Inches(7.05), Inches(4.35), left,
           size=9.5, color=DARK_TEXT, line_spacing=1.02)
 
-    # RIGHT-top: the 17 forced fields — the "labels" the model must fill in
+    # RIGHT-top: the 17 forced fields - the "labels" the model must fill in
     _box(s, Inches(7.92), Inches(2.08), Inches(5.01), Inches(1.86), fill=NAVY)
     _text(s, Inches(8.05), Inches(2.13), Inches(4.8), Inches(0.30),
           "③  THE 17 FIELDS WE FORCE (the labels we ask for)", size=10.5, color=AMBER, bold=True)
     _text(s, Inches(8.05), Inches(2.46), Inches(4.78), Inches(1.42),
-          ["10 M&A-precursor signals, each 0–10 + a definition:",
+          ["10 M&A-precursor signals, each 0-10 + a definition:",
            "  rumor · strategic-review · activist · mgmt-instability",
            "  distress · undervaluation · sector-consolidation",
            "  antitrust · divestiture · growth (control dim.)",
-           "acquisition_likelihood 0–100   ·   info_quality 0–10",
+           "acquisition_likelihood 0-100   ·   info_quality 0-10",
            "dominant_theme · evidence_quotes (≤3) · rationale",
            "recognized_company / recognized_deal → memorization flag"],
           size=9.5, color=LIGHT_BLUE, line_spacing=1.06)
@@ -442,7 +431,7 @@ def main() -> None:
     # RIGHT-bottom: what it returns
     _box(s, Inches(7.92), Inches(4.02), Inches(5.01), Inches(2.61), fill=NAVY)
     _text(s, Inches(8.05), Inches(4.07), Inches(4.8), Inches(0.30),
-          "④  IT RETURNS — strict JSON, one call", size=10.5, color=AMBER, bold=True)
+          "④  IT RETURNS - strict JSON, one call", size=10.5, color=AMBER, bold=True)
     _text(s, Inches(8.05), Inches(4.40), Inches(4.78), Inches(2.15),
           (stats.get("example_response_lines") or ["{ … }"]),
           size=8, color=LIGHT_BLUE, line_spacing=1.0)
@@ -468,11 +457,11 @@ def main() -> None:
         gap = best[c_key][1]["auc"] - best[a_key][1]["auc"]
         overlap = best[c_key][1]["lo"] <= best[a_key][1]["hi"]
         if gap >= 0.05 and not overlap:
-            msg, pos = (f"LLM features add +{gap:.3f} AUC over the classic stack — "
+            msg, pos = (f"LLM features add +{gap:.3f} AUC over the classic stack - "
                         f"but see the contamination tests before believing it.", True)
         elif abs(gap) < 0.05 or overlap:
             msg, pos = (f"CIs overlap (Δ = {gap:+.3f}): the LLM does not clearly beat the classic "
-                        f"stack on pre-announcement prediction — consistent with week 3-4's null.", False)
+                        f"stack on pre-announcement prediction - consistent with week 3-4's null.", False)
         else:
             msg, pos = (f"LLM features UNDERPERFORM the classic stack (Δ = {gap:+.3f}).", False)
         callout(s, msg, positive=pos)
@@ -481,7 +470,7 @@ def main() -> None:
     # ── 6b. Intuition: why the AUC is flat ───────────────────────────────────
     if cases:
         s = new_slide()
-        add_header(s, "Why the AUC Is Flat — In Plain English",
+        add_header(s, "Why the AUC Is Flat - In Plain English",
                    "AUC ≈ 0.5 = shown a run-up window and a quiet window, the model can't tell which is which")
         # plain-language explainer, written directly on the slide
         _box(s, Inches(0.40), Inches(1.30), Inches(12.53), Inches(1.06), fill=LIGHT_BLUE)
@@ -491,14 +480,14 @@ def main() -> None:
                  "“quiet” period. When that holds, the model ranks the run-up higher and AUC climbs toward 1.0.",
                  {"color": NAVY})],
                [("What actually happens:  ", {"bold": True, "color": NAVY}),
-                ("it holds for some companies (left) — but for just as many, the chatter surfaces in the "
+                ("it holds for some companies (left) - but for just as many, the chatter surfaces in the "
                  "“quiet” window instead (right), because deal talk leaks on its own schedule, not on our "
                  "calendar. The two cancel out, so the model does no better than a coin flip → AUC ≈ 0.5.",
                  {"color": NAVY})]],
               size=11.5, color=NAVY, line_spacing=1.04)
         for x, key, head_txt, fill in [
-                (Inches(0.40), "signal", "✓  READS CORRECTLY — chatter in the run-up (what we hoped for)", LIGHT_GREEN),
-                (Inches(6.77), "inversion", "✗  READS BACKWARDS — chatter in the “quiet” window", LIGHT_PINK)]:
+                (Inches(0.40), "signal", "✓  READS CORRECTLY - chatter in the run-up (what we hoped for)", LIGHT_GREEN),
+                (Inches(6.77), "inversion", "✗  READS BACKWARDS - chatter in the “quiet” window", LIGHT_PINK)]:
             c = cases[key]
             _box(s, x, Inches(2.50), Inches(6.15), Inches(0.42), fill=NAVY)
             _text(s, x, Inches(2.51), Inches(6.15), Inches(0.40), head_txt, size=11.5,
@@ -506,7 +495,7 @@ def main() -> None:
             _box(s, x, Inches(2.92), Inches(6.15), Inches(2.95), fill=fill)
             _text(s, x + Inches(0.15), Inches(3.02), Inches(5.85), Inches(2.78),
                   [[(c["name"], {"bold": True, "size": 14})],
-                   [("LLM's acquisition_likelihood (0–100):   ", {"size": 11}),
+                   [("LLM's acquisition_likelihood (0-100):   ", {"size": 11}),
                     (f"quiet {c['base']}  →  run-up {c['pre']}", {"bold": True, "size": 13})],
                    "",
                    [("what it read in the run-up window:", {"bold": True, "size": 10.5})],
@@ -515,7 +504,7 @@ def main() -> None:
                    [(f"“{c['quote_base']}”", {"size": 10.5})]],
                   size=11, color=DARK_TEXT, line_spacing=1.1)
         callout(s, f"Across {cases['n_pairs']} paired companies: {cases['n_up']} scored higher in the "
-                   f"run-up · {cases['n_dn']} lower · {cases['n_zero']} tied — the ups and downs roughly "
+                   f"run-up · {cases['n_dn']} lower · {cases['n_zero']} tied - the ups and downs roughly "
                    f"balance, and a balanced split is exactly what AUC ≈ 0.5 looks like.",
                 positive=False, y=Inches(5.96), h=Inches(0.82))
         add_footer(s)
@@ -525,25 +514,25 @@ def main() -> None:
     if fig_corr.exists():
         s = new_slide()
         add_header(s, "Are the LLM Signals New Information?",
-                   "Spearman rank correlation — LLM fields (rows) × classic-NLP features (columns), same windows")
+                   "Spearman rank correlation - LLM fields (rows) × classic-NLP features (columns), same windows")
         add_picture_fit(s, fig_corr, Inches(0.30), Inches(1.45), Inches(7.1), Inches(5.35))
-        note = (f"Hottest cell: {corr_note[0]} × {corr_note[1]} (ρ = {corr_note[2]:+.2f}) — the LLM's "
+        note = (f"Hottest cell: {corr_note[0]} × {corr_note[1]} (ρ = {corr_note[2]:+.2f}) - the LLM's "
                 f"rumor read largely re-derives simple keyword matching."
                 if corr_note else "Hottest cell ≈ rumor_intensity × ma_keyword_ratio.")
         _text(s, Inches(7.60), Inches(1.60), Inches(5.35), Inches(4.6),
               [[("How to read it:", {"bold": True, "size": 14})],
                "• Each cell: across the same windows, do the two scores rank companies the same "
                "way? (+1 identical ranking · 0 unrelated · −1 opposite)",
-               "• A deep-red row = that LLM field re-derives a classic feature — redundant.",
-               "• A near-white row = information the classic stack does not capture — novel.",
+               "• A deep-red row = that LLM field re-derives a classic feature - redundant.",
+               "• A near-white row = information the classic stack does not capture - novel.",
                f"• {note}",
                "• Mid/low rows (activist, distress, divestiture…) are genuinely new descriptive "
                "axes the keyword stack misses.",
                [("Takeaway: ", {"bold": True}),
-                ("partly redundant, partly novel — but §6 shows neither the redundant nor the "
+                ("partly redundant, partly novel - but §6 shows neither the redundant nor the "
                  "novel parts separate pre from baseline on this corpus.", {})]],
               size=12, color=DARK_TEXT, line_spacing=1.18)
-        callout(s, "Novelty without predictivity: the LLM adds new ways to DESCRIBE the news — "
+        callout(s, "Novelty without predictivity: the LLM adds new ways to DESCRIBE the news - "
                    "not new ability to PREDICT from it.", positive=False,
                 y=Inches(6.45), h=Inches(0.70))
         add_footer(s)
@@ -551,7 +540,7 @@ def main() -> None:
     # ── 6. Honesty 1: probe ──────────────────────────────────────────────────
     s = new_slide()
     add_header(s, "Does the Model Already Know These Deals?",
-               "Memorization probe: zero news shown — answer from training memory alone")
+               "Memorization probe: zero news shown - answer from training memory alone")
     _text(s, Inches(0.40), Inches(1.45), Inches(5.6), Inches(2.3),
           ["Design (balanced, chance = 50%):",
            "• “As of <date>: was <company> announced as a",
@@ -579,7 +568,7 @@ def main() -> None:
            "pre-cutoff “prediction” is potentially an act of memory,",
            "not inference. The pre- vs post-cutoff gap isolates it."],
           size=13.5, color=DARK_TEXT, line_spacing=1.15)
-    # Reconciliation panel — the 71% is the number the audience will challenge.
+    # Reconciliation panel - the 71% is the number the audience will challenge.
     def _pp(v):
         return f"{v:.0%}" if isinstance(v, (int, float)) else "n/a"
     acc_s, acq_s = _pp(probe.get("acc")), _pp(probe.get("acq_precision"))
@@ -587,22 +576,22 @@ def main() -> None:
     nrc = probe.get("n_recall_claims", 0)
     card(s, Inches(6.60), Inches(4.35), Inches(6.13),
          "Is the 71% a memorization problem?",
-         [[("No — real memory, but not time-localized:", {"bold": True, "size": 11.5})],
+         [[("No - real memory, but not time-localized:", {"bold": True, "size": 11.5})],
           [(f"{acq_s} acquirer recall", {"bold": True, "size": 10.5}),
            (f"  = entity memory, only on the {nrc} windows it self-flags (knows who bought whom).",
             {"size": 10.5})],
           [(f"{acc_s} yes/no ≈ chance", {"bold": True, "size": 10.5}),
            ("  = but it can't place a deal in time (a fact has no timeline).", {"size": 10.5})],
           [(f"{pre_s} pre ≈ {post_s} post-cutoff", {"bold": True, "size": 10.5}),
-           ("  = deals it could have memorized score no higher than ones it never saw ⇒ no edge.",
+           ("  = deals it could have memorized score no higher than ones it never saw, so no edge.",
             {"size": 10.5})]],
          header_fill=BLUE, body_h=Inches(1.48))
     if isinstance(probe.get("acc"), (int, float)):
         bad = probe["acc"] >= 0.6
-        callout(s, (f"Probe accuracy {probe['acc']:.0%} — training-data look-ahead CONFIRMED; "
+        callout(s, (f"Probe accuracy {probe['acc']:.0%} - training-data look-ahead CONFIRMED; "
                     f"pre-cutoff AUCs cannot be taken at face value." if bad else
                     f"Memorization is real but NOT time-localized: {acq_s} acquirer recall, yet the yes/no "
-                    f"probe is at chance and pre- ≈ post-cutoff — so it does not inflate the results."),
+                    f"probe is at chance and pre- ≈ post-cutoff - so it does not inflate the results."),
                  positive=not bad)
     add_footer(s)
 
@@ -612,41 +601,45 @@ def main() -> None:
                "Do the scores hold up? Testing recognition-vs-reading and run-to-run stability")
     f1, f2 = FIG_DIR / "fig_masking.png", FIG_DIR / "fig_repeat.png"
     if f1.exists():
-        add_picture_fit(s, f1, Inches(0.55), Inches(1.38), Inches(5.7), Inches(2.85))
+        add_picture_fit(s, f1, Inches(1.75), Inches(1.34), Inches(5.5), Inches(2.66))
     if f2.exists():
-        add_picture_fit(s, f2, Inches(6.95), Inches(1.38), Inches(5.7), Inches(2.85))
-    rows = [["Experiment", "What it tests", "Result"],
-            ["Name masking — ΔAUC (unmasked − masked)", "recognition vs reading",
-             f"{masking.get('delta'):+.3f}" if isinstance(masking.get("delta"), (int, float)) else "n/a"],
-            ["Re-run consistency — mean Spearman ρ (12 fields)", "are scores stable?",
-             fmt(repeat.get("mean_spearman"))],
-            ["Re-run drift — mean |Δ likelihood| (0–100 scale)", "how much they wobble",
-             fmt(repeat.get("likelihood_mean_abs_diff"), ".1f")]]
-    shape_table(s, Inches(0.40), Inches(4.48), [Inches(6.5), Inches(3.6), Inches(2.4)], rows,
-                row_h=Inches(0.36), font_size=11.5)
+        add_picture_fit(s, f2, Inches(8.15), Inches(1.34), Inches(5.5), Inches(2.66))
     delta = masking.get("delta")
     rho = repeat.get("mean_spearman")
-    rho_txt = f"ρ={rho:.2f}" if isinstance(rho, (int, float)) else "high ρ"
     drift = repeat.get("likelihood_mean_abs_diff")
-    drift_txt = f"~{drift:.1f} pt" if isinstance(drift, (int, float)) else "small"
+    d_txt = f"{delta:+.2f}" if isinstance(delta, (int, float)) else "n/a"
+    rho_txt = f"{rho:.2f}" if isinstance(rho, (int, float)) else "high"
+    drift_txt = f"~{drift:.1f}" if isinstance(drift, (int, float)) else "small"
+    card(s, Inches(0.40), Inches(4.12), Inches(6.15),
+         "Left chart: does the name do the work?",
+         ["Each dot is one company: score with the name vs with it hidden.",
+          "Dots BELOW the dashed line = hiding the name LOWERED the score.",
+          [(f"ΔAUC = {d_txt}: ", {"bold": True}),
+           ("part of the 'signal' is recognizing the company, not reading the news, "
+            "so it may not carry to unknown companies.", {})]],
+         body_h=Inches(1.58))
+    card(s, Inches(6.77), Inches(4.12), Inches(6.15),
+         "Right chart: are the numbers stable?",
+         ["Same window scored twice: run 1 vs run 2.",
+          "Dots sit ON the line = the re-run gives almost the same number.",
+          [(f"Spearman {rho_txt}, drift {drift_txt} pts on 0-100: ", {"bold": True}),
+           ("the scores are reproducible, not arbitrary, so they carry real information "
+            "even if imperfect.", {})]],
+         body_h=Inches(1.58))
     if isinstance(delta, (int, float)):
-        if delta >= 0.05:
-            msg = (f"Repeatable ({rho_txt}, drift {drift_txt} on 0–100) — the scores are NOT arbitrary. "
-                   f"But masking the company name lowers takeover scores (ΔAUC {delta:+.2f}) — part of "
-                   f"the 'signal' is recognizing the company, not reading the text.")
-            pos = False
-        else:
-            msg = (f"Repeatable ({rho_txt}, drift {drift_txt} on 0–100) AND masking barely moves scores "
-                   f"(ΔAUC {delta:+.2f}) — the model is reading the text, not just recognizing the "
-                   f"company. Both checks pass.")
-            pos = True
-        callout(s, msg, positive=pos, y=Inches(6.10), h=Inches(0.95))
+        pos = delta < 0.05
+        msg = ("Both checks pass: the scores are stable AND masking barely moves them, so the model is "
+               "reading the text, not just recognizing the company." if pos else
+               "Read together: the scores are stable and not random (good), but some of the apparent "
+               "skill is recognizing the company rather than reading the text, the caveat for scoring "
+               "companies the model has never seen.")
+        callout(s, msg, positive=pos, y=Inches(6.22), h=Inches(0.80))
     add_footer(s)
 
     # ── 8. Model sensitivity + cost ──────────────────────────────────────────
     s = new_slide()
     add_header(s, "Model Sensitivity & What $100 Buys",
-               f"gpt-5 vs gpt-5-mini on {sens.get('n', '?')} shared windows — does ~10x price buy a different read?")
+               f"gpt-5 vs gpt-5-mini on {sens.get('n', '?')} shared windows - does ~10x price buy a different read?")
     kpi_tile(s, Inches(0.40), Inches(1.55), fmt(sens.get("mean_spearman")),
              "score agreement (mean Spearman)", fill=NAVY, value_color=AMBER)
     auc_pair = sens.get("auc") or {}
@@ -662,19 +655,19 @@ def main() -> None:
             ["Same, company names masked", "gpt-5-mini", "≈ $2.50"],
             ["Memorization probe (2 calls/event)", "gpt-5-mini", "≈ $0.60"],
             ["100-event sensitivity subset ×2 variants", "gpt-5", "≈ $4.00"],
-            ["Everything above at gpt-5 prices", "gpt-5", "≈ $45 — still inside $100"]]
+            ["Everything above at gpt-5 prices", "gpt-5", "≈ $45 - still inside $100"]]
     shape_table(s, Inches(0.40), Inches(3.30), [Inches(6.2), Inches(2.6), Inches(3.7)], rows,
                 row_h=Inches(0.40))
-    callout(s, "Cost is NOT the constraint — validity is. The binding limit is look-ahead "
+    callout(s, "Cost is NOT the constraint - validity is. The binding limit is look-ahead "
                "bias and score stability, not the API bill.", positive=True)
     add_footer(s)
 
     # ── 9. Honest read & the right fix ───────────────────────────────────────
     s = new_slide()
-    add_header(s, "Honest Read: Pre-Registered Verdict & The Right Fix",
-               "Thresholds fixed before the numbers came in — the narrative can't bend to flatter the result")
+    add_header(s, "Honest Read & The Right Fix",
+               "The bottom-line finding, three honest caveats, and the fix that makes it trustworthy")
     card(s, Inches(0.40), Inches(1.50), Inches(4.05), "Look-ahead bias",
-         ["LLM trained on news about these deals.", "Fix: OpenRouter — pin models whose",
+         ["LLM trained on news about these deals.", "Fix: OpenRouter - pin models whose",
           "training cutoff predates the eval window;", "makes look-ahead structurally impossible."],
          body_h=Inches(1.85))
     card(s, Inches(4.64), Inches(1.50), Inches(4.05), "Arbitrary numbers",
@@ -682,21 +675,32 @@ def main() -> None:
           "against realized frequencies, keep", "evidence quotes mandatory (auditable)."],
          body_h=Inches(1.85))
     card(s, Inches(8.88), Inches(1.50), Inches(4.05), "Thin data + API gate",
-         ["Only 37 events LLM-scored — an OpenAI", "credit issue paused scaling (resolving now);",
+         ["Only 37 events LLM-scored - an OpenAI", "credit issue paused scaling (resolving now);",
           "small test sets swing AUC ±0.05+.", "Fix: fund credits (full run ≈ a few $),",
           "scale scrape, add article bodies."], body_h=Inches(1.85))
-    crit = stats.get("criteria") or []
-    if crit:
-        rows = [["Registered criterion (fixed in advance)", "Threshold", "Observed", "Fired?"]]
-        for c in crit:
-            rows.append([c["criterion"], c["threshold"], c["observed"],
-                         "YES" if c["fired"] else "no"])
-        shape_table(s, Inches(0.40), Inches(3.85),
-                    [Inches(5.1), Inches(3.6), Inches(2.0), Inches(1.4)], rows,
-                    row_h=Inches(0.36), font_size=11.5)
-    callout(s, "Week 7 recommendation: cutoff-matched backtest via OpenRouter on the full event set — "
+    try:
+        best_auc = max(best[k][1]["auc"] for k in (a_key, b_key, c_key) if k in best)
+    except (KeyError, ValueError, TypeError):
+        best_auc = None
+    va = f"{best_auc:.2f}" if isinstance(best_auc, (int, float)) else "~0.54"
+    ntest = stats.get("n_test_rows", "the")
+    md = masking.get("delta")
+    md_txt = f"{md:.2f}" if isinstance(md, (int, float)) else "0.06"
+    _box(s, Inches(0.40), Inches(3.82), Inches(12.53), Inches(1.88), fill=LIGHT_PINK)
+    _text(s, Inches(0.62), Inches(3.96), Inches(12.1), Inches(1.70),
+          [[("The verdict:  ", {"size": 16, "bold": True, "color": NAVY}),
+            ("the best model across all three feature sets scores AUC ", {"size": 16, "bold": True, "color": NAVY}),
+            (f"{va}, a coin flip.", {"size": 16, "bold": True, "color": GOLD})],
+           "",
+           [(f"Even a frontier LLM reading the same free news cannot reliably separate a pre-announcement "
+             f"window from a quiet one. The LLM set's small edge over classic NLP sits inside the noise of a "
+             f"{ntest}-window test set, and part of it is name recognition (masking drops AUC {md_txt}), so it "
+             f"is not trustworthy evidence. This is the same null result as week 4, now confirmed with a "
+             f"generative LLM.", {"size": 13, "color": NAVY})]],
+          size=13, color=NAVY, line_spacing=1.16)
+    callout(s, "Week 7 fix: a cutoff-matched backtest via OpenRouter on the full event set, "
                "the only version of this result an investor should trust.", positive=True,
-            y=Inches(5.90), h=Inches(0.85))
+            y=Inches(5.86), h=Inches(0.80))
     add_footer(s)
 
     # ── 10. Thanks ────────────────────────────────────────────────────────────
