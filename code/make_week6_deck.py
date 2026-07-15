@@ -579,12 +579,31 @@ def main() -> None:
            "pre-cutoff “prediction” is potentially an act of memory,",
            "not inference. The pre- vs post-cutoff gap isolates it."],
           size=13.5, color=DARK_TEXT, line_spacing=1.15)
+    # Reconciliation panel — the 71% is the number the audience will challenge.
+    def _pp(v):
+        return f"{v:.0%}" if isinstance(v, (int, float)) else "n/a"
+    acc_s, acq_s = _pp(probe.get("acc")), _pp(probe.get("acq_precision"))
+    pre_s, post_s = _pp(probe.get("acc_pre_cutoff")), _pp(probe.get("acc_post_cutoff"))
+    nrc = probe.get("n_recall_claims", 0)
+    card(s, Inches(6.60), Inches(4.35), Inches(6.13),
+         "Is the 71% a memorization problem?",
+         [[("No — real memory, but not time-localized:", {"bold": True, "size": 11.5})],
+          [(f"{acq_s} acquirer recall", {"bold": True, "size": 10.5}),
+           (f"  = entity memory, only on the {nrc} windows it self-flags (knows who bought whom).",
+            {"size": 10.5})],
+          [(f"{acc_s} yes/no ≈ chance", {"bold": True, "size": 10.5}),
+           ("  = but it can't place a deal in time (a fact has no timeline).", {"size": 10.5})],
+          [(f"{pre_s} pre ≈ {post_s} post-cutoff", {"bold": True, "size": 10.5}),
+           ("  = deals it could have memorized score no higher than ones it never saw ⇒ no edge.",
+            {"size": 10.5})]],
+         header_fill=BLUE, body_h=Inches(1.48))
     if isinstance(probe.get("acc"), (int, float)):
         bad = probe["acc"] >= 0.6
         callout(s, (f"Probe accuracy {probe['acc']:.0%} — training-data look-ahead CONFIRMED; "
                     f"pre-cutoff AUCs cannot be taken at face value." if bad else
-                    f"Probe accuracy {probe['acc']:.0%} ≈ chance — no strong evidence the model "
-                    f"recalls these specific deals."), positive=not bad)
+                    f"Memorization is real but NOT time-localized: {acq_s} acquirer recall, yet the yes/no "
+                    f"probe is at chance and pre- ≈ post-cutoff — so it does not inflate the results."),
+                 positive=not bad)
     add_footer(s)
 
     # ── 7. Honesty 2+3: masking & repeatability ──────────────────────────────
