@@ -255,14 +255,18 @@ def main() -> None:
              "memorization-probe accuracy (chance 50%)",
              fill=GREEN if (isinstance(probe_acc, (int, float)) and probe_acc < 0.6) else NAVY,
              value_color=WHITE)
-    scope = (f"Honest scope: {stats.get('n_model_rows', '?')} modeling windows from "
-             f"{stats.get('n_events_llm_scored', '?')} LLM-scored events "
-             f"({stats.get('n_test_rows', '?')} in the held-out test split). LLM coverage was "
-             f"budget-limited (~$0.40 spent). Small sample — every AUC carries a bootstrap 95% CI; "
-             f"read these as DIRECTIONAL, not settled.")
-    _box(s, x0, Inches(2.82), Inches(12.13), Inches(0.30), fill=GOLD)
-    _text(s, x0 + Inches(0.10), Inches(2.80), Inches(12.0), Inches(0.34), scope,
-          size=11.5, color=NAVY, bold=True, anchor=MSO_ANCHOR.MIDDLE)
+    scope = [
+        (f"Honest scope: {stats.get('n_model_rows', '?')} windows from "
+         f"{stats.get('n_events_llm_scored', '?')} LLM-scored events "
+         f"({stats.get('n_test_rows', '?')} in test). Small sample — read every AUC as "
+         f"DIRECTIONAL (bootstrap 95% CIs), not settled."),
+        ("⚠  LLM scaling currently paused on an OpenAI API credit issue we're resolving "
+         "— the pipeline is built and runs; only the paid LLM step is gated (~$0.39 spent, "
+         "37 of 126 scraped events scored)."),
+    ]
+    _box(s, x0, Inches(2.74), Inches(12.13), Inches(0.48), fill=GOLD)
+    _text(s, x0 + Inches(0.10), Inches(2.74), Inches(12.0), Inches(0.48), scope,
+          size=10.5, color=NAVY, bold=True, anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.05)
     card(s, x0, Inches(3.28), Inches(4.05), "1 · Built",
          ["• extract_llm_features.py — parallel,", "  resumable, $-capped scorer",
           "• 17 strict-JSON fields per window", "  (rumor, strategic review, activist,",
@@ -584,10 +588,10 @@ def main() -> None:
          ["'activist_pressure = 7' is a judgment.", "Fix: average repeat scores, calibrate",
           "against realized frequencies, keep", "evidence quotes mandatory (auditable)."],
          body_h=Inches(1.85))
-    card(s, Inches(8.88), Inches(1.50), Inches(4.05), "Thin, noisy data",
-         ["Free headlines are sparse; small test", "sets swing AUC by ±0.05+.",
-          "Fix: scale the resumable scrape, add", "article bodies, walk-forward validation."],
-         body_h=Inches(1.85))
+    card(s, Inches(8.88), Inches(1.50), Inches(4.05), "Thin data + API gate",
+         ["Only 37 events LLM-scored — an OpenAI", "credit issue paused scaling (resolving now);",
+          "small test sets swing AUC ±0.05+.", "Fix: fund credits (full run ≈ a few $),",
+          "scale scrape, add article bodies."], body_h=Inches(1.85))
     crit = stats.get("criteria") or []
     if crit:
         rows = [["Registered criterion (fixed in advance)", "Threshold", "Observed", "Fired?"]]
