@@ -1,0 +1,1004 @@
+ticker,company_name,sector,start_date,end_date,permno,gvkey,cik,source,source_url,source_as_of,gics_sub_industry,point_in_time
+MMM,3M,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Conglomerates,false
+AOS,A. O. Smith,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+AAON,AAON,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+ABT,Abbott Laboratories,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+ABBV,AbbVie,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+ACHC,Acadia Healthcare,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Facilities,false
+ACN,Accenture,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+AYI,Acuity Brands,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+ADBE,Adobe Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+ADT,ADT Inc.,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WMS,Advanced Drainage Systems,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AMD,Advanced Micro Devices,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+ACM,AECOM,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+AES,AES Corporation,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Independent Power Producers & Energy Traders,false
+AMG,Affiliated Managers Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+AFRM,Affirm Holdings,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AFL,Aflac,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+AGCO,AGCO,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Agricultural & Farm Machinery,false
+A,Agilent Technologies,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+ADC,Agree Realty,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AGNC,AGNC Investment,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AL,Air Lease Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+APD,Air Products,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Gases,false
+ABNB,Airbnb,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise lines",false
+AKAM,Akamai Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Internet Services & Infrastructure,false
+ALK,Alaska Air Group,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Airlines,false
+ALB,Albemarle Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+ACI,Albertsons,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Retail,false
+AA,Alcoa,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aluminum,false
+ARE,Alexandria Real Estate Equities,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Office REITs,false
+ALGN,Align Technology,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Supplies,false
+ALLE,Allegion,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+ALGM,Allegro MicroSystems,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LNT,Alliant Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+ALSN,Allison Transmission,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ALL,Allstate,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+ALLY,Ally Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ALNY,Alnylam Pharmaceuticals,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GOOGL,Alphabet (Class A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+GOOG,Alphabet (Class C),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+MO,Altria,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Tobacco,false
+AMZN,Amazon,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Broadline Retail,false
+AMCR,Amcor,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Paper & Plastic Packaging Products & Materials,false
+DOX,Amdocs,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AMTM,Amentum,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+AS,Amer Sports,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Leisure Products,false
+AEE,Ameren,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+AAL,American Airlines Group,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Airlines,false
+AEP,American Electric Power,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+AXP,American Express,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Finance,false
+AFG,American Financial Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-line Insurance,false
+AMH,American Homes 4 Rent,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AIG,American International Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+AMT,American Tower,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Telecom Tower REITs,false
+AWK,American Water Works,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Water Utilities,false
+COLD,Americold,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AMP,Ameriprise Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+AME,Ametek,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+AMGN,Amgen,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+AMKR,Amkor Technology,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+APH,Amphenol,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Components,false
+ADI,Analog Devices,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+AU,AngloGold Ashanti,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Gold,false
+NLY,Annaly Capital Management,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AM,Antero Midstream,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AR,Antero Resources,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AON,Aon plc,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Insurance Brokers,false
+APA,APA Corporation,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+APG,APi Group,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+APO,Apollo Global Management,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+APPF,AppFolio,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+AAPL,Apple Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+AIT,Applied Industrial Technologies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Trading Companies & Distributors,false
+AMAT,Applied Materials,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+APP,AppLovin,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+ATR,AptarGroup,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Metal, Glass & Plastic Containers",false
+APTV,Aptiv,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Parts & Equipment,false
+ARMK,Aramark,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ACGL,Arch Capital Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Reinsurance,false
+ADM,Archer Daniels Midland,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Agricultural Products & Services,false
+ARES,Ares Management,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ANET,Arista Networks,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Communications Equipment,false
+AWI,Armstrong World Industries,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ARW,Arrow Electronics,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Technology Distributors,false
+AJG,Arthur J. Gallagher & Co.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Insurance Brokers,false
+ASH,Ashland Global,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Chemicals,false
+AIZ,Assurant,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-line Insurance,false
+AGO,Assured Guaranty,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ALAB,Astera Labs,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+ASTS,AST SpaceMobile,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Wireless Telecommunication Services,false
+T,AT&T,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Telecommunication Services,false
+ATI,ATI Inc.,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+TEAM,Atlassian,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+ATO,Atmos Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Gas Utilities,false
+AUR,Aurora Innovation,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ADSK,Autodesk,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+ADP,Automatic Data Processing,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Human Resource & Employment Services,false
+AN,AutoNation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Retail,false
+AZO,AutoZone,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Retail,false
+AVB,AvalonBay Communities,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Family Residential REITs,false
+AVTR,Avantor,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AVY,Avery Dennison,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Paper & Plastic Packaging Products & Materials,false
+CAR,Avis Budget Group,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Ground Transportation,false
+AVT,Avnet,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Technology Distributors,false
+AXTA,Axalta,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AXS,AXIS Capital,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+AXON,Axon Enterprise,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+BKR,Baker Hughes,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Equipment & Services,false
+BALL,Ball Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Metal, Glass & Plastic Containers",false
+BAC,Bank of America,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Banks,false
+OZK,Bank OZK,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+BBWI,"Bath & Body Works, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialty Retail,false
+BAX,Baxter International,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+BDX,Becton Dickinson,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+BRBR,BellRing Brands,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+BSY,Bentley Systems,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BRK.B,Berkshire Hathaway,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Sector Holdings,false
+BBY,Best Buy,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Computer & Electronics Retail,false
+BILL,Bill.com,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BIO,Bio-Rad Laboratories,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+TECH,Bio-Techne,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+BIIB,Biogen,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+BMRN,BioMarin Pharmaceutical,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BIRK,Birkenstock,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Footwear,false
+BJ,BJ's Wholesale Club,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Hypermarkets & Super Centers,false
+BLK,BlackRock,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+BX,Blackstone Inc.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+HRB,H&R Block,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialized Consumer Services,false
+XYZ,"Block, Inc.",Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+OWL,Blue Owl Capital,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BNY,BNY Mellon,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+BA,Boeing,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+BOKF,BOK Financial Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BKNG,Booking Holdings,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+BAH,Booz Allen Hamilton,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BWA,BorgWarner,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Parts & Equipment,false
+SAM,Boston Beer Company,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Brewers,false
+BSX,Boston Scientific,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+BYD,Boyd Gaming,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+BFAM,Bright Horizons,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BHF,Brighthouse Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+BMY,Bristol Myers Squibb,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Distributors,false
+BRX,Brixmor Property Group,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+AVGO,Broadcom,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+BR,Broadridge Financial Solutions,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Processing & Outsourced Services,false
+BAM,Brookfield Asset Management,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+BEPC,Brookfield Renewable Partners,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BRO,Brown & Brown,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Insurance Brokers,false
+BF.A,Brown–Forman (Class A),Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Distillers & Vintners,false
+BF.B,Brown–Forman (Class B),Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Distillers & Vintners,false
+BRKR,Bruker,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+BC,Brunswick Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Leisure Products,false
+BLDR,Builders FirstSource,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+BLSH,Bullish,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BG,Bunge Global,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Agricultural Products & Services,false
+BURL,Burlington Stores,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BWXT,BWX Technologies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+BXP,"BXP, Inc.",Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Office REITs,false
+CHRW,C.H. Robinson,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Air Freight & Logistics,false
+CACI,CACI,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+CDNS,Cadence Design Systems,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+CZR,Caesars Entertainment,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+CPT,Camden Property Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Family Residential REITs,false
+CPB,Campbell Soup Company,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+COF,Capital One,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Finance,false
+CAH,Cardinal Health,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Distributors,false
+CAI,Caris Life Sciences,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+CSL,Carlisle Companies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Conglomerates,false
+CG,Carlyle Group (The),Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+KMX,CarMax,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Retail,false
+CCL,Carnival Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+CRS,Carpenter Technology Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Steel,false
+CARR,Carrier Global,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+CVNA,Carvana,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Retail,false
+CASY,Casey's,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Retail,false
+CAT,Caterpillar Inc.,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Machinery & Heavy Transportation Equipment,false
+CAVA,Cava Group,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+CBOE,Cboe Global Markets,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+CBRE,CBRE Group,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Real Estate Services,false
+CCC,CCC Intelligent Solutions,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CDW,CDW,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Technology Distributors,false
+CE,Celanese,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+CELH,Celsius Holdings,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+COR,Cencora,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Distributors,false
+CNC,Centene,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Managed Health Care,false
+CNP,Centerpoint Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+CBC,Central Bancompany,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CERT,"Certara, Inc.",Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CF,CF Industries,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Fertilizers & Agricultural Chemicals,false
+CRL,Charles River Laboratories,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+SCHW,Charles Schwab Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+CHTR,Charter Communications,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cable & Satellite,false
+CHE,Chemed Corporation,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Services,false
+LNG,Cheniere Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CVX,Chevron Corporation,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Oil & Gas,false
+CHWY,Chewy,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialty Retail,false
+CMG,Chipotle Mexican Grill,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+CHH,Choice Hotels,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+CHRD,Chord Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+CB,Chubb Limited,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+CHD,Church & Dwight,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Household Products,false
+CHDN,Churchill Downs Incorporated,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+CIEN,Ciena,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Communications Equipment,false
+CI,Cigna,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Managed Health Care,false
+CINF,Cincinnati Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+CTAS,Cintas,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+CRCL,Circle Internet Group,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CRUS,Cirrus Logic,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+CSCO,Cisco,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Communications Equipment,false
+C,Citigroup,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Banks,false
+CFG,Citizens Financial Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+CLVT,Clarivate,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CLH,Clean Harbors,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Environmental & Facilities Services,false
+CWEN.A,Clearway Energy (Class A),Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CWEN,Clearway Energy (Class C),Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CLF,Cleveland-Cliffs,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Steel,false
+CLX,Clorox,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Household Products,false
+NET,Cloudflare,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CME,CME Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+CMS,CMS Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+CNA,CNA Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CNH,CNH Industrial,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+KO,Coca-Cola Company (The),Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+COKE,Coca-Cola Consolidated,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+CGNX,Cognex Corporation,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Equipment & Instruments,false
+CTSH,Cognizant,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+COHR,Coherent Corp.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Components,false
+COIN,Coinbase,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+CL,Colgate-Palmolive,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Household Products,false
+COLB,Columbia Banking System,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+COLM,Columbia Sportswear,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+CMCSA,Comcast,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cable & Satellite,false
+FIX,Comfort Systems USA,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+CBSH,Commerce Bancshares,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+CAG,Conagra Brands,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+CNXC,Concentrix,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Processing & Outsourced Services,false
+COP,ConocoPhillips,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+ED,Consolidated Edison,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+STZ,Constellation Brands,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Distillers & Vintners,false
+CEG,Constellation Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+COO,Cooper Companies (The),Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Supplies,false
+CPRT,Copart,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+CORT,Corcept Therapeutics,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+CNM,Core & Main,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Trading Companies & Distributors,false
+GLW,Corning Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Components,false
+CPAY,Corpay,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+CTVA,Corteva,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Fertilizers & Agricultural Chemicals,false
+CSGP,CoStar Group,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Real Estate Services,false
+COST,Costco,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Staples Merchandise Retail,false
+COTY,Coty,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Personal Care Products,false
+CPNG,Coupang,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CUZ,Cousins Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Office REITs,false
+CR,Crane Co.,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+CXT,Crane NXT,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+CACC,Credit Acceptance,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CRH,CRH plc,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Materials,false
+CROX,Crocs,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Footwear,false
+CRWD,CrowdStrike,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+CCI,Crown Castle,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Telecom Tower REITs,false
+CCK,Crown Holdings,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CSX,CSX Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Rail Transportation,false
+CUBE,CubeSmart,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CMI,Cummins,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+CW,Curtiss-Wright,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+CVS,CVS Health,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Services,false
+DHI,D. R. Horton,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+DHR,Danaher Corporation,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+DRI,Darden Restaurants,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+DAR,Darling Ingredients,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DDOG,Datadog,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+DVA,DaVita,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Facilities,false
+DECK,Deckers Brands,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Footwear,false
+DE,Deere & Company,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Agricultural & Farm Machinery,false
+DAL,Delta Air Lines,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Airlines,false
+DELL,Dell Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+XRAY,Dentsply Sirona,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Supplies,false
+DVN,Devon Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+DXCM,Dexcom,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+FANG,Diamondback Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+DKS,Dick's Sporting Goods,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialty Retail,false
+DLR,Digital Realty,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Center REITs,false
+DDS,Dillard's,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Broadline Retail,false
+DOCU,DocuSign,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+DLB,Dolby Laboratories,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DG,Dollar General,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Staples Merchandise Retail,false
+DLTR,Dollar Tree,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Staples Merchandise Retail,false
+D,Dominion Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+DPZ,Domino's,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+DCI,Donaldson Company,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+DASH,DoorDash,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+DV,DoubleVerify,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DOV,Dover Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+DOW,Dow Inc.,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Commodity Chemicals,false
+DOCS,Doximity,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DKNG,DraftKings,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DBX,Dropbox,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DTM,DT Midstream,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DTE,DTE Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+DUK,Duke Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+DUOL,Duolingo,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Education Services,false
+DD,DuPont,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+BROS,Dutch Bros Inc.,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+DXC,DXC Technology,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+DT,Dynatrace,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ELF,e.l.f. Beauty,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Personal Care Products,false
+EXP,Eagle Materials,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Materials,false
+EWBC,East West Bancorp,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+EGP,EastGroup Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+EMN,Eastman Chemical Company,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Chemicals,false
+ETN,Eaton Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+EBAY,eBay,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Broadline Retail,false
+ECL,Ecolab,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+EIX,Edison International,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+EW,Edwards Lifesciences,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+ELAN,Elanco,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ESTC,Elastic NV,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+EA,Electronic Arts,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Home Entertainment,false
+ESI,Element Solutions,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ELV,Elevance Health,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Managed Health Care,false
+EME,Emcor,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+EMR,Emerson Electric,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+EHC,Encompass Health,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Facilities,false
+ENPH,Enphase Energy,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Components,false
+ENTG,Entegris,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ETR,Entergy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+NVST,Envista,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Supplies,false
+EOG,EOG Resources,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+EPAM,EPAM Systems,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+EPR,EPR Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialized REITs,false
+EQT,EQT Corporation,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+EFX,Equifax,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Research & Consulting Services,false
+EQIX,Equinix,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Center REITs,false
+EQH,Equitable Holdings,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ELS,Equity Lifestyle Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+EQR,Equity Residential,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Family Residential REITs,false
+ESAB,ESAB,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+WTRG,Essential Utilities,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Water Utilities,false
+ESS,Essex Property Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Family Residential REITs,false
+EL,Estée Lauder Companies (The),Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Personal Care Products,false
+ETSY,Etsy,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+EEFT,Euronet Worldwide,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+EVR,Evercore,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+EG,Everest Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Reinsurance,false
+EVRG,Evergy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+P,Everpure,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+ES,Eversource Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+ECG,Everus Construction Group,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+EXEL,Exelixis,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+EXC,Exelon,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+EXLS,EXL Service,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Processing & Outsourced Services,false
+EXE,Expand Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+EXPE,Expedia Group,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+EXPD,Expeditors International,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Air Freight & Logistics,false
+EXR,Extra Space Storage,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Self-Storage REITs,false
+XOM,ExxonMobil,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Oil & Gas,false
+FFIV,"F5, Inc.",Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Communications Equipment,false
+FDS,FactSet,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+FICO,Fair Isaac,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+FAST,Fastenal,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+FRT,Federal Realty Investment Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+FDX,FedEx,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Air Freight & Logistics,false
+FDXF,FedEx Freight,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+FERG,Ferguson Enterprises,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+FRMI,Fermi Inc.,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FNF,Fidelity National Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FIS,Fidelity National Information Services,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+FITB,Fifth Third Bancorp,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+FIGR,Figure Technology Solutions,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FAF,First American Financial Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+FCNCA,First Citizens BancShares,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FHB,"First Hawaiian, Inc.",Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+FHN,First Horizon Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+FR,First Industrial Realty Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FSLR,First Solar,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+FE,FirstEnergy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+FISV,Fiserv,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+FIVE,Five Below,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialty Retail,false
+FLEX,Flex Ltd.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Manufacturing Services,false
+FND,Floor & Decor,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Home Improvement Retail,false
+FLO,Flowers Foods,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+FLS,Flowserve,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+FLUT,Flutter Entertainment,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+FMC,FMC Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Fertilizers & Agricultural Chemicals,false
+FNB,FNB Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+F,Ford Motor Company,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automobile Manufacturers,false
+FTNT,Fortinet,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Systems Software,false
+FTV,Fortive,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+FBIN,Fortune Brands Innovations,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+FOXA,Fox Corporation (Class A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+FOX,Fox Corporation (Class B),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+BEN,Franklin Templeton Investments,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+FRHC,Freedom Holding,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FCX,Freeport-McMoRan,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Copper,false
+FRPT,Freshpet,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+CFR,Frost Bank,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+FTAI,FTAI Aviation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FCN,FTI Consulting,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Research & Consulting Services,false
+GME,GameStop,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Computer & Electronics Retail,false
+GLPI,Gaming and Leisure Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GAP,Gap Inc.,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Apparel Retail,false
+GRMN,Garmin,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Electronics,false
+IT,Gartner,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+GTES,Gates Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GLIBA,GCI Liberty (Series A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Telecommunication Services,false
+GLIBK,GCI Liberty (Series C),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Telecommunication Services,false
+GE,GE Aerospace,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+GEHC,GE HealthCare,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+GEV,GE Vernova,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+GEN,Gen Digital,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+GNRC,Generac,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+GD,General Dynamics,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+GIS,General Mills,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+GM,General Motors,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automobile Manufacturers,false
+G,Genpact,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Processing & Outsourced Services,false
+GNTX,Gentex,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Parts & Equipment,false
+GPC,Genuine Parts Company,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Parts & Equipment,false
+GILD,Gilead Sciences,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+GTLB,GitLab,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GPN,Global Payments,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+GFS,GlobalFoundries,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GLOB,Globant,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GL,Globe Life,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+GMED,Globus Medical,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+GDDY,GoDaddy,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GS,Goldman Sachs,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+GGG,Graco Inc.,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+LOPE,Grand Canyon Education,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Education Services,false
+GPK,Graphic Packaging,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GWRE,Guidewire Software,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+GXO,GXO Logistics,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Air Freight & Logistics,false
+HAL,Halliburton,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Equipment & Services,false
+HALO,Halozyme,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+HLNE,Hamilton Lane,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+THG,Hanover Insurance,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+HOG,Harley-Davidson,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Motorcycle Manufacturers,false
+HIG,Hartford (The),Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+HAS,Hasbro,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Leisure Products,false
+HAYW,Hayward Holdings,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+HCA,HCA Healthcare,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Facilities,false
+HR,Healthcare Realty Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DOC,Healthpeak Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care REITs,false
+HEI.A,HEICO (Class A),Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+HEI,HEICO (Common),Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+JKHY,Jack Henry & Associates,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+HSY,Hershey Company (The),Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+HPE,Hewlett Packard Enterprise,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+HXL,Hexcel,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+DINO,HF Sinclair,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Refining & Marketing,false
+HIW,Highwoods Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+HLT,Hilton Worldwide,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+HD,Home Depot (The),Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Home Improvement Retail,false
+HON,Honeywell,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Conglomerates,false
+HRL,Hormel Foods,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+HST,Host Hotels & Resorts,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Hotel & Resort REITs,false
+HLI,Houlihan Lokey,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+HHH,Howard Hughes Holdings,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+HWM,Howmet Aerospace,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+HPQ,HP Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+HUBB,Hubbell Incorporated,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+HUBS,HubSpot,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+HUM,Humana,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Managed Health Care,false
+HBAN,Huntington Bancshares,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+HII,Huntington Ingalls Industries,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+HUN,Huntsman Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+H,Hyatt Hotels,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+IBM,IBM,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+IDA,Idacorp,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+IEX,IDEX Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+IDXX,Idexx Laboratories,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+ITW,Illinois Tool Works,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+ILMN,"Illumina, Inc.",Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+INCY,Incyte,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+IR,Ingersoll Rand,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+INGM,Ingram Micro,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Technology Distributors,false
+INGR,Ingredion,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Agricultural Products & Services,false
+INSM,Insmed,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+INSP,Inspire Medical Systems,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PODD,Insulet,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+INTC,Intel,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+IBKR,Interactive Brokers,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+ICE,Intercontinental Exchange,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+IFF,International Flavors & Fragrances,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+IP,International Paper,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Paper & Plastic Packaging Products & Materials,false
+INTU,Intuit,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+ISRG,Intuitive Surgical,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+IVZ,Invesco,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+INVH,Invitation Homes,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Single-Family Residential REITs,false
+IONS,Ionis Pharmaceuticals,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+IPGP,IPG Photonics,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Manufacturing Services,false
+IQV,IQVIA,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+IRDM,Iridium Communications,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+IRM,Iron Mountain,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialized REITs,false
+ITT,ITT Inc.,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+JBL,Jabil,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Manufacturing Services,false
+J,Jacobs Solutions,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+JHX,James Hardie Industries,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+JHG,Janus Henderson,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+JAZZ,Jazz Pharmaceuticals,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+JBHT,J. B. Hunt,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+JEF,Jefferies Financial Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Sector Holdings,false
+JNJ,Johnson & Johnson,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+JCI,Johnson Controls,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+JLL,Jones Lang LaSalle,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Real Estate Services,false
+JPM,JPMorgan Chase,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Banks,false
+KRMN,Karman Holdings,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+KBR,"KBR, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+KMPR,Kemper Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-line Insurance,false
+KVUE,Kenvue,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Personal Care Products,false
+KDP,Keurig Dr Pepper,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+KEY,Keycorp,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+KEYS,Keysight,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Equipment & Instruments,false
+KRC,Kilroy Realty,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+KMB,Kimberly-Clark,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Household Products,false
+KIM,Kimco Realty,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+KMI,Kinder Morgan,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Storage & Transportation,false
+KNSL,Kinsale Capital Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+KEX,Kirby Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Marine Transportation,false
+KKR,KKR & Co. Inc.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+KLAC,KLA Corporation,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+KNX,Knight-Swift,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+KHC,Kraft Heinz,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+KR,Kroger,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Retail,false
+KD,Kyndryl,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+LHX,L3Harris,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+LH,Labcorp,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Services,false
+LRCX,Lam Research,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+LAMR,Lamar Advertising,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialized REITs,false
+LW,Lamb Weston,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+LSTR,Landstar,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+LVS,Las Vegas Sands,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+LSCC,Lattice Semiconductor,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+LAZ,Lazard,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LEA,Lear Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Parts & Equipment,false
+LDOS,Leidos,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+LEN,Lennar (Class A),Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+LEN.B,Lennar (Class B),Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+LII,Lennox International,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+DRS,Leonardo DRS,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+LBRDA,Liberty Broadband (Series A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LBRDK,Liberty Broadband (Series C),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LBTYA,Liberty Global (Series A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cable & Satellite,false
+LBTYK,Liberty Global (Series C),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cable & Satellite,false
+FWONA,Liberty Formula 1 (Series A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+FWONK,Liberty Formula 1 (Series C),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LLYVA,Liberty Live (Series A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LLYVK,Liberty Live (Series C),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LLY,Lilly (Eli),Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+LECO,Lincoln Electric,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+LNC,Lincoln Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-line Insurance,false
+LIN,Linde plc,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Gases,false
+LINE,"Lineage, Inc.",Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial REITs,false
+LAD,Lithia Motors,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Retail,false
+LFUS,Littelfuse,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Components,false
+LYV,Live Nation Entertainment,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+LKQ,LKQ Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Distributors,false
+LOAR,Loar Holdings,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+LMT,Lockheed Martin,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+L,Loews Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-line Insurance,false
+LPX,Louisiana-Pacific,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Forest Products,false
+LOW,Lowe's,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Home Improvement Retail,false
+LPLA,LPL Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LCID,Lucid Motors,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automobile Manufacturers,false
+LULU,Lululemon Athletica,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+LITE,Lumentum,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+LYFT,Lyft,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Ground Transportation,false
+LYB,LyondellBasell,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+MTB,M&T Bank,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+MTSI,MACOM Technology Solutions,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+M,"Macy's, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Department Stores,false
+MSGS,Madison Square Garden Sports,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MANH,Manhattan Associates,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MAN,ManpowerGroup,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Human Resource & Employment Services,false
+CART,Maplebear Inc.,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Retail,false
+MPC,Marathon Petroleum,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Refining & Marketing,false
+MKL,Markel,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MKTX,MarketAxess,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+MAR,Marriott International,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+MRSH,Marsh McLennan,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Insurance Brokers,false
+MLM,Martin Marietta Materials,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Materials,false
+MRVL,Marvell Technology,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+MAS,Masco,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+MASI,Masimo,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+MTZ,MasTec,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+MA,Mastercard,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+MTDR,Matador Resources,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+MTCH,Match Group,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+MAT,Mattel,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Leisure Products,false
+MKC,McCormick & Company,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+MCD,McDonald's,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+MCK,McKesson Corporation,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Distributors,false
+MDU,MDU Resources,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+MPT,Medical Properties Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care REITs,false
+MDLN,Medline Inc.,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MEDP,Medpace,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MDT,Medtronic,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+MRK,Merck & Co.,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+META,Meta Platforms,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+MET,Metlife,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+MTD,Mettler Toledo,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+MTG,MGIC Investment Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Reinsurance,false
+MGM,MGM Resorts International,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+MCHP,Microchip Technology,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+MU,Micron Technology,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+MSFT,Microsoft,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Systems Software,false
+MSTR,MicroStrategy,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+MAA,Mid-America Apartment Communities,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Family Residential REITs,false
+MIDD,Middleby,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+TIGO,Millicom,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Telecommunication Services,false
+MRP,Millrose Properties,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+MKSI,MKS Instruments,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+MRNA,Moderna,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+MHK,Mohawk Industries,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Home Furnishings,false
+MOH,Molina Healthcare,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Managed Health Care,false
+TAP,Molson Coors,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Brewers,false
+MDLZ,Mondelez International,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+MDB,MongoDB Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Systems Software,false
+MPWR,Monolithic Power Systems,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+MNST,Monster Beverage,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+MCO,Moody's Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+MS,Morgan Stanley,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+MORN,"Morningstar, Inc.",Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MOS,Mosaic Company (The),Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Fertilizers & Agricultural Chemicals,false
+MSI,Motorola Solutions,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Communications Equipment,false
+MP,MP Materials,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Metals & Mining,false
+MSA,MSA Safety,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Office Services & Supplies,false
+MSM,MSC Industrial Direct,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Trading Companies & Distributors,false
+MSCI,MSCI,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+MLI,Mueller Industries,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+MUSA,Murphy USA,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NDAQ,"Nasdaq, Inc.",Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+NTRA,Natera,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NFG,National Fuel Gas,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Gas Utilities,false
+NSA,National Storage Affiliates,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NCNO,nCino,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NTAP,Netapp,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+NFLX,Netflix,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+NBIX,Neurocrine Biosciences,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+NYT,New York Times Company,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Publishing,false
+NWL,Newell Brands,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Housewares & Specialties,false
+NEU,NewMarket,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+NEM,Newmont,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Gold,false
+NWSA,News Corp (Class A),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Publishing,false
+NWS,News Corp (Class B),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Publishing,false
+NXST,Nexstar Media Group,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NEE,NextEra Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+NIQ,NIQ Global Intelligence,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NKE,"Nike, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+NI,NiSource,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+NNN,NNN Reit,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+NDSN,Nordson,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+NSC,Norfolk Southern,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Rail Transportation,false
+NTRS,Northern Trust,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+NOC,Northrop Grumman,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+NOV,NOV Inc.,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Equipment & Services,false
+NRG,NRG Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Independent Power Producers & Energy Traders,false
+NU,Nubank,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NUE,Nucor,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Steel,false
+NTNX,Nutanix,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NVT,nVent Electric,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+NVDA,Nvidia,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+NVR,"NVR, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+ORLY,O'Reilly Auto Parts,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Retail,false
+OXY,Occidental Petroleum,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+OGE,OGE Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+OKTA,"Okta, Inc.",Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+ODFL,Old Dominion Freight Line,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+ORI,Old Republic International,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+OLN,Olin Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Chemicals,false
+OLLI,Ollie's Bargain Outlet,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,General Merchandise Stores,false
+OHI,Omega Healthcare Investors,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+OMC,Omnicom Group,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Advertising,false
+ONON,On Holding AG,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Footwear,false
+ON,ON Semiconductor,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+OMF,OneMain Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+OKE,Oneok,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Storage & Transportation,false
+ONTO,Onto Innovation,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+ORCL,Oracle Corporation,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+OGN,Organon & Co.,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+OSK,Oshkosh Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Machinery & Heavy Transportation Equipment,false
+OTIS,Otis Worldwide,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+OVV,Ovintiv,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+OC,Owens Corning,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+PCAR,Paccar,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Machinery & Heavy Transportation Equipment,false
+PKG,Packaging Corporation of America,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Paper & Plastic Packaging Products & Materials,false
+PLTR,Palantir Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Internet Services & Infrastructure,false
+PANW,Palo Alto Networks,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Systems Software,false
+PK,Park Hotels & Resorts,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Hotel & Resort REITs,false
+PH,Parker Hannifin,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+PSN,Parsons Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+PAYX,Paychex,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Human Resource & Employment Services,false
+PAYC,Paycom,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+PCTY,Paylocity,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+PYPL,PayPal,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+PEGA,Pegasystems,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PENN,Penn Entertainment,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+PAG,Penske Automotive Group,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PNR,Pentair,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+PEN,"Penumbra, Inc.",Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+PPLI,People Inc.,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PEP,PepsiCo,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+PFGC,Performance Food Group,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Distributors,false
+PR,Permian Resources,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+PRGO,Perrigo,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+PFE,Pfizer,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+PCG,PG&E Corporation,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PM,Philip Morris International,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Tobacco,false
+PSX,Phillips 66,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Refining & Marketing,false
+PPC,Pilgrim's Pride,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+PNFP,Pinnacle Financial Partners,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+PNW,Pinnacle West Capital,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+PINS,Pinterest,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PLNT,Planet Fitness,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PNC,PNC Financial Services,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+POOL,Pool Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Distributors,false
+BPOP,"Popular, Inc.",Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+POST,Post Holdings,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+PPG,PPG Industries,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+PPL,PPL Corporation,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+TROW,T. Rowe Price,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+PRI,Primerica,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+PRMB,Primo Brands,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Soft Drinks & Non-alcoholic Beverages,false
+PFG,Principal Financial Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+PCOR,Procore,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+PG,Procter & Gamble,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Personal Care Products,false
+PGR,Progressive Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+PLD,Prologis,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial REITs,false
+PB,Prosperity Bancshares,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+PRU,Prudential Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+PTC,PTC Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+PSA,Public Storage,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Self-Storage REITs,false
+PEG,Public Service Enterprise Group,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+PHM,PulteGroup,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+PVH,PVH Corp.,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+QGEN,Qiagen,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+Q,Qnity Electronics,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+QRVO,Qorvo,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+QCOM,Qualcomm,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+PWR,Quanta Services,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction & Engineering,false
+QS,QuantumScape,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+DGX,Quest Diagnostics,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Services,false
+QXO,"QXO, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RAL,Ralliant,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RL,Ralph Lauren Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+RRC,Range Resources,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+RJF,Raymond James Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+RYN,Rayonier,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Timber REITs,false
+RBA,RB Global,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RBC,RBC Bearings,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+O,Realty Income,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+RDDT,Reddit,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+RRX,Regal Rexnord,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+REG,Regency Centers,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+REGN,Regeneron Pharmaceuticals,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+RF,Regions Financial Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+RGA,Reinsurance Group of America,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Reinsurance,false
+RS,"Reliance, Inc.",Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Steel,false
+RNR,RenaissanceRe,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Reinsurance,false
+RGEN,Repligen,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+RSG,Republic Services,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Environmental & Facilities Services,false
+RMD,Resmed,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+QSR,Restaurant Brands International,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+RVMD,Revolution Medicines,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RVTY,Revvity,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+REXR,Rexford Industrial,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+REYN,Reynolds Consumer Products,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RH,RH,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homefurnishing Retail,false
+RNG,RingCentral,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RITM,Rithm Capital,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RIVN,Rivian,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RLI,RLI Corp.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RHI,Robert Half,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Human Resource & Employment Services,false
+HOOD,Robinhood Markets,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+RBLX,Roblox Corporation,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RKT,Rocket Companies,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RKLB,Rocket Lab,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+ROK,Rockwell Automation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+ROIV,Roivant Sciences,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ROKU,"Roku, Inc.",Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ROL,"Rollins, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Environmental & Facilities Services,false
+ROP,Roper Technologies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Conglomerates,false
+ROST,Ross Stores,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Apparel Retail,false
+RCL,Royal Caribbean Group,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+RGLD,Royal Gold,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Precious Metals & Minerals,false
+RPRX,Royalty Pharma,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RPM,RPM International,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+RTX,RTX Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+RBRK,Rubrik,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+RYAN,Ryan Specialty,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+R,Ryder,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+SPGI,S&P Global,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Financial Exchanges & Data,false
+SAIA,Saia,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SAIL,SailPoint,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+SAIC,SAIC,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Support Services,false
+CRM,Salesforce,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+SLM,Sallie Mae,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Finance,false
+IOT,Samsara,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Systems Software,false
+SNDK,SanDisk,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+SRPT,Sarepta Therapeutics,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SBAC,SBA Communications,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Telecom Tower REITs,false
+HSIC,Schein (Henry),Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Distributors,false
+SLB,Schlumberger,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Equipment & Services,false
+SNDR,Schneider National,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SMG,Scotts Miracle-Gro Company,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Fertilizers & Agricultural Chemicals,false
+SEB,Seaboard Corporation,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SEIC,SEI Investments Company,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+SRE,Sempra,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+ST,Sensata Technologies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+S,SentinelOne,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SCI,Service Corporation International,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialized Consumer Services,false
+NOW,ServiceNow,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Systems Software,false
+SN,SharkNinja,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Household Appliances,false
+SHW,Sherwin-Williams,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Specialty Chemicals,false
+FOUR,Shift4,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SLGN,Silgan Holdings,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Metal, Glass & Plastic Containers",false
+SPG,Simon Property Group,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Retail REITs,false
+SSD,Simpson Manufacturing Company,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+SIRI,Sirius XM,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Broadcasting,false
+SITE,SiteOne Landscape Supply,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SWKS,Skyworks Solutions,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+SFD,Smithfield Foods,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+SJM,J.M. Smucker Company (The),Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+SW,Smurfit Westrock,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Paper & Plastic Packaging Products & Materials,false
+SNA,Snap-on,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+SNOW,Snowflake Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SOFI,SoFi,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SOLS,Solstice Advanced Materials,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SOLV,Solventum,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+SGI,Somnigroup International,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Home Furnishings,false
+SON,Sonoco,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Paper & Plastic Packaging Products & Materials,false
+SHC,Sotera Health,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SO,Southern Company,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+SCCO,Southern Copper,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SSB,SouthState Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+LUV,Southwest Airlines,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Airlines,false
+SPOT,Spotify,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+SFM,Sprouts Farmers Market,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Retail,false
+SSNC,SS&C Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+STAG,STAG Industrial,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SARO,StandardAero,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+SWK,Stanley Black & Decker,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+SBUX,Starbucks,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+STWD,Starwood Property Trust,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+STT,State Street Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Asset Management & Custody Banks,false
+STLD,Steel Dynamics,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Steel,false
+STE,Steris,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+SF,Stifel,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+SYK,Stryker Corporation,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+SMMT,Summit Therapeutics,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SUI,Sun Communities,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+SMCI,Supermicro,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+SYF,Synchrony Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Finance,false
+SNPS,Synopsys,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+SYY,Sysco,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Food Distributors,false
+TMUS,T-Mobile US,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Wireless Telecommunication Services,false
+TTWO,Take-Two Interactive,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Home Entertainment,false
+TLN,Talen Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Independent Power Producers & Energy Traders,false
+TPR,"Tapestry, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+TRGP,Targa Resources,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Storage & Transportation,false
+TGT,Target Corporation,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Staples Merchandise Retail,false
+SNX,TD Synnex,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Technology Distributors,false
+FTI,TechnipFMC,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Equipment & Services,false
+TDY,Teledyne Technologies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+TFX,Teleflex,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+TEM,Tempus AI,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+THC,Tenet Healthcare,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Facilities,false
+TDC,Teradata,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,IT Consulting & Other Services,false
+TER,Teradyne,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductor Materials & Equipment,false
+TSLA,"Tesla, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automobile Manufacturers,false
+TTEK,Tetra Tech,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Environmental & Facilities Services,false
+TXN,Texas Instruments,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+TPL,Texas Pacific Land Corporation,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Exploration & Production,false
+TXRH,Texas Roadhouse,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+TXT,Textron,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+TMO,Thermo Fisher Scientific,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life Sciences Tools & Services,false
+TFSL,Third Federal S&L,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+THO,Thor Industries,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Leisure Products,false
+TKR,Timken Company,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+TJX,TJX Companies,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Apparel Retail,false
+TKO,TKO Group Holdings,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+TOST,"Toast, Inc.",Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+TOL,Toll Brothers,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homebuilding,false
+BLD,TopBuild,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+TTC,Toro Company (The),Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Agricultural & Farm Machinery,false
+TPG,TPG Inc.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+TSCO,Tractor Supply Company,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialty Retail,false
+TTD,Trade Desk (The),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Advertising,false
+TW,Tradeweb,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+TT,Trane Technologies,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+TDG,TransDigm Group,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Aerospace & Defense,false
+TRU,TransUnion,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+TNL,Travel + Leisure Co.,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+TRV,Travelers Companies (The),Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+TREX,"Trex Company, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Building Products,false
+TRMB,Trimble Inc.,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Equipment & Instruments,false
+TFC,Truist Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+DJT,Trump Media & Technology Group,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Interactive Media & Services,false
+TWLO,Twilio,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+TYL,Tyler Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+TSN,Tyson Foods,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Packaged Foods & Meats,false
+UHAL,U-Haul,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+UHAL.B,U-Haul (Series N),Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+USB,U.S. Bancorp,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Banks,false
+UBER,Uber,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Ground Transportation,false
+UI,Ubiquiti,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+UDR,"UDR, Inc.",Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Family Residential REITs,false
+UGI,UGI Corporation,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Gas Utilities,false
+PATH,UiPath,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ULTA,Ulta Beauty,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Other Specialty Retail,false
+RARE,Ultragenyx,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+UAA,Under Armour (Class A),Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+UA,Under Armour (Class C),Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+UNP,Union Pacific Corporation,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Rail Transportation,false
+UAL,United Airlines Holdings,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Passenger Airlines,false
+UPS,United Parcel Service,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Air Freight & Logistics,false
+URI,United Rentals,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Trading Companies & Distributors,false
+UTHR,United Therapeutics,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+UWMC,United Wholesale Mortgage,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+UNH,UnitedHealth Group,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Managed Health Care,false
+U,Unity Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+OLED,Universal Display Corporation,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Semiconductors,false
+UHS,Universal Health Services,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Facilities,false
+UNM,Unum,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Life & Health Insurance,false
+USFD,US Foods,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+MTN,Vail Resorts,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+VLO,Valero Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Refining & Marketing,false
+VMI,Valmont Industries,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+VVV,Valvoline,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Commodity Chemicals,false
+VEEV,Veeva Systems,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+VTR,"Ventas, Inc.",Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care REITs,false
+VLTO,Veralto,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Environmental & Facilities Services,false
+VRSN,Verisign,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Internet Services & Infrastructure,false
+VRSK,Verisk Analytics,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Research & Consulting Services,false
+VZ,Verizon,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Integrated Telecommunication Services,false
+VSNT,Versant,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+VGNT,Versigent,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Automotive Parts & Equipment,false
+VRTX,Vertex Pharmaceuticals,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+VRT,Vertiv,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+VFC,VF Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Apparel, Accessories & Luxury Goods",false
+VTRS,Viatris,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+VICI,Vici Properties,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Hotel & Resort REITs,false
+VIK,Viking Holdings,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+VKTX,Viking Therapeutics,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Biotechnology,false
+VNOM,Viper Energy,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Storage & Transportation,false
+VIRT,Virtu Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+V,Visa Inc.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+VST,Vistra Corp.,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+VNT,Vontier,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Equipment & Instruments,false
+VNO,Vornado Realty Trust,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Office REITs,false
+VOYA,Voya Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Sector Holdings,false
+VMC,Vulcan Materials,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Materials,false
+WPC,W. P. Carey,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WRB,W. R. Berkley Corporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Property & Casualty Insurance,false
+GWW,W. W. Grainger,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+WAB,Wabtec,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Construction Machinery & Heavy Transportation Equipment,false
+WMT,Walmart,Consumer Staples,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Consumer Staples Merchandise Retail,false
+DIS,Walt Disney Company (The),Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Movies & Entertainment,false
+WBD,Warner Bros. Discovery,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Broadcasting,false
+WM,"Waste Management, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Environmental & Facilities Services,false
+WAT,Waters Corporation,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Distributors,false
+WSO,Watsco,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Trading Companies & Distributors,false
+W,Wayfair,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WFRD,Weatherford International,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Equipment & Services,false
+WBS,Webster Bank,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+WEC,WEC Energy Group,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electric Utilities,false
+WFC,Wells Fargo,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Diversified Banks,false
+WELL,Welltower,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care REITs,false
+WEN,Wendy's Company (The),Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+WCC,Wesco International,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WST,West Pharmaceutical Services,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Supplies,false
+WAL,Western Alliance Bancorporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WDC,Western Digital,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Technology Hardware, Storage & Peripherals",false
+WU,Western Union,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Data Processing & Outsourced Services,false
+WLK,Westlake Corporation,Materials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WEX,WEX Inc.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Transaction & Payment Processing Services,false
+WY,Weyerhaeuser,Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Timber REITs,false
+WHR,Whirlpool Corporation,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Household Appliances,false
+WTM,White Mountains Insurance Group,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WMB,Williams Companies,Energy,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Oil & Gas Storage & Transportation,false
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Homefurnishing Retail,false
+WTW,Willis Towers Watson,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Insurance Brokers,false
+WSC,WillScot Mobile Mini,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WING,Wingstop,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+WTFC,Wintrust Financial,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+WWD,"Woodward, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electrical Components & Equipment,false
+WDAY,"Workday, Inc.",Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+WH,Wyndham Hotels & Resorts,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,"Hotels, Resorts & Cruise Lines",false
+WYNN,Wynn Resorts,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Casinos & Gaming,false
+XEL,Xcel Energy,Utilities,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Multi-Utilities,false
+XP,XP Inc.,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Investment Banking & Brokerage,false
+XPO,"XPO, Inc.",Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Cargo Ground Transportation,false
+XYL,Xylem Inc.,Industrials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Industrial Machinery & Supplies & Components,false
+YETI,Yeti Holdings,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Leisure Products,false
+YUM,Yum! Brands,Consumer Discretionary,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Restaurants,false
+ZBRA,Zebra Technologies,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Electronic Equipment & Instruments,false
+ZG,Zillow (Class A),Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+Z,Zillow (Class C),Real Estate,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ZBH,Zimmer Biomet,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Health Care Equipment,false
+ZION,Zions Bancorporation,Financials,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Regional Banks,false
+ZTS,Zoetis,Health Care,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Pharmaceuticals,false
+ZM,Zoom Communications,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false
+GTM,ZoomInfo,Communication Services,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,,false
+ZS,Zscaler,Information Technology,,,,,,Wikipedia Russell 1000 Index components,https://en.wikipedia.org/wiki/Russell_1000_Index,2026-04-02,Application Software,false

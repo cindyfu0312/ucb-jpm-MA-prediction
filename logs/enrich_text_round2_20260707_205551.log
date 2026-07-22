@@ -1,0 +1,32 @@
+6,992 unique GDELT URLs total, 5,493 already attempted, 1,499 to fetch this run
+  [50/1499] ok=26 last=SSLError                     http://www.4-traders.com/news/Industrials-Up-as-United-Technologies-Ne
+  [100/1499] ok=48 last=too_short                    http://dailycommercialnews.com/en-US/Economic/News/2017/9/Borealis-ren
+  [150/1499] ok=68 last=status_526_or_non_html       https://www.modernreaders.com/news/2024/06/29/altus-power-nyseamps-tra
+  [200/1499] ok=85 last=status_403_or_non_html       https://www.openpr.com/news/1470969/Microsurgery-Robot-Market-Analysis
+  [250/1499] ok=120 last=OK                           https://www.carwash.com/whistle-express-acquires-take-5-car-wash/
+  [300/1499] ok=151 last=status_403_or_non_html       https://regnum.ru/news/polit/2378540.html
+  [350/1499] ok=184 last=ConnectionError              https://markets.buffalonews.com/buffnews/article/abnewswire-2023-1-23-
+  [400/1499] ok=214 last=OK                           https://www.finanzaonline.com/notizie/unicredit-mustier-aggiornamento-
+  [450/1499] ok=243 last=status_404_or_non_html       https://www.hitc.com/en-gb/2022/01/15/does-tony-die-in-after-life-endi
+  [500/1499] ok=275 last=OK                           https://www.nrl.com/news/2018/03/18/benji-marshall-praised-for-getting
+  [550/1499] ok=290 last=too_short                    https://www.whatsonthorold.com/2017/12/16/cms-energy-cms-position-held
+  [600/1499] ok=300 last=too_short                    http://www.tfd.com/oppress
+  [650/1499] ok=326 last=status_526_or_non_html       https://www.modernreaders.com/news/2023/07/11/sp-plus-nasdaqsp-cut-to-
+  [700/1499] ok=352 last=status_404_or_non_html       https://www.dailypolitical.com/2025/03/11/jamf-holding-corp-nasdaqjamf
+  [750/1499] ok=390 last=status_526_or_non_html       https://www.modernreaders.com/news/2024/10/13/node-ai-gpu-hits-self-re
+  [800/1499] ok=412 last=OK                           https://www.sanantoniopost.com/news/271834881/top-25-roundup-no-3-zags
+  [850/1499] ok=440 last=too_short                    https://www.umass.edu/newsoffice/article/they-still-want-kill-us
+  [900/1499] ok=477 last=OK                           https://www.oberonreview.com.au/story/9170264/opinion-time-for-liberal
+  [950/1499] ok=519 last=OK                           https://www.marketscreener.com/news/aes-q2-2025-financial-review-call-
+  [1000/1499] ok=525 last=ConnectionError              https://peopleexclusive.com/global-tvs-diodes-market-size-share-2018-b
+  [1050/1499] ok=541 last=OK                           http://www.prnewswire.com/news-releases/global-digital-crosspoint-swit
+  [1100/1499] ok=560 last=OK                           http://globenewswire.com/news-release/2018/12/06/1663210/0/en/Global-B
+  [1150/1499] ok=576 last=OK                           https://www.sportsnet.ca/mlb/article/blue-jays-trust-process-grind-win
+  [1200/1499] ok=587 last=OK                           http://globenewswire.com/news-release/2017/12/19/1266445/0/en/Nexeo-So
+  [1250/1499] ok=619 last=OK                           https://www.163.com/dy/article/JN7MKORA0550ANUU.html
+  [1300/1499] ok=648 last=ConnectionError              https://www.businessinsider.in/entertainment/news/the-real-scientific-
+  [1350/1499] ok=670 last=status_403_or_non_html       https://www.openpr.com/news/984172/Microprocessor-and-GPU-Market-Growt
+  [1400/1499] ok=683 last=status_404_or_non_html       https://www.channelnomics.com/channelnomics-us/news/3017534/partners-l
+  [1450/1499] ok=708 last=OK                           https://247wallst.com/investing/2023/07/23/31-earnings-reports-due-mon
+Done. 732/1,499 fetched this run (48.8% yield).
+Total cache: 6,992 rows -> /Users/cindyfu/Desktop/UCB/Industry Project - JPM/data/raw/news/ma_event_article_text.csv

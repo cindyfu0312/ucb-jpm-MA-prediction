@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "membership": "data/raw/index/us_listed_companies_sec.csv",
+    "prices": "data/raw/market/daily_prices.csv",
+    "events_optional": "data/raw/events/ma_events.csv"
+  },
+  "outputs": [
+    "reports/week1/russell1000_analysis/company_ma_features.csv",
+    "reports/week1/russell1000_analysis/event_summary.csv",
+    "reports/week1/russell1000_analysis/ma_forward_labels_6m.csv",
+    "reports/week1/russell1000_analysis/market_feature_summary.csv",
+    "reports/week1/russell1000_analysis/price_coverage_by_ticker.csv",
+    "reports/week1/russell1000_analysis/sector_distribution.csv",
+    "reports/week1/russell1000_analysis/universe_summary.csv"
+  ],
+  "universe_rows": 7615,
+  "price_rows": 8445,
+  "event_rows": 200
+}

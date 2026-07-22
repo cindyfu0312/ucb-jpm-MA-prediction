@@ -1,0 +1,6 @@
+topic,search_query,why_it_matters,status
+M&A target prediction,machine learning prediction acquisition targets public firms features,"Baseline labels, rare-event modeling, target-specific predictors",to_review
+Merger arbitrage completion risk,merger arbitrage deal completion probability determinants spread,Fund scoring and announced-deal probability calibration,to_review
+Informed options trading before M&A,options trading volume before merger acquisition announcements informed trading,Options anomaly features and event-window design,to_review
+SEC filing language and strategic intent,SEC filings strategic alternatives textual analysis mergers acquisitions prediction,Prompt design and NLP signal validation,to_review
+Look-ahead and survivorship bias,point in time universe survivorship bias event study machine learning finance,Research design and backtest credibility,to_review

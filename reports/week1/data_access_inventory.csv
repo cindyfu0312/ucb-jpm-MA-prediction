@@ -1,0 +1,6 @@
+source,category,access_method,week1_status,backup,notes
+SEC EDGAR company tickers and filings,Corporate disclosures,Public SEC JSON / submissions API,test_with_smoke_call,SEC bulk companyfacts and full-index files,Requires a descriptive SEC_USER_AGENT environment variable.
+Market prices and volumes,Market data,Bloomberg / Refinitiv / WRDS preferred; yfinance for prototype,prototype_optional,"Stooq, Nasdaq Data Link, local CSV exports",Production build should use licensed point-in-time data.
+"Options chains, OI, IV, skew",Options data,OptionMetrics / Bloomberg / Refinitiv / WRDS,access_needed,Cboe DataShop / provider export / limited yfinance live chains,Historical options data is usually licensed.
+ETF and mutual fund holdings,Fund disclosures,"ETF issuer daily files, SEC N-PORT/N-CEN, Morningstar/FactSet if available",access_needed,Issuer websites and SEC filings parser,Normalize identifiers before fund-skill scoring.
+M&A ground truth,Labels,SDC / Capital IQ / FactSet / Refinitiv preferred,access_needed,"SEC 8-K deal announcements, press releases, Wikipedia/SEC sample for prototype","Need announcement date, target, acquirer, status, close date, deal value."

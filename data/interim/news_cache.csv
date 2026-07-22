@@ -1,0 +1,768 @@
+transaction_id,window,label,company_name,title,date,domain,source
+SPTRD2204943,pre,1,"The Ridge 300,000-square-foot retail center in Rochester",,,,
+SPTRD2204943,baseline,0,"The Ridge 300,000-square-foot retail center in Rochester",,,,
+SPTRD2172011,pre,1,"Portfolio of mortgage servicing rights of PennyMac Financial Services, Inc.",,,,
+SPTRD2172011,baseline,0,"Portfolio of mortgage servicing rights of PennyMac Financial Services, Inc.",,,,
+SPTRD2173548,pre,1,"WinFactor, LLC",,,,
+SPTRD2173548,baseline,0,"WinFactor, LLC",Full Stack Developer - Gauteng Gauteng,20250212,it-online.co.za,gdelt
+SPTRD2183234,pre,1,Cohen Cohen & Company,,,,
+SPTRD2183234,baseline,0,Cohen Cohen & Company,Cohen & Company Reports First Quarter 2025 Financial,20250501,globenewswire.com,gdelt
+SPTRD2183234,baseline,0,Cohen Cohen & Company,Cohen & Company Sets Release Date for First Quarter 2025 Financial Results,20250428,manilatimes.net,gdelt
+SPTRD2183234,baseline,0,Cohen Cohen & Company,Cohen & Company Sets Release & Conference Call Date for Fourth Quarter & Full Year 2024 Financial Results,20250306,manilatimes.net,gdelt
+SPTRD2175098,pre,1,420-unit Fox Valley Villages*,,,,
+SPTRD2175098,baseline,0,420-unit Fox Valley Villages*,,,,
+SPTRD2194729,pre,1,four managed senior housing properties,,,,
+SPTRD2194729,baseline,0,four managed senior housing properties,"Housing an ongoing need in Marshall | News , Sports , Jobs",20250614,marshallindependent.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Weekly review - Sharecast . com,20250613,sharecast.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Landlord Registry Passes in Orangetown,20250613,rocklandtimes.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Replacement - Half - year Report 2025 | Company Announcement,20250612,investegate.co.uk,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"Experts pitch 14 rate - sensitive stocks after RBI surprises with larger repo cut , CRR action",20250606,moneycontrol.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Barings Corporate Investors : Quarter Ended March 2025 – Barings Corporate Investors,20250602,marketscreener.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Barings Participation Investors : Quarter Ended March 2025 – Barings Participation Investors,20250602,marketscreener.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Metro housing partners with Mansfield developer to restart affordable housing project,20250531,richlandsource.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Inside the fall of Fortress,20250528,theglobeandmail.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"Every One of Marriott Hotel Brands , Explained",20250527,skift.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Business briefs | Eureka Chamber opens new cowork space,20250524,times-standard.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Police evict ZPRA veterans,20250524,bulawayo24.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Capitol Fax . com - Your Illinois News Radar » Isabel morning briefing,20250521,capitolfax.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"Share Market Highlights 20 May 2025 : Sensex sheds 872 points , Nifty ends below 24 , 700 ; Auto , FMCG stocks hit hard",20250520,thehindubusinessline.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Newton County Times Outhouse Companion - Newton County Times,20250515,newtoncountytimes.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Brookdale Files Definitive Proxy Statement and Mails Letter to Shareholders,20250515,marketscreener.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Supreme Court Monthly Round - up : April 2025,20250512,livelaw.in,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,A Major Effort to Link Homeless Response and Health Care,20250511,governing.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Housing trust faces challenges accommodating seniors,20250509,royalgazette.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,RESI Awards 2025 - meet our winners,20250509,propertyweek.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,RECOMMENDED OFFER FOR URBAN LOGISTICS REIT | Company Announcement,20250509,investegate.co.uk,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Social Housing : A Climate Solution ? ,20250503,emagazine.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Annual Report by Investment Company ( Form N - CSR ) ,20250502,insurancenewsnet.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"Daily Hampshire Gazette - Making News in Business , May 2",20250501,gazettenet.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Forty under 40 : Celebrating the rising stars shaping Virginia future,20250501,virginiabusiness.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"SAMAA TV - Latest Breaking News , Pakistan , World , Video news Home",20250425,samaa.tv,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Senior Living Dealbook : Oxford Capital Group Acquires 11 Properties ; JDI Realty Grows Senior Living Portfolio,20250422,seniorhousingnews.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Paradise Court welcomes 17 new homeowners after five - year journey in Mangilao,20250417,guampdn.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"Hyde Park , Cambridge , Dorchester best city neighborhoods to live in",20250417,bostonglobe.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,REITs Are in a Rut,20250415,institutionalinvestor.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"Juniper CEO : Senior Living Next Customers Want Care and Lifestyle Coordination , Tech",20250411,seniorhousingnews.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,The US - Israel legal review 2024 / 25,20250411,lexology.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Former senior cop starts criminal probe into billionaire landlord,20250411,samaa.tv,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Durham county council inspects student housing for  significant problems  ,20250410,palatinate.org.uk,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,"AZ Big Spotlight : JLL , CBRE , P . B . Bell , Arizona REALTORS",20250410,azbigmedia.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Proxy Statement ( Form DEF 14A ) ,20250408,insurancenewsnet.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Thailand,20250402,etesol.edu.vn,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Energy Bills Update – Forbes Advisor united kingdom ,20250401,forbes.com,gdelt
+SPTRD2194729,baseline,0,four managed senior housing properties,Multifamily portfolios in Portland and Lewiston sold in separate deals,20250401,mainebiz.biz,gdelt
+SPTRD2171711,pre,1,Alside Manufacturing and Distribution Center,,,,
+SPTRD2171711,baseline,0,Alside Manufacturing and Distribution Center,,,,
+SPTRD2181934,pre,1,"CS Recruiting, LLC",,,,
+SPTRD2181934,baseline,0,"CS Recruiting, LLC",,,,
+SPTRD2160938,pre,1,"FlavorSum, LLC*",,,,
+SPTRD2160938,baseline,0,"FlavorSum, LLC*",Suppliers,20241121,beveragedaily.com,gdelt
+SPTRD2176320,pre,1,"Plummer's Environmental Services, Inc.*",,,,
+SPTRD2176320,baseline,0,"Plummer's Environmental Services, Inc.*",,,,
+SPTRD2203608,pre,1,"TAE Technologies, Inc.",[SEC]  filed 2025-11-06,20251106,sec.gov,edgar
+SPTRD2203608,pre,1,"TAE Technologies, Inc.",[SEC]  filed 2025-11-13,20251113,sec.gov,edgar
+SPTRD2203608,pre,1,"TAE Technologies, Inc.",[SEC]  filed 2025-09-12,20250912,sec.gov,edgar
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",New imaging method reveals how lithium - metal batteries lose capacity over time,20250614,techxplore.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","Missing Business Proposal ? Here are 3 upcoming Korean dramas and movies starring Ahn Hyo Seop & Kim Sejeong , the rom - com K - drama lead couple , that you can look forward to in 2025 and 2026",20250614,gqindia.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",UCLA Imaging Tech May Extend Next - Gen Battery Lifespan,20250613,miragenews.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","Lee Vows To Lift Nnnecessary Regulations , Offer Trade Support For Companies",20250613,koreabizwire.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","With FIFA World Cup one year away , fans and politicians still arent sure what to expect – Hartford Courant",20250613,courant.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",PFL 5 Results : Thad Jean squeaks out split decision over Jason Jackson to advance to tournament finals,20250613,mmafighting.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",South Korea Lee Jae - myung Vows Business - Friendly Trade Talks with U . S . ,20250613,econotimes.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",  Korean Is Not a Commodity : Civil Groups Rally Against TOPIK Privatization,20250613,koreabizwire.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Lee Jae - myung makes pro - business gestures to court centrist voters,20250613,koreaherald.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Enhancing ultrasound imaging : Researchers develop detachable acoustic lens for precise focus adjustment,20250612,medicalxpress.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",So Ji Sub reveals he lost nearly 15 kg ( 33 lbs ) for his role in  Mercy for None  ,20250612,allkpop.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Bucheon film festival expands into  AI step 2  as it reveals 2025 lineup | News,20250612,screendaily.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Enhancing Ultrasound Imaging : KRISS Develops Detachable Acoustic Lens for Precise Focus Adjustment,20250612,newswise.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Hallyu appreciation : OG K - drama stars you need to know about,20250612,tatlerasia.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",K - dramas with shocking plot twists,20250612,tatlerasia.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Bipartisan resolution passes in Seoul for honoring Charles Rangel,20250612,koreaherald.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","Back in power , liberals push prosecution reform",20250612,koreaherald.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","BTS V Midas touch : Fresh off military discharge , Kim Taehyung sells out $13 , 500 Cartier watch , book , keychain , and even his chair",20250612,indiatimes.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Korea Herald organizes golf tournament in support of Hangeul promotion,20250612,koreaherald.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Scots Language Awards officially launched for 2025,20250612,thenational.scot,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Tailgate N  Tallboys back for a 4th year in Bloomington,20250611,pantagraph.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",BTS reunion near as 4 members finish South Korean military duty,20250611,nj.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Islam Makhachev undefeated teammate drops lightweight return bombshell after giving up UFC belt,20250611,bloodyelbow.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Shift Up Apologizes For Stellar Blade NIKKE Costume Issue,20250611,dualshockers.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Kim Tae Woo responds emotionally after Gyeongju mayor remark about g . o . d,20250611,allkpop.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","Yum Jung Ah , Won Jin Ah , Choi Young Joon , And Dex New Drama Confirms Premiere Date",20250611,soompi.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Numerous activities are occurring at Fort Riley,20250611,littleapplepost.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Families of N . Korean soldiers in Russia left to wonder if their sons are dead or alive,20250611,dailynk.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","Jesus Pinedo disputes past loss to Gabriel Braga , promises to  go in there break him  at PFL 5",20250611,mmafighting.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",MBC new daily drama  The Woman Who Swallowed the Sun  starts with strong ratings,20250611,allkpop.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Khabib Nurmagomedov protege flattened opponent with 10 - second jumping knee KO in hyped PFL debut,20250611,bloodyelbow.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",Vertical Horizon to perform at NYS Fair concert,20250610,syracuse.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","BTS RM gives an update on his return , opens up about suffering from insomnia during his mandatory military service",20250610,allkpop.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",K - pop group BTS set to reunite as two more members complete military service,20250610,wshu.org,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",South Korean gangster drama hailed  best revenge serie soars up Netflix chart,20250610,metro.co.uk,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","Wilson celebrates Juneteenth , unity on Saturday",20250610,wilsontimes.com,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.","UN urges Korea to enact comprehensive law defining , prohibiting racial discrimination",20250610,english.hani.co.kr,gdelt
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",[SEC]  filed 2025-05-08,20250508,sec.gov,edgar
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",[SEC]  filed 2025-04-15,20250415,sec.gov,edgar
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",[SEC]  filed 2025-04-22,20250422,sec.gov,edgar
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",[SEC]  filed 2025-05-21,20250521,sec.gov,edgar
+SPTRD2203608,baseline,0,"TAE Technologies, Inc.",[SEC]  filed 2025-05-20,20250520,sec.gov,edgar
+SPTRD2161940,pre,1,"Intelligent Retinal Imaging Systems, Inc.",,,,
+SPTRD2161940,baseline,0,"Intelligent Retinal Imaging Systems, Inc.",AIinHealthcare « Dr Alf Blog,20250120,dralfoldman.com,gdelt
+SPTRD2161940,baseline,0,"Intelligent Retinal Imaging Systems, Inc.",NHSX « Dr Alf Blog,20250120,dralfoldman.com,gdelt
+SPTRD2161940,baseline,0,"Intelligent Retinal Imaging Systems, Inc.",FutureofHealthcare « Dr Alf Blog,20250120,dralfoldman.com,gdelt
+SPTRD2161940,baseline,0,"Intelligent Retinal Imaging Systems, Inc.",Blog 1 : The AI - Powered NHS : A Vision for the Future,20250120,dralfoldman.com,gdelt
+SPTRD2161940,baseline,0,"Intelligent Retinal Imaging Systems, Inc.",Maintaining eye healthcrucial for good quality of life,20241129,thehitavada.com,gdelt
+SPTRD2183068,pre,1,Twin Creeks Sports Complex,Did UAE Rain - Boosting Project Affect the Deadly Dubai Flood ? ,20251021,bloomberg.com,gdelt
+SPTRD2183068,pre,1,Twin Creeks Sports Complex,Did the UAE Cloud - Seeding Program Affect the Deadly Dubai Floods ? ,20251002,bloomberg.com,gdelt
+SPTRD2183068,baseline,0,Twin Creeks Sports Complex,,,,
+SPTRD2169427,pre,1,"Wiac-Fm, Inc.",,,,
+SPTRD2169427,baseline,0,"Wiac-Fm, Inc.",,,,
+SPTRD2171767,pre,1,2 Data Centers in Boston and Minneapolis,,,,
+SPTRD2171767,baseline,0,2 Data Centers in Boston and Minneapolis,,,,
+SPTRD2156261,pre,1,CMRCenter*,,,,
+SPTRD2156261,baseline,0,CMRCenter*,,,,
+SPTRD2163859,pre,1,"Solaris Health Holdings, LLC*",,,,
+SPTRD2163859,baseline,0,"Solaris Health Holdings, LLC*",Physician Growth Partners Serves as Exclusive Advisor to Associated Urologists of North Carolina in its Affiliation with Solaris Health,20250115,tennesseedaily.com,gdelt
+SPTRD2163924,pre,1,"Scorebird, LLC*",,,,
+SPTRD2163924,baseline,0,"Scorebird, LLC*",,,,
+SPTRD2185336,pre,1,Flavrs Inc.,,,,
+SPTRD2185336,baseline,0,Flavrs Inc.,,,,
+SPTRD2185705,pre,1,"Two-story, 33,772-square-foot medical office",,,,
+SPTRD2185705,baseline,0,"Two-story, 33,772-square-foot medical office",,,,
+SPTRD2179533,pre,1,WTLF-TV,,,,
+SPTRD2179533,baseline,0,WTLF-TV,,,,
+SPTRD2178536,pre,1,North American Warehousing Company*,,,,
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Hey , Alaska , what do you think about President Trump first 100 days in office ? ",20250507,alaskapublic.org,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"In the US , not even $11 , 000 a month can buy you dignity at the end of your life",20250501,theguardian.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,DuPage Policy Journal Publication Area : How many H - 1B petitions were made by employers classified under the Administrative and Support and Waste Management and Remediation Services industry during 2024 ? ,20250428,dupagepolicyjournal.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,ITS Logistics April Supply Chain Report : Uncertainties in,20250423,globenewswire.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Trump tariff war with China forces U . S . non - profit escape to Winnipeg – Winnipeg Free Press,20250422,winnipegfreepress.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,The Outlook for Programmers – Communications of the ACM,20250422,cacm.acm.org,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"71 H - 1B petitions filed by Arts , Entertainment , and Recreation employers classified under the Arts , Entertainment , and Recreation industry in Nevada in 2024",20250421,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Texas sees 1 , 171 H - 1B petitions from employers classified under the Wholesale Trade industry during 2024",20250421,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"California sees 3 , 261 H - 1B petitions from employers classified under the Educational Services industry during 2024",20250421,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,DuPage Policy Journal Publication Area : How many H - 1B petitions were made by employers classified under the Other Services ( except Public Administration ) industry during 2024 ? ,20250420,dupagepolicyjournal.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Annual Financial Report | Company Announcement,20250417,investegate.co.uk,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Greedflation : Latin America cost - of - living crisis,20250417,greenleft.org.au,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Employers in DuPage Policy Journal publication area filed 1 , 906 H - 1B petitions throughout 2024",20250409,dupagepolicyjournal.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,e - Commerce Logistics and e - Fulfilment Global Market Report,20250408,globenewswire.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Employers classified under the Manufacturing industry file 1 , 585 H - 1B petitions in Massachusetts throughout 2024",20250408,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Bangladesh May Face a Bigger Tariff Bill Than Thought,20250407,yahoo.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Stocks in red as Donald Trump refuses to back down,20250407,marketscreener.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,DuPage Policy Journal publication area records 20 H - 1B petitions from employers classified under Finance and Insurance industry during 2024,20250406,dupagepolicyjournal.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Gues , Inc . ( NYSE : GES ) Q4 2025 Earnings Call Transcript",20250405,insidermonkey.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Trump tariffs : How will they impact Texas ? ,20250405,cbs19.tv,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Shoplazza Launches Upgraded Payment Solution to Boost Global E - Commerce Conversion Rates,20250403,manilatimes.net,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Annual Report for Fiscal Year Ending December 31 , 2024 ( Form 20 - F ) ",20250402,insurancenewsnet.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Analysing Panama , Suez , and post - panamax dimensions and their impact on ship design and global trade dynamics",20250401,myjoyonline.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Tariffs the latest challenge for Prescott trucking firm | Kingston / Frontenac This Week,20250331,kingstonthisweek.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Monday analyst upgrades and downgrades - The Globe and Mail,20250331,theglobeandmail.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,14 H - 1B petitions filed by employers classified under Construction industry across DuPage Policy Journal publication area in 2024,20250331,dupagepolicyjournal.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Final Results | Company Announcement,20250328,investegate.co.uk,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,B . C . booksellers asking readers to  Buy Canadian  with tariffs,20250327,vancouversun.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"11 , 635 H - 1B petitions approved for employers in Michigan during 2024",20250327,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,H - 1B approvals for New York state employers during 2024,20250327,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,How many H - 1B petitions approved for employers in South Carolina during 2024 ? ,20250326,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,How many H - 1B petitions approved for employers in Nevada during 2024 ? ,20250326,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Why this 46 - year - old B . C . furniture company is moving to the U . S . ,20250325,vancouversun.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Adam Rowe | File 770,20250325,file770.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Full Circle,20250324,canadianarchitect.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Number of Million - Dollar , One - Person Businesses Doubles In One Year",20250323,forbes.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Big Joe Forklifts  powering progress  with four new electric lift trucks,20250319,dcvelocity.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,TA Veronica Garcia and Mike Teresinski Recognized Among Top 2025 Supply Chain Leaders,20250319,manilatimes.net,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Pros to Know Award : Supply Chain Leaders Over - Deliver in All Facets of Logistics,20250317,sdcexec.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,Employers begin layoffs as Canada - U . S . trade war intensifies,20250313,theglobeandmail.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,New York sees 286 H - 1B petitions from employers classified under the Wholesale Trade industry during 2024,20250310,businessdailynetwork.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,CMA CGM to take 777 freighter fleet to five as it sets up Chicago hub,20250310,flightglobal.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Upholstery suppliers diversify sourcing , ever adapting",20250310,furnituretoday.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,澳博体育app - 澳博体育app下载 - 客户端安装,20250310,h69q.jose947.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"SIEMENS SAYS : Tariffs , politics , potash : The battle for supply",20250308,winnipegsun.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,InPerson interview : Kevin Reader of Knapp,20250306,dcvelocity.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,"Alto Ingredients , Inc . ( NASDAQ : ALTO ) Q4 2024 Earnings Call Transcript",20250306,insidermonkey.com,gdelt
+SPTRD2178536,baseline,0,North American Warehousing Company*,SB most - read stories of February - The Spirits Business,20250304,thespiritsbusiness.com,gdelt
+SPTRD2197858,pre,1,Ironwood Apartment,"SBPD talks safety , staffing at quarterly safety meeting",20251010,abc57.com,gdelt
+SPTRD2197858,pre,1,Ironwood Apartment,Fansville Field Trips 2025 : The Swamp,20251007,fromtherumbleseat.com,gdelt
+SPTRD2197858,pre,1,Ironwood Apartment,Moses Lake Police Department logs for Sept . 26,20250926,columbiabasinherald.com,gdelt
+SPTRD2197858,pre,1,Ironwood Apartment,North Augusta Riverside Village lists newest apartments,20250922,postandcourier.com,gdelt
+SPTRD2197858,pre,1,Ironwood Apartment,Regency residence on 22 acres adjacent to Dublin Shackleton Gardens for €4 . 5m – The Irish Times,20250903,irishtimes.com,gdelt
+SPTRD2197858,pre,1,Ironwood Apartment,Social trends are creating new client niches . Three advisors share how they found them,20250805,theglobeandmail.com,gdelt
+SPTRD2197858,baseline,0,Ironwood Apartment,"Investment Analyst Downgrades for April 14th ( APR . UN , BEI . UN , CAMT , CHEAF , CMCSA , GLOB , GM , ICLR , IIP . UN , IRWD ) ",20250414,wkrb13.com,gdelt
+SPTRD2197858,baseline,0,Ironwood Apartment,Turning Back the Pages – WEEKLY REGISTER - CALL,20250222,weeklyregistercall.com,gdelt
+SPTRD2197858,baseline,0,Ironwood Apartment,Big developer grows in Scottsdale,20250212,eastvalleytribune.com,gdelt
+SPTRD2197858,baseline,0,Ironwood Apartment,TA Realty Sells Miami - Dade Warehouses for $22M,20250204,therealdeal.com,gdelt
+SPTRD2197858,baseline,0,Ironwood Apartment,Bell Partners Sells Pembroke Pines Rentals to TA Realty,20250129,therealdeal.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Why Lanesborough postmaster shows up to work on Christmas morning | Northern Berkshires,20251225,berkshireeagle.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Eddie Howe : Newcastle Stadium Plans Stalled,20251225,el-balad.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",GHMC To Turn Hi - Tech For Enhanced Services,20251225,deccanchronicle.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Toxic Couple Abandoned Daughter , Have No Shame Asking For Her Help And Cursing Her As She Refused",20251225,boredpanda.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Christmas 2023 : What Open and Closed This Year,20251225,el-balad.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Greedy SIL Turns Xmas Into A Shopping Spree , Sends Pricey Wishlist To Fam And Expects Them To Obey",20251225,boredpanda.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Coronation Street viewers say the same thing as iconic star makes surprise return,20251225,liverpoolecho.co.uk,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Mass arrests as Trkiye foils terror attacks,20251225,arabherald.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",What is Local Governance ? ,20251225,slguardian.org,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",POLL : When is it time to put away the Christmas decorations ? ,20251225,news4sanantonio.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Turkey detains 115 ISIS suspects in nationwide raids ahead of Christmas , New Year",20251225,krdo.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Top Maoist with ₹1 . 1 crore bounty among 6 killed,20251225,hindustantimes.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Turkey detains 115 alleged IS members,20251225,thedailystar.net,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Five stories you may have missed today,20251225,liverpoolecho.co.uk,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Couple Doesnt Want To Sacrifice Gym For Babysitting , Wrongly Expect The Aunt To Give Up Her Hobbies",20251225,boredpanda.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Hollister family Christmas party disrupted by strong winds,20251225,ksbw.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",FinancialContent - The Hawkish Pivot : Why the Fed Third Cut of 2025 Has Markets on Edge,20251225,markets.financialcontent.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Bluebeam Adds Task Link and Mobile App Upgrades to Strengthen Field – Office Workflows From : Bluebeam Inc . ,20251225,forconstructionpros.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Turkey : Latest FCDO advice for tourists as 115 IS suspects  planning attack detained | World | News,20251225,express.co.uk,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Meet Shawndra Williams , Austell newest councilwoman",20251225,mdjonline.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Madhavaram , Manali lakes to get boating facility by Pongal",20251225,thehindu.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Years - long I - 10 project in West Valley scheduled to start soon,20251225,12news.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",The beautiful European train journey passing snowy mountains | Travel News | Travel,20251225,express.co.uk,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Teen annual toy drive brings Christmas joy to Golisano Children Hospital,20251225,winknews.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Miss Manners : Invite has no RSVP request , no phone number , but a request for guests to bring food",20251225,syracuse.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Looking back : Delhi govt hospitals expanded critical care,20251225,tribuneindia.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Migrant truckers sue California DMV over canceled commercial driver licenses,20251225,foxbangor.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Drop subsidies AND tariffs : Let Americans choose their own cars * WorldNetDaily * by James K . Glassman , Real Clear Wire",20251225,wnd.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Show Cancelled On Willie Nelson And Bob Dylan Outlaw Music Festival Tour After Storm Damages Instruments And Equipment,20251225,player.nashfm1025.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Top Naxal leader with Rs 1 - crore bounty ,   5 others killed in Odisha op",20251225,tribuneindia.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Island Vybz is serving up its fifth annual Christmas Day meal,20251225,mynbc5.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Amon - Ra St . Brown , David Montgomery injury update : How to handle the Lions stars vs . Vikings in Week 17",20251225,clipsnation.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",The State of Our University - Solomon Star News,20251225,solomonstarnews.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Massena Central School District putting two trucks up for auction,20251225,nny360.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Stirring up trouble : Human cooks go head - to - head with AI - authored recipes in new research,20251225,cachevalleydaily.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Crevan Name Meaning , Origin & Numerology Analysis | NewKerala Baby Name Details",20251225,names.newkerala.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Zambia : Mundubile Accuses UPND of Democratic Erosion , Economic Deception and Institutional Capture",20251225,lusakatimes.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*","Analyst Ratings Diverge on Ameriprise Financial , Inc . ( AMP ) Amid Strong Q3 Results",20251225,insidermonkey.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",How to Fall in Love with the Future : Excerpt,20251225,thestandard.nz,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Holiday spending data points to a  K - shaped  Christmas,20251225,theglobeandmail.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",The Protocol : Aave community split,20251225,finance.yahoo.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Experts Warn 86 % of High - Risk Retirees Fail Vital Diversification Test Raising Serious Financial Concerns,20251225,finance.yahoo.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Earnings Preview : What To Expect From Northern Trust Report,20251225,finance.yahoo.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Justin Bieber shares poignant post about pain and healing at Christmas,20251225,edmontonsun.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Ukraine revives  Dancing with the Star with wartime heroes,20251225,tucson.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Baldwin County municipal meetings for the week of Dec . 29,20251225,gulfcoastmedia.com,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",Two - thirds of voters think Labour  unfairly neglect rural Britain,20251225,dailymail.co.uk,gdelt
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-17,20251217,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-23,20251223,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-04,20251104,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-03,20251103,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-05,20251105,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-26,20251126,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-02,20251202,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-06,20251106,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-08,20251208,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-12,20251112,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-28,20251028,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-14,20251014,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-18,20251218,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-17,20251117,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-31,20251031,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-13,20251113,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-11,20251211,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-22,20251022,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-16,20251216,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-15,20251015,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-02,20251002,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-29,20251029,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-19,20251219,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-10,20251110,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-15,20251215,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-18,20251118,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-22,20251222,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-04,20251204,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-23,20251023,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-30,20251030,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-21,20251021,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-09,20251009,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-27,20251027,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-03,20251003,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-01,20251001,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-24,20251124,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-10-16,20251016,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-20,20251120,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-11-19,20251119,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-10,20251210,sec.gov,edgar
+SPTRD2192834,pre,1,"Financial Planning Solutions, LLC*",[SEC]  filed 2025-12-05,20251205,sec.gov,edgar
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Vanguard Dividend Appreciation ETF ( NYSEARCA : VIG ) Shares Purchased by CVA Family Office LLC,20250614,dailypolitical.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",One Standard Deviation : How Israel Targeted Iran Top Air Force Leaders : The Other McCain,20250614,theothermccain.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Starmer launches national grooming gangs inquiry,20250614,aol.co.uk,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Tesla , Inc . ( NASDAQ : TSLA ) Shares Purchased by Avaii Wealth Management LLC",20250614,dailypolitical.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",These are the 7 best fitness apps for Android ( that arent Strava ) ,20250614,techradar.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",NEPSI to expand manufacturing facility with tax benefits,20250614,poststar.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Watch live : Trump military parade ,  No King protests across US",20250614,voicenews.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",  We fight or we die : How days of frantic diplomacy and dire warnings culminated with Israel attack on Iran | Politics,20250614,kten.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Global Times : A new era of shared development and cultural exchange with China : Colombian Ambassador to China,20250614,forextv.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Financial information released for qathet Regional District,20250614,prpeak.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Capricorn , Weekly Horoscope , June 15 to June 21 , 2025 : Support from siblings and children will be crucial",20250614,timesofindia.indiatimes.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Cocaine mailed from Jamaica to Brantford led trio straight to jail,20250614,thelondoner.ca,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Lewis : Will AI make us stupid ? ,20250614,vaildaily.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",8 Free iPhone Apps to Help You Manage Your Budget Better,20250614,howtogeek.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Los Alamos Historical Society hopes to turn Oppenheimer House into museum , tourist site",20250614,taosnews.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Israeli army says killed over 20 Iranian commanders - Xinhua,20250614,english.news.cn,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","By fusing intelligence and special operations , Israel strikes on Iran are a lesson in strategic surprise",20250614,atlanticcouncil.org,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Trump says US Army first military parade in 34 years will be  like no other . Here what we know - 14 - Jun - 2025,20250614,home.nzcity.co.nz,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",West side street gets a name,20250614,suncommercial.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",The Latest :  No King protests spread across US as Trump gets military parade,20250614,mymotherlode.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",  EVERYBODY STOOD UP : WHY A UNION LEADER ARREST GALVANIZED CALIFORNIA DEMOCRATS ON IMMIGRATION,20250614,eastcountymagazine.org,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Madhya Pradesh : BMC Turns Slaughter Waste Into Poultry Feed,20250614,freepressjournal.in,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Israeli Envoy Urges Global Action Against Terror - Sponsoring States,20250614,newkerala.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Aslan Energy Capital and JIEP Sign Heads of Agreement to Develop East Jakarta Renewable - Powered Hyperscale Data Center,20250614,manilatimes.net,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",West Branch Capital LLC Buys 679 Shares of Visa Inc . ( NYSE : V ) ,20250614,tickerreport.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",The Who Roger Daltrey Knighted by King Charles III,20250614,krforadio.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",50 DAM YEARS : West Point Dam celebrates milestone - LaGrange Daily News,20250614,lagrangenews.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Finance Minister meets with World Bank - Trinidad and Tobago Newsday,20250614,newsday.co.tt,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Torrid to Close 180 Locations , Affecting IA , IL , and WI Shoppers",20250614,myq1075.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Concord Township gets $75K state grant to update comprehensive plan,20250614,news-herald.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Hemel 350 - home plan with traveller site has decision delayed,20250614,stalbansreview.co.uk,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Fort La Reine powwow brings children together in celebration - PortageOnline . com - Local news , Weather , Sports , Free Classifieds and Job Listings",20250614,portageonline.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",California lawmakers approve $325 billion budget  passed on hope  ,20250614,pressdemocrat.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",David Beckham wins battle over £6m Cotswolds estate plans,20250614,swindonadvertiser.co.uk,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",CIAC inks MOU with sustainable river park developer,20250614,manilatimes.net,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Juniors gearing up for contests,20250614,nationnews.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",The 6 Best Air Conditioners 2025 - Best AC Unit Reviews,20250614,wlwt.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",  Cant Cancel Pride : LGBTQ center to host event cancelled by BOS,20250614,augustafreepress.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*","Energy , housing , child care and more among projects in Crookston Development focus",20250614,grandforksherald.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Lorne Gunter : Israel attack on Iran trades short - term instability for long - term security,20250614,edmontonsun.com,gdelt
+SPTRD2192834,baseline,0,"Financial Planning Solutions, LLC*",Millions of protesters are expected at  No King rallies nationwide as President Trump military parade takes place on his 79th birthday,20250614,kesq.com,gdelt
+SPTRD2185574,pre,1,Ovaltine Apartments,,,,
+SPTRD2185574,baseline,0,Ovaltine Apartments,,,,
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Famous Products You Might Not Know Are Made in Kentucky,20251014,wbkr.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Day In The Life With Crown Affair Founder Dianna Cohen,20251013,forbes.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",How Europe handles chemicals in food compared to Alabama and the U . S . ,20251009,apr.org,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Why Is Crown Royal Single Malt Whisky So Cheap ? ,20250916,thewhiskeywash.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Crown Royal bottling plant  caught in the crosshair of parent company struggles,20250904,niagarafallsreview.ca,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Kinew sticks up for Crown Royal Manitoba jobs – Winnipeg Free Press,20250904,winnipegfreepress.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Doug Ford pours out bottle of Crown Royal over upcoming Ontario plant closure,20250903,stcatharinesstandard.ca,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",A fiery Doug Ford calls out Crown Royal for leaving Ontario,20250902,thepeterboroughexaminer.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Doug Ford pours out bottle of Crown Royal over upcoming Diageo plant closure in Amherstburg,20250902,windsorstar.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Ford dumps Crown Royal bottle in protest of plant closure :  Theyre hurting Ontario  ,20250902,globalnews.ca,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Trump effect : Crown Royal whiskey bottler moves jobs to U . S . * WorldNetDaily * by WND Staff,20250829,wnd.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Ontario news : Crown Royal bottler to close in 2026,20250829,cp24.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Diageo to close Crown Royal bottling facility in Canada,20250829,just-drinks.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Latest Articles,20250829,freerepublic.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.","Spirits maker Diageo to close Amherstburg , Ont ., bottling facility next year",20250828,fitzhugh.ca,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.","Amherstburg Crown Royal Bottling Plant To Close , Diageo Announces | windsoriteDOTca News - windsor ontario neighbourhood newspaper windsoriteDOTca News",20250828,windsorite.ca,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Black - Owned Hair Care Brands For Wash Day,20250808,myv101.iheart.com,gdelt
+SPTRD2176706,pre,1,"Crown Products & Services, Inc.",Black - Owned Hair Care Brands For Wash Day | Columbu BIN 1230,20250808,ohio.binnews.com,gdelt
+SPTRD2176706,baseline,0,"Crown Products & Services, Inc.",,,,
+SPTRD2158486,pre,1,Two parking lots at 2036-42 Chestnut St. and 2046 Chestnut St.,,,,
+SPTRD2158486,baseline,0,Two parking lots at 2036-42 Chestnut St. and 2046 Chestnut St.,,,,
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Today in Wrigley Field history : The first Chicago Bears game on the North Side,20251016,bleedcubbieblue.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",NXT Champions To Headline Live Event In Minnesota,20251014,krforadio.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.","Colin Jost Has Only Asked One SNL Host For An Autograph , And Yeah , It Checks Out",20250928,cinemablend.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.","Warren Athletic Hall of Fame introduces 2025 inductees | EastBayRI . com - News , Opinion , Things to Do in the East Bay",20250925,eastbayri.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Ultimate Responsibility,20250924,bigblueview.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Chiefs star might expose glaring Giants weakness in primetime showdown,20250921,gmenhq.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Spagnola : Taking a thrilling ride on this offense,20250920,dallascowboys.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Red Raiders in the NFL : Week 2,20250917,klll.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Dallas Cowboys Iron Man Mask Transforms Before Your Eyes,20250915,ksfa860.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Spagnola : So many heroes in this heroic victory,20250915,dallascowboys.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Dallas Cowboys news : Tyler Smith signs massive new contract,20250914,bloggingtheboys.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.","Shah Halal Food Becomes Official Partner of MetLife Stadium , Bringing Authentic Halal Cuisine to Giants and Jets Fans",20250912,prnewswire.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Terry Bradshaw uses Washington Commander old name,20250908,awfulannouncing.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",The story behind every NFL team name,20250905,amazingmadison.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.","Hellmann Launches House of Hellmann , a Denim Collection that Blends Texture and Taste",20250904,perishablenews.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.","Trevon Diggs injury update : Brian Schottenheimer gives latest ahead of roster cuts , PUP decision",20250824,huskerstoday.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.","NFL Cannot Force Black Coach Racial Claims Into Arbitration , Says Appeals Court",20250815,insurancejournal.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Awful Announcing,20250811,awfulannouncing.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Giants draw massive praise from former Super Bowl - winning coach,20250805,gmenhq.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",The story behind every NFL team name - North Country Now,20250805,northcountrynow.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",  Wheel Of Fortune  player says he had  no shot  after failing to solve tough puzzle and fans agree,20250726,marketrealist.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Website Accessibility Statement,20250724,giants.com,gdelt
+SPTRD2175475,pre,1,"New York Football Giants, Inc.",Giants Website Terms and Conditions,20250724,giants.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",The saddest QB battle is still in play for the NY Giants even with Jameis Winston,20250324,fansided.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.","NFL contract grades : Giants finally land a QB , and it Jameis Winston",20250322,fansided.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",3 Giants QB moves that make more sense than waiting around for Aaron Rodgers,20250317,fansided.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",Mason Rudolph Rescues Steelers Again in Ongoing QB Saga,20250314,pittsburghmagazine.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",Giants star calls out Mike Greenberg over  terrible  comments,20250301,awfulannouncing.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",Aaron Rodgers Rumors : Giants Interested in Long - Time Bears Nemesis,20250301,bleachernation.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.","Giants news , 2 / 28 : Matthew Stafford , Aaron Rodgers , Cam Ward , Travis Hunter on Shedeur Sanders , more headlines",20250228,bigblueview.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",Aaron Rodgers and Matthew Stafford Could Play a Weird Game of Musical Chairs,20250223,bleachernation.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",2025 Minnesota Vikings Schedule : Predicting the Vikings path to Super Bowl 60,20250221,thevikingage.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",Opinion : Confessions of a NY Giants fan,20250209,darientimes.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",We asked 17 experts to guess the Giant starting QB in 2025 . Here what they said,20250207,nj.com,gdelt
+SPTRD2175475,baseline,0,"New York Football Giants, Inc.",O - Zone : Get it fixed,20250128,jaguars.com,gdelt
+SPTRD2183062,pre,1,13 Club Pilates Studios,,,,
+SPTRD2183062,baseline,0,13 Club Pilates Studios,,,,
+SPTRD2157252,pre,1,"Tangicloud Technologies, Inc.",,,,
+SPTRD2157252,baseline,0,"Tangicloud Technologies, Inc.",,,,
+SPTRD2153936,pre,1,Astor Investment Management LLC,Rothschild Wealth Partners Appoints Chief Growth Officer,20250514,prnewswire.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,VictoryShares Free Cash Flow ETF ( NASDAQ : VFLO ) Sees Large Volume Increase After Dividend Announcement,20241213,themarketsdaily.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,"Presidio Capital Management LLC Sells 4 , 525 Shares of Direxion NASDAQ - 100 Equal Weighted Index Shares ( NASDAQ : QQQE ) ",20241108,theenterpriseleader.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Astor Investment Management LLC Has $21 . 04 Million Position in SPDR Portfolio S & P 500 ETF ( NYSEARCA : SPLG ) ,20241027,kopsource.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Astor Investment Management LLC Buys New Stake in Direxion NASDAQ - 100 Equal Weighted Index Shares ( NASDAQ : QQQE ) ,20241027,biztoc.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Simplify Enhanced Income ETF ( NYSEARCA : HIGH ) Stock Position Cut by Astor Investment Management LLC,20241027,wkrb13.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Astor Investment Management LLC Takes Position in Simplify Managed Futures Strategy ETF ( NYSEARCA : CTA ) ,20241027,modernreaders.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Astor Investment Management LLC Trims Stock Position in iShares Short Treasury Bond ETF ( NASDAQ : SHV ) ,20241027,theenterpriseleader.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,PIMCO Multi Sector Bond Active ETF ( NYSEARCA : PYLD ) is Astor Investment Management LLC 6th Largest Position,20241027,theenterpriseleader.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Astor Investment Management LLC Takes $8 . 71 Million Position in VictoryShares Free Cash Flow ETF ( NASDAQ : VFLO ) ,20241027,themarketsdaily.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,Keystone Wealth Services LLC Increases Holdings in FT Vest U . S . Equity Buffer ETF – July ( BATS : FJUL ) ,20241016,wkrb13.com,gdelt
+SPTRD2153936,baseline,0,Astor Investment Management LLC,BondBloxx Bloomberg Seven Year Target Duration US Treasury ETF ( NYSEARCA : XSVN ) Shares Sold by Armstrong Advisory Group Inc . ,20241014,themarketsdaily.com,gdelt
+SPTRD2159063,pre,1,"Eight Shell retailers in the Memphis,Tennessee area of McGinnis Oil Company, Inc",,,,
+SPTRD2159063,baseline,0,"Eight Shell retailers in the Memphis,Tennessee area of McGinnis Oil Company, Inc",,,,
+SPTRD2157952,pre,1,"Mapleton Oil Co., Inc.",Juror could be thrown off panel,20250614,nbcnews.com,gdelt
+SPTRD2157952,pre,1,"Mapleton Oil Co., Inc.",SAD 1 residents approve $31 . 9M budget,20250522,thecounty.me,gdelt
+SPTRD2157952,pre,1,"Mapleton Oil Co., Inc.",Go Guide - April 23 - The Republic News,20250423,therepublic.com,gdelt
+SPTRD2157952,baseline,0,"Mapleton Oil Co., Inc.",Results of Wind Storm ; Rural Hospital Relief ; Gas Prices and Holiday Travel - Coast Radio - Florence Oregon News,20241218,kcfmradio.com,gdelt
+SPTRD2157952,baseline,0,"Mapleton Oil Co., Inc.",Engine failure and oil spill leads to fatal crash on Highway 126,20241024,kezi.com,gdelt
+SPTRD2157952,baseline,0,"Mapleton Oil Co., Inc.",Program Gets $5000 Grant ; Women March ; Highway Shuttered 5+ Hours ; FACC Meeting ; C . R . O . W . Benefactor ; Gas Prices ; OCHS Holiday Shop to Open - Coast Radio - Florence Oregon News,20241023,kcfmradio.com,gdelt
+SPTRD2157952,baseline,0,"Mapleton Oil Co., Inc.",Varcoe : Chevron exits Alberta after $8 . 8B deal with Canadian Natural Resources,20241008,edmontonjournal.com,gdelt
+SPTRD2157952,baseline,0,"Mapleton Oil Co., Inc.",Unsold L . A . mansion of Edmonton Oilers owner Daryl Katz reportedly sees a price drop,20241007,edmontonjournal.com,gdelt
+SPTRD2157952,baseline,0,"Mapleton Oil Co., Inc.",Glow Recipe founders dish on fan - favourite skin care line,20241007,edmontonjournal.com,gdelt
+SPTRD2158173,pre,1,"A small manufacturing unit of Component Solutions Group, Inc.",,,,
+SPTRD2158173,baseline,0,"A small manufacturing unit of Component Solutions Group, Inc.",,,,
+SPTRD2172589,pre,1,"AMCLO Group, Inc.",,,,
+SPTRD2172589,baseline,0,"AMCLO Group, Inc.",,,,
+SPTRD2185343,pre,1,Jaspersoft Corporation,,,,
+SPTRD2185343,baseline,0,Jaspersoft Corporation,,,,
+SPTRD2153767,pre,1,"125,000 Net Acres Two Leasehold Acreage Positions",,,,
+SPTRD2153767,baseline,0,"125,000 Net Acres Two Leasehold Acreage Positions",,,,
+SPTRD2160050,pre,1,Portfolio of Solar Projects,ACWA Power signs 12GW solar PV PPAs in Saudi Arabia,20250714,pv-tech.org,gdelt
+SPTRD2160050,pre,1,Portfolio of Solar Projects,Enfinity Global Signs PPAs for 420 MW of Renewable Energy Supply in Italy with a U . S . Technology Company,20250610,cantechletter.com,gdelt
+SPTRD2160050,pre,1,Portfolio of Solar Projects,TotalEnergies : acquires eight solar projects,20250603,marketscreener.com,gdelt
+SPTRD2160050,pre,1,Portfolio of Solar Projects,SPECIAL REPORT : Four Fairfield County businesses make foray into green economy,20250510,westfaironline.com,gdelt
+SPTRD2160050,pre,1,Portfolio of Solar Projects,Emeren Group Ltd Announces Appointment of Financial Advisor and Legal Counsel to the Special Committee,20250428,itnewsonline.com,gdelt
+SPTRD2160050,pre,1,Portfolio of Solar Projects,[SEC]  filed 2025-07-08,20250708,sec.gov,edgar
+SPTRD2160050,pre,1,Portfolio of Solar Projects,[SEC]  filed 2025-04-29,20250429,sec.gov,edgar
+SPTRD2160050,pre,1,Portfolio of Solar Projects,[SEC]  filed 2025-06-20,20250620,sec.gov,edgar
+SPTRD2160050,baseline,0,Portfolio of Solar Projects,,,,
+SPTRD2158999,pre,1,"Zap Surgical Systems, Inc.",Best Armies For TH9 In Clash Of Clans,20250525,gamerant.com,gdelt
+SPTRD2158999,pre,1,"Zap Surgical Systems, Inc.",  I had a painless lump in my throat - then got incurable diagnosis  ,20250414,mirror.co.uk,gdelt
+SPTRD2158999,pre,1,"Zap Surgical Systems, Inc.",Singapore designers celebrate SG60 in Milan with Future Impact showcase,20250411,straitstimes.com,gdelt
+SPTRD2158999,baseline,0,"Zap Surgical Systems, Inc.",ZAP Surgical Systems Raises $78M in Series E Funding,20241111,finsmes.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Key Market Trends Powering the Growth of the Grid - scale Battery Storage Industry : Innovative Energy Storage Systems Enhance Efficiency And Reliability In Grid - Scale Applications,20251114,whatech.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Google to invest $40 billion in Texas through 2027,20251114,cnbc.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Insider Buying : Tortoise Power and Energy Infrastructure Fund ( NYSE : TPZ ) Director Buys 2 , 000 Shares of Stock",20251114,themarketsdaily.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Live Music in The Woodlands – November 13 - 16 , 2025",20251114,woodlandsonline.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,AtkinsRéalis points to global growth as nuclear outlook strengthens,20251114,bnnbloomberg.ca,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,U of A Dedicates First - of - Kind Semiconductor Fabrication Facility,20251114,news.uark.edu,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Thompson Davis & CO . Inc . Takes $272 , 000 Position in Enbridge Inc $ENB",20251114,dailypolitical.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,An Open Future｜Taxation Policies Refined Ahead of Special Customs Operations - 南海网,20251114,hinews.cn,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,1 No - Brainer Artificial Intelligence ( AI ) ETF to Buy With $70 During the Nasdaq Bull Market,20251114,fool.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"1 , 200V SiC mosfet power modules | Electronics Weekly",20251114,electronicsweekly.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,W Singapore - Sentosa Cove wins SHA award,20251114,ttrweekly.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,ABB Expands Power Technology Partnership with Applied Digital for AI - ready Data Centers - Energy / Hydrogen - ABB Robotics / ABB Ltd,20251114,newswiretoday.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Hypocrisy and hot air,20251113,weeklyworker.co.uk,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,LEN - www . lankaenews . com | Calls Grow for Criminal Investigation into Former Energy Minister Kanchana Wijesekera ..! ,20251113,lankaenews.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,KSB Limited registers growth in the third quarter - July  25 to September  25,20251113,aninews.in,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Allworth Financial LP Acquires 11 , 903 Shares of Enbridge Inc $ENB",20251113,defenseworld.net,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Dana Gas - Dana Gas Signs MoU with the Syrian ... ,20251113,euro-petrole.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Rethinking multi - data centre strategies with Intelys,20251113,itweb.co.za,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Finnish marine industry showcases strong presence at Metstrade with its largest - ever pavilion,20251113,kauppalehti.fi,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Qeb Name Meaning , Origin & Numerology Analysis | NewKerala Baby Name Details",20251113,names.newkerala.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Delta Recognized by Frost & Sullivan as  Company of the Year  for Integrated Energy Solutions in Europe,20251113,prnewswire.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Delta Electronics : Delta Recognized by Frost & Sullivan as Company of the Year for Integrated Energy Solutions in Europe,20251113,finanznachrichten.de,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Hainan Climate Action Report Lights Way for Island Economies - 南海网,20251113,hinews.cn,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Vertiv maps AI - powered future of data centres – Gadget,20251113,gadget.co.za,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Wall Street mixed , shutdown ( almost ) nixed",20251112,marketscreener.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"The AI Boom vs the Dotcom Bubble : what different , what the same ? ",20251112,switzer.com.au,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Miller Thomson adds financial services partner Zachary Masoud in Toronto,20251112,lawtimesnews.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Are Guoxia Tech AI Initiatives Paying Off ? ,20251112,benzinga.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"HCI Energy Expands Product Leadership to Advance Reliable , Intelligent Power Solutions",20251112,prnewswire.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Mutfwang presents N914 . 8 billion 2026 budget estimate to State Assembly,20251112,dailypost.ng,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Top Canadian Stocks To Research – November 11th,20251112,dailypolitical.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"EnerSys : PDF of the presentation , ENS Investor Presentation - November 2025 , November 12 , 2025 , ",20251112,marketscreener.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"e - STORAGE to Deliver 1 . 86 GWh DC of Energy Storage Solutions for the Skyview 2 Project in Ontario , Canada",20251112,manilatimes.net,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Medium Frequency Magnetics Market worth $2 . 70 billion by 2030,20251112,prnewswire.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,TU Prof . Baruah Receives National Recognition in Agri Engineering,20251112,sentinelassam.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,The AI boom feels eerily similar to 2000 dotcom crash – with some important differences,20251112,interest.co.nz,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Snapdragon 8 elite gen 6 and Dimensity 9600 : Qualcomm and MediaTek compete on 2 nm,20251112,myhostnews.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,MEG Energy Delivers Record Q3 Production and Strong Third Quarter 2025 Financial Results,20251111,newswire.ca,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Loving mother drowned trying to save six - year - old son in Dandenong Creek , says her family",20251111,abc.net.au,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,The AI boom feels eerily similar to 2000 dotcom crash – with some important differences - 11 - Nov - 2025,20251111,home.nzcity.co.nz,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Brookfield Renewable : Q3 2025 Transcript,20251111,marketscreener.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,3 Top Dividend Stocks for Yield - Loving Investors,20251110,fool.ca,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Ground broken at 2 . 5MWe green hydrogen electrolyser in South Wales,20251110,newcivilengineer.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,Formula E : Could electric race cars soon be faster than Formula 1 ? ,20251110,newscientist.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,SMO Gold Is Promising A Better Jewellery Future For All,20251110,10magazine.com,gdelt
+SPTRD2180097,pre,1,Power And Energy Services Inc.*,"Exicom posts strong Q2 performance on solid India growth , charts a disciplined path for scale - up",20251110,aninews.in,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"NEC approves Tk 2 , 30 , 000cr ADP for FY26",20250518,bssnews.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"NEC sits tomorrow to consider TK 2 , 30 , 000cr ADP for FY26",20250518,bssnews.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Borrego Springs Microgrid Collaborative | East County Magazine,20250517,eastcountymagazine.org,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,California Microgrid Incentive Program | East County Magazine,20250517,eastcountymagazine.org,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,BORREGO SPRINGS MICROGRID COLLABORATIVE SEEKS GRANT FOR COMMUNITY MICROGRID DEVELOPMENT,20250517,eastcountymagazine.org,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,India to showcase power sector achievements at BRICS energy minister meet – Bilkul Online,20250517,bilkulonline.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"Expediting strategic economic diplomacy , striking FTA stressed",20250517,bssnews.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,India to showcase power sector achievements at BRICS meet in Brazil next week,20250517,thestatesman.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Join Africa energy and water elite at Enlit Africa in Cape Town,20250516,esi-africa.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,ABB innovation for energy efficiency and sustainability at Enlit 2025,20250516,miningreview.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,1 - bit LLM from Microsoft Rivals LLaMA in CPU Efficiency,20250516,electropages.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Portugal 6 % VAT Rate for Solar Set to Expire and Returning to 23 % in July 2025,20250516,theportugalnews.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,TC Energy Target of Unusually High Options Trading ( NYSE : TRP ) ,20250516,dailypolitical.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Gov . Hochul Opposes National Grid Rate Hike Plan | NewsRadio 1450 / 1370 WKIP,20250515,1450wkip.iheart.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Gov . Hochul Opposes National Grid Rate Hike Plan | News Radio 103 . 1 and 810 WGY,20250515,wgy.iheart.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Is the AI Boom Quietly Devouring Earth Resources ? ,20250515,kashmirlife.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,South Africa : Optimism for a winter free from loadshedding,20250515,esi-africa.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Crypto Holders Turn to DN Miner for Passive Yield and Lower Portfolio Volatility,20250515,manilatimes.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Canadian Solar Reports First Quarter 2025 Results,20250515,manilatimes.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,5 Samsung TV settings to change for improved performance,20250515,tomsguide.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,SMR training in Kenya : A leap towards nuclear energy in Africa,20250515,esi-africa.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,TDK Announces its Recognition as An SX Brand 2025 by METI - Electronics / Instrumentation / RFID - TDK Electronics,20250515,newswiretoday.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,What happening at the National Arts Centre in 2025 - 26,20250515,o.canada.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,RIGHT SPEAK : Iran Isnt Building a Civilian Nuclear Program : Iran Has Massive Gas Reserves and Much Cheaper Power Than We Do ; Which Countries Have the Cheapest Electricity Prices ? ,20250515,rightspeak.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,WPI at 13 - month low in April on declining food prices,20250514,economictimes.indiatimes.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"Qualcomm , HUMAIN to develop AI data centers , cloud - to - edge services",20250514,tradearabia.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"Sargent & Lundy fosters community , innovation and culture",20250514,denverpost.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Top Workplaces 2025 : Best small companies,20250514,denverpost.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Tensilica AI co - processor for automotive,20250514,design-reuse.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Apple New iPhone Release Strategy : What You Need to Know,20250514,geeky-gadgets.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Schneider Electric Breaks Ground In Missouri,20250514,businessfacilities.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,STMicroelectronics Combines Activity Tracking and High - impact Sensing in Miniature AI ... - Electronics / Instrumentation / RFID - STMicroelectronics,20250514,newswiretoday.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,TDK Offers Multilayer Chip Beads with the Industry Highest Rated Current of 8 A for Power Supply Lines - Electronics / Instrumentation / RFID - TDK Electronics,20250514,newswiretoday.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Nuclear Is the Key to Winning AI Race,20250514,powermag.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,NRG acquiring LS Power portfolio for nearly $10 billion to compete in  power - demand supercycle  of data centers,20250514,finance.yahoo.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Hardening the grid : Research team focuses on quake - proofing transformer bushings,20250513,techxplore.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"Nvidia , AMD Sell Chips to Saudi Arabia for AI Data Centers",20250513,bnnbloomberg.ca,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,IAEA Launches SMR School as Africa Looks to Nuclear Energy,20250513,thailandnews.net,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Qualcomm : and HUMAIN to Develop State - of - the - Art AI Data Centers to Deliver Cloud - to - Edge Hybrid AI Services,20250513,marketscreener.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Meet the acts playing the BIMM Music Institute & DIY showcase at The Great Escape 2025 • Festivals • DIY Magazine,20250513,diymag.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"Big , bitter moments in N . J . Democratic governor debate : A special edition of What Makes Jersey Run",20250513,nj.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"Ghana : Policy , funding gaps slowed mini - grids progress",20250513,esi-africa.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,"And When the Bullets Stopped , Bulls Ran Free",20250513,economictimes.indiatimes.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,India equity market : Indian market soars nearly 4 % as geopolitical tensions ease,20250513,economictimes.indiatimes.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,SCARA Robot From : EPSON Robots,20250512,packworld.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,Innovative CNT - PANI Fiber for Supercapacitor Efficiency,20250512,azom.com,gdelt
+SPTRD2180097,baseline,0,Power And Energy Services Inc.*,AfDB approves €26 . 5 million for solar power project in Togo,20250512,esi-africa.com,gdelt
+SPTRD2173807,pre,1,Maywood Acquisition Corp.,Certain Class B Ordinary Shares of Maywood Acquisition Corp . are subject to a Lock - Up Agreement Ending on 12 - AUG - 2025 . ,20250812,marketscreener.com,gdelt
+SPTRD2173807,pre,1,Maywood Acquisition Corp.,[SEC]  filed 2025-09-12,20250912,sec.gov,edgar
+SPTRD2173807,baseline,0,Maywood Acquisition Corp.,[SEC]  filed 2025-02-24,20250224,sec.gov,edgar
+SPTRD2173807,baseline,0,Maywood Acquisition Corp.,[SEC]  filed 2025-02-14,20250214,sec.gov,edgar
+SPTRD2173807,baseline,0,Maywood Acquisition Corp.,[SEC]  filed 2025-02-28,20250228,sec.gov,edgar
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Darcy D . Moch KC | Tax Lawyer at Bennett Jones Calgary,20251003,bennettjones.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Fifth Circuit Rules No AA Monetary Damages in ERISA Case,20251003,natlawreview.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Forsyth schools will see new leadership next school year,20251003,bransontrilakesnews.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",CU Boulder Samuel Ramsey May Be the Bee Best Chance at Survival,20251003,5280.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","News digest : From chemtrails to 9 / 11 , survey reveals 37 % of Slovaks believe in conspiracies",20251003,spectator.sme.sk,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Going Wild In Panama City,20251003,liveandinvestoverseas.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Trump threat of mass firings during shutdown worries federal workers,20251003,bemidjipioneer.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Final Judgment in Spence v . American Airlines : Judge Denies Monetary Damages but Imposes Targeted Equitable Relief | Ropes & Gray LLP,20251003,jdsupra.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Bill Macfadyen : Rural Railroad Crossing a Deadly Turn for Truck Driver in Train Collision | Local News,20251003,noozhawk.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Best of Utah : Body & Mind 2023,20251003,cityweekly.net,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","26th Annual Newport Beach Film Festival Announces Irish Showcase , Premieres and Celebration",20251003,iftn.ie,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Best of Utah : Body & Mind 2024,20251003,cityweekly.net,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Vanguard rivals finally get hands on its tax - busting fund design,20251003,investmentnews.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","10 Underrated Cities In Ohio That Are Perfect For Simple , Affordable Living",20251003,familydestinationsguide.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Who can save the Dems ? - Matthew Yglesias,20251003,jewishworldreview.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Navigating Now : How Gen Xers can survive the surge in costs of aging parent care and child care,20251003,themorningsun.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","STATE MEETINGS : New York , Alaska • Biblical Recorder",20251003,brnow.org,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Designers Took the Lead and the Deed on These Hotels,20251003,hospitalitydesign.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","More Gen X , Millennials , And Gen Z Living Paycheck To Paycheck",20251003,tvone.tv,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","Sierra Club report gives AR utilities poor grades on coal , clean energy",20251003,kuaf.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Judge Restricts ESG Influence in American Airlines Case,20251002,plansponsor.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Trump Freezes $26 Billion for Democratic States Amid Shutdown,20251002,moroccoworldnews.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","Yes , Daniel Day - Lewi Infamous Method Acting Style Is Just Like Youve Heard , According to His Son",20251002,yahoo.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","John Lewis , Matalan , The Very Group : this week fashion retail people moves",20251002,drapersonline.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","  Anemone : Ronan Day - Lewis on Directing His Father , Daniel Day - Lewis",20251002,indiewire.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",The Akron Legal News,20251002,akronlegalnews.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","More Americans are living paycheck to paycheck , putting retirement out of reach , report finds",20251002,wdef.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Why this retirement company CEO is a huge supporter of private equity in your 401 ( k ) ,20251002,morningstar.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",The Bolduc Brief : Special Operations Forces and Afghan Local Police Programs,20251002,sofrep.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","More Americans are living paycheck to paycheck , foiling retirement plans",20251002,aol.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Political Playback : California Capitol News You Might Have Missed,20251002,sacobserver.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",Trading on Tom Homan : Inside the push to cash in on the Trump administration deportation campaign,20251002,salon.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*","Paper , pen and sticker lovers : Stationery fest Bungu LA comes to Union Station",20251002,latimes.com,gdelt
+SPTRD2188154,pre,1,"American Retirement Plan Services, LLC*",White House freezes funds for Democratic states in shutdown slap,20251002,dunyanews.tv,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Trump team offers mixed messaging on tariff negotiation , downplays market volatility | <span class=  tnt - section - tag no - link  >News< / span>",20250406,wpsdlocal6.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Over 50 nations want to start trade talks with U . S . after tariffs , Trump officials say",20250406,staradvertiser.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Over 50 nations want to start trade talks with US after tariffs , Trump officials say",20250406,khaleejtimes.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Sunday Talks : Treasury Secretary Scott Bessent - vs - NBC Kirsten Welker,20250406,theconservativetreehouse.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Trump team offers mixed messaging on tariff negotiation , downplays market volatility",20250406,us.cnn.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",A Recap Of 1923 Series Finale,20250406,cowboysindians.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Dow plunges more than 2 , 100 points on Trump tariffs",20250406,thehill.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","  In a fight with one man : Trump tariffs have autoworkers in Oshawa , Ont ., on edge",20250406,niagarafallsreview.ca,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Trump tariffs a different challenge for autoworkers in Oshawa , Ont . ",20250406,o.canada.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Transcript : Sen . Mark Warner on  Face the Nation with Margaret Brennan , March 30 , 2025",20250406,wsgw.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Bessent says Americans who are ready to retire arent worried about  day - to - day  fluctuations,20250406,nbcnews.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","  This Week  Transcript 4 - 6 - 25 : White House NEC Director Kevin Hassett , Sen . Cory Booker & Larry Summers",20250406,abcnews.go.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Transcript : Sen . Maria Cantwell on  Face the Nation with Margaret Brennan , April 6 , 2025",20250406,cbsnews.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Transcript : Sen . John Barrasso on  Face the Nation with Margaret Brennan , April 6 , 2025",20250406,cbsnews.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Sen . Booker : Biggest mistake Democratic Party has made is  not centering people enough  ,20250406,abcnews.go.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Bloated IRS Prepares to Cut Workforce By 25 % ,20250406,infowars.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Links 4 / 6 / 2025 | naked capitalism,20250406,nakedcapitalism.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Guest column : Employee ownership can help secure Canadian sovereignty,20250406,windsorstar.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Trump tariffs : Oshawa , Ont ., autoworkers on edge",20250406,bnnbloomberg.ca,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",State Comptroller Nieshalla Calls for an Investigation into Overreach by EU Corporate Sustainability Directives – City - County Observer,20250406,city-countyobserver.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","APRIL 5 , 2025",20250406,wdsu.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","  In a fight with one man : Trump tariffs have autoworkers in Oshawa , Ont ., on edge – Winnipeg Free Press",20250406,winnipegfreepress.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Elected Republicans must pay the price for Trump economic vandalism - Las Vegas Sun News,20250406,lasvegassun.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",This Roth Conversion Myth Could Cost You : Fact vs Fiction,20250406,kiplinger.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Relief in a desert : Finding child care in Northwest Montana,20250406,dailyinterlake.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",Phoenix Looks for Solutions to Senior Homelessness,20250406,kcci.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*","Readers sound off on a vehicular tragedy , the Trump economy and Monarch butterflies",20250406,yahoo.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",A Bloated IRS Prepares Cutting Workforce By 25 % ,20250406,zerohedge.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",No FOMO . Now it FOWO : fear of wiping out . Dont let it tank your relationship . ,20250406,morningstar.com,gdelt
+SPTRD2188154,baseline,0,"American Retirement Plan Services, LLC*",  Hands Off !: Protesters Across U . S . and Abroad Rally Against Trump and Musk Agenda,20250406,voiceofvienna.org,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Bulls must make unpopular decisions on key free agents to avoid disaster,20251010,pippenainteasy.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,AI firm recruits ex - civil service boss Case after Sunak joins Microsoft,20251010,thisislocallondon.co.uk,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,GlobalTech Enters Into Agreement with World Mobile Chain,20251010,globenewswire.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Columbia organizations face challenges in tracking hunger,20251010,wistv.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"NSC Thought Leadership : Safety theories : Building on foundations , evolving for today",20251010,safetyandhealthmagazine.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,US announces it will allow Qatar to build an Air Force facility in Idaho,20251010,kvia.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Qatar Air Force Facility Approved for Idaho : What Being Built at Mountain Home AFB and What It Isnt,20251010,el-balad.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Immigration crackdown stirs unease ahead of Chicago Marathon,20251010,republicanherald.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Qatar to build Air Force facility in US – Caribbean Broadcasting Corporation,20251010,cbc.bb,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,The world chip supply chain is bracing for fallout from China rare earth curbs,20251010,mining.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,The green paradox facing legacy carriers like Singapore Airlines,20251010,businesstimes.com.sg,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Rincón : How Trump Is Opening the Door for Venezuela to Become America Strongest Ally,20251010,breitbart.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Powermax Minerals Inc .: CORRECTION FROM SOURCE : Powermax Minerals Appoints New Chief Financial Officer and Provides Further Updates,20251010,finanznachrichten.de,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,MIT rejects Education Department demand to align with its  priorities  ,20251010,newschannel9.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"Trump seeks tech export limits , new Chinese imports tariffs",20251010,wsbradio.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Senator letter to Big Ten presidents : Private equity  unlikely to align  with academic goals,20251010,union-bulletin.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"Minister Anand To Travel To India , Singapore And China",20251010,miragenews.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,AP Entertainment SummaryBrief at 3 : 32 p . m . EDT,20251010,ivpressonline.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,HRC | The Human Rights Campaign and the Human Rights Campaign … ,20251010,hrc.org,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Tunnel Excavation Begins for Oman - UAE Joint Railway Network Project,20251010,timesofoman.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Qatar Air Force Base in Idaho ? What the New Facility at Mountain Home Really Means,20251010,el-balad.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Bangkok Post - RTAF unveils strategic goals,20251010,bangkokpost.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Immigration crackdown stirs unease ahead of this weekend Chicago Marathon,20251010,cecildaily.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"Volta Region : Ghana new renewable energy frontier data , opportunities & imperatives",20251010,ghanamma.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,  Collapsing empire  parallel was clear,20251010,thenational.scot,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Sarnia chief building official serving as acting community services GM | Sarnia & Lambton County This Week,20251010,sarniathisweek.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"How I find joy in writing , medicine , spending time with children",20251010,thesun.ng,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Lee Pace Debuts as Thragg in Prime Video Invincible Season 4 Endgame,20251010,el-balad.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,A . J . Brown  just to clear this up  post raises more questions than answers,20251010,insidetheiggles.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,BOE candidates speak at forum - Great Bend Tribune,20251010,gbtribune.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,PM Carney directed ministers to map out their objectives for coming year,20251010,cheknews.ca,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"Sanwo - Olu , Ansar - Ud - Deen call for stronger govt - faith - based partnerships to boost social impact",20251010,thesun.ng,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,US to impose 100 % tariffs on China Trump,20251010,milwaukeesun.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Tennessee company rocked by a deadly explosion supplied the military with explosives,20251010,reflector.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Netflix  Physical : Asia  kicks off fierce competition among legendary athletes from 8 Asia - Pacific nations,20251010,allkpop.com,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,"  Ask British , Soviet Union , US and NATO ; dont play games with us : Afghan minister Muttaqi warns Pak amid blasts in Kabul",20251010,afghanistannews.net,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,NELFUND reopens student loan portal for 2024 / 2025 academic year,20251010,thesun.ng,gdelt
+SPTRD2175548,pre,1,Strategic Services Group Inc,Trump threatens new 100 % tariff on Chinese imports from November 1 or sooner,20251010,richmondandtwickenhamtimes.co.uk,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,LETTER : The risks of strategic voting - Rossland Telegraph,20250413,rosslandtelegraph.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Former high - flying property developer ditches private jets , luxury yacht amid downturn",20250413,nzherald.co.nz,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Opinion : Ukraine and Israel are fighting two fronts in the same war the West must support both,20250413,midnorthmonitor.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Best Strategy Games You Can Play On An iPhone 16,20250413,gamerant.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Cherokee Nation $3 . 1B economic impact fuels jobs and growth,20250413,yahoo.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Avalara enhances global trade with new compliance tools,20250413,itbrief.co.nz,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Designing for small spaces : 15 tips and strategies from homeowners,20250413,azbigmedia.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Saudi Arabia , united kingdom set up sustainable infrastructure assembly to bolster trade",20250413,arabnews.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Dozens reported killed in east Congo as government and Rwanda - backed rebels trade blame,20250413,japantoday.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,GH₵32 . 5bn COCOBOD debt saved Ghana cocoa sector,20250413,ghanaweb.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Lake Macquarie to buy land for community growth | Newcastle Herald,20250413,newcastleherald.com.au,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Is corporate silence on Trump tariffs really golden ? | Analysis,20250413,campaignasia.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,IIM - I Study Unveils Strategic Framework For AI - Driven HRM,20250413,freepressjournal.in,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,How Advanced 3PL Solutions Simplify Supply Chain Management,20250413,bnonews.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"In trade war with the US , China holds a lot more cards than Trump may think - in fact , it might have a winning hand - 14 - Apr - 2025",20250413,home.nzcity.co.nz,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Single Biggest Chinese Export Will Be Exempt From Trump Tariffs , Quietly Released US Customs Message Reveals",20250413,latintimes.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Charleston Air Force Base C - 17 used in Trump deportations,20250413,postandcourier.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Why We Must Fight the Fascist Threat Facing Us Today,20250413,newsghana.com.gh,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Aggrey Unveils Vision for GOC Transformation,20250413,newsghana.com.gh,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Nelson Eyes WBC Bantamweight Title in Lusaka,20250413,newsghana.com.gh,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Rethinking Public Housing , Heritage Sites , and State Buildings : Why Private Management Is the Key to Sustainable National Asset Management",20250413,newsghana.com.gh,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Lake Macquarie to buy land for community growth | Gloucester Advocate,20250413,gloucesteradvocate.com.au,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Bangkok Post - Experts urge caution in tariff talks,20250413,bangkokpost.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Misk Foundation , London Business School sign strategic agreement",20250413,arabnews.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Limerick looks to Europe in the wake of Donald Trump tariffs,20250413,limerickleader.ie,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Tourism from Europe to US Is Down 17 %, US to Europe Down 37 % ",20250413,independentsentinel.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Jermaine Dupri Explains Deep Connection With Scooter Braun That Led To New Deal,20250413,allhiphop.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Autonomous & Self - Driving Vehicle News : Nissan WayveAI , Zoox , DeepRoute . ai , QNX , WeRide & TIER IV . ",20250413,autoconnectedcar.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"The Finance Ghost : Gemfields glitters , Cashbuild holds firm and Vukile expands",20250413,dailymaverick.co.za,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Lucid ( LCID ) Buys Nikola Buildings & Will Employee Nikola Workers in AZ,20250413,autoconnectedcar.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Lake Macquarie to buy land for community growth | Manning River Times,20250413,manningrivertimes.com.au,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"China new underwater tool cuts deep , exposing vulnerability of vital network of subsea cables",20250413,japantoday.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,The false good ideas of Serigne Guèye Diop - Lequotidien - Journal dinformation Générale,20250413,lequotidien.sn,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Bentley System Blyncys Integrate Google Street View for Potholes & Road Conditions,20250413,autoconnectedcar.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Connected Car News : Mercedes - Benz , Hyundai Mobis , Sibros , Honda , NVIDIA , Hyundai Mobis & IIHS . ",20250413,autoconnectedcar.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Brain drain ? Trump cutbacks force scientists to seek jobs in Europe,20250413,japantoday.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,A look at client priorities in the transport sector ( April 2025 ) ,20250413,lexology.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Castel Malawi unveils Kuche Kuche 6 - pack for social gatherings and casual hangouts,20250413,maravipost.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Türkiye , Iraq underline importance they attach to each other political unity , sovereignty , and territorial integrity",20250413,aa.com.tr,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Lawrence County Economic Growth Council announces CEO Shance Sizemore resignation,20250413,wbiw.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Grunge Meets Grid : How Pearl Jam Carbon Price Led Me to Battery ETFs,20250413,cleantechnica.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,The Maximum Support Act : A bipartisan push for Iranian democracy and human rights,20250413,americanthinker.com,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,Lake Macquarie to buy land for community growth | Dungog Chronicle,20250413,dungogchronicle.com.au,gdelt
+SPTRD2175548,baseline,0,Strategic Services Group Inc,"Ukrainian support for terrorism in the Sahel region extends to Nigeria - Nigerian News , Latest Nigeria In News . Nigeria News . Your online Nigerian Newspaper . ",20250413,nigerianeye.com,gdelt
+SPTRD2162497,pre,1,Certain Assets of Kadabra,,,,
+SPTRD2162497,baseline,0,Certain Assets of Kadabra,,,,
+SPTRD2173440,pre,1,"A & A Pump Company, Inc.*",,,,
+SPTRD2173440,baseline,0,"A & A Pump Company, Inc.*",,,,
+SPTRD2159036,pre,1,"Bend Health, Inc.*",CHECK ZIP CODE : 1st West Nile Virus mosquito sample of 2025 confirmed in Fort Bend County,20250710,click2houston.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Beacon Health completes acquisition of Ascension Southwest Michigan,20250703,elkharttruth.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Homicide Suspect Indicted By Hamilton County Grand Jury,20250611,chattanoogan.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",St . Joseph County Health Department announces staff and programming cuts amid funding turmoil,20250610,abc57.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Tennessee Considers Relocating Moccasin Bend Mental Health Institute | Local News,20250606,local3news.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Chattanooga neighborhood ruled out as new home for Moccasin Bend psychiatric hospital,20250605,newschannel9.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",UPDATE : Eastdale town hall canceled after Moccasin Bend relocation proposal dropped by lawmakers,20250605,local3news.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",State Rep . Yusuf Hakeem hosting Thursday town hall on proposal to relocate Moccasin Bend to Eastdale,20250604,local3news.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Services | Kossuth County Advance,20250604,algona.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*","John Shearer : Random Thoughts About Wesley Memorial , Reporters , Joe Decosimo , Precept Farm And Eastdale Site",20250601,chattanoogan.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Access to mental health practices and professionals at South Bend event on Friday night,20250530,wsbt.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Tennessee submits letter of intent for Moccasin Bend Mental Hospital potentially relocating to Eastdale,20250528,local3news.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Opinion : Eastdale is not the right place for psychiatric hospital | Chattanooga Times Free Press,20250527,timesfreepress.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*","Major McCollough , Moccasin Bend preservationist , dead at 83 | Chattanooga Times Free Press",20250516,timesfreepress.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Mental Health Minute : Teen suicide prevention,20250430,kmvt.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",Libraries host disaster - preparedness workshops for families in May,20250428,fortbendstar.com,gdelt
+SPTRD2159036,pre,1,"Bend Health, Inc.*",These Houston - area dentist offices offer low cost dental care,20250415,click2houston.com,gdelt
+SPTRD2159036,baseline,0,"Bend Health, Inc.*",,,,
+SPTRD2182092,pre,1,"five-building office park in Santa Clara, California",,,,
+SPTRD2182092,baseline,0,"five-building office park in Santa Clara, California",,,,
+SPTRD2160113,pre,1,"Bashlin Industries, Inc.*",,,,
+SPTRD2160113,baseline,0,"Bashlin Industries, Inc.*",,,,
+SPTRD2165284,pre,1,Capital Asset Financing Division of ATB Financial,,,,
+SPTRD2165284,baseline,0,Capital Asset Financing Division of ATB Financial,,,,
+SPTRD2215613,pre,1,"Loop Media, Inc.",Ed Sheeran is Coming to Hard Rock Live in October 2026,20250925,miaminewtimes.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Data center to occupy  small part  of Lordstown AI hub , feature  advanced  design",20250925,wfmj.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Underground data fortresses : the nuclear bunkers , mines and mountains being transformed to protect our  new gold  from attack - 26 - Sep - 2025",20250925,home.nzcity.co.nz,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Albertsons expands retail media advertising,20250925,supermarketnews.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Why AEO May Be The Most Dangerous Acronym In AI,20250925,forbes.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",African Migrant Confesses to Raping 2 Women 45 Minutes Apart in Paris at Knifepoint - American Renaissance,20250925,amren.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",How outrage is all the rage,20250925,westerngazette.ca,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Data centers are thirsty for Texa water , but state planners dont know how much they will need",20250925,krgv.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Worthplaying |  FBC : Firebreak  First Free Major Update Launches Next Week , Brings New Content And Tons of Changes",20250925,worthplaying.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","I dont like superheroes , but Magic : The Gathering Spider - Man set has a redeeming quality some great sets didnt have",20250925,gamerant.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",AI search is forcing businesses to diversify their channel strategy : Here why,20250925,omaha.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Underground data fortresses : the nuclear bunkers , mines and mountains being transformed to protect our  new gold  from attack",20250925,theconversation.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",New Record - Breaking Ride at Six Flags Texas,20250925,knue.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Sugar , pumpkin spice and everything nice : Why the seasonal hype hits every autumn",20250925,news.ufl.edu,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Alliance Entertainment ( AENT ) Launch Their Own Previews Catalog Thingy,20250925,bleedingcool.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Here How You Can Find Underrated Films Without Using an Algorithm,20250925,howtogeek.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","This month in Servo : variable fonts , network tools , SVG , and more ! - Servo aims to empower developers with a lightweight , high - performance alternative for embedding web technologies in applications . ",20250925,servo.org,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Comcast Corporation $CMCSA Shares Bought by Sylvest Advisors LLC,20250925,tickerreport.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",When Smithfield was the apple capital of Rhode Island,20250925,valleybreeze.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Debunked : Candidates who want to run for President of Ireland do not need government backing,20250925,thejournal.ie,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","What charity queen said in speech to mortify high society - and the barb women are furious over ... Plus , camera - shy 60 Minutes star secret celebrity girlfriend revealed : THE GROUP CHAT",20250925,dailymail.co.uk,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Talking the Tropics With Mike : Last day of the Atlantic hurricane season ! ,20250925,wokv.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Fabletics and Khloé Kardashian Unveil New Travel - Inspired Capsule Collection,20250925,manilatimes.net,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Swiftly Levels the Playing Field for Local Grocers with Audience Optimizer™ , Empowering Local Grocers to Compete Like National Giants",20250925,manilatimes.net,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",The Toys R Us Comeback Tour Continues in 2025,20250925,classicrock961.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Asia First Architectural Icon of Precision Design and Exclusive  Passion Spaces  ,20250925,manilatimes.net,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Jordan at 40 : Can the Jumpman bounce back in a crowded sneaker market ? | Analysis,20250925,campaignasia.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",7th annual Art Studio Tour at Lake Wildwood this weekend,20250925,theunion.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Mumbai Metro trial run scare as train goes off track,20250925,mid-day.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",HOT AIR ? NAME AND SHAME ! Pick A WORSE Prediction In The Auto Biz In The Last 25 Years Than THIS ! ,20250925,autospies.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Loop Capital Cuts Comcast ( NASDAQ : CMCSA ) Price Target to $44 . 00,20250925,themarketsdaily.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",2025 Halloween Events & Trunk - Or - Treats Across Eastern Iowa,20250925,krna.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","Slime Rancher 2 Interview : Insights from Monomi Park Co - Founder on Game Design , Storytelling , Character Creation",20250925,hardcoregamer.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",The AI - Powered Creative Revolution in Social Media • MassisPost,20250925,massispost.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",What to expect ahead of 60th annual Governor Buffalo Roundup,20250925,rapidcityjournal.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Airdrops : The crypto shortcut to winning hearts and wallets,20250925,financialexpress.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",October 2025 - Silicon Chip Online,20250925,siliconchip.com.au,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","OpenAI shows off Stargate AI data center in Texas – KTBB News , Weather , Talk",20250925,ktbb.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",We The People : Dunaway Books,20250925,firstalert4.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",The Slovenia Times,20250924,sloveniatimes.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",9 Dark Drama Films to Stream for Free on Tubi Right Now,20250924,howtogeek.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",10 of the Most Bizarre Crimes From Around the World,20250924,listverse.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",Brand Safety Platform IAS To Be Acquired By PE Firm For $1 . 9B,20250924,mediapost.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.","How Gen Z Slang Is Evolving In Lubbock , Texas",20250924,1025kiss.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",What Is a  Performative Male  and Why Is It Damaging ? ,20250924,parents.com,gdelt
+SPTRD2215613,pre,1,"Loop Media, Inc.",[SEC]  filed 2025-07-21,20250721,sec.gov,edgar
+SPTRD2215613,pre,1,"Loop Media, Inc.",[SEC]  filed 2025-07-14,20250714,sec.gov,edgar
+SPTRD2215613,pre,1,"Loop Media, Inc.",[SEC]  filed 2025-08-12,20250812,sec.gov,edgar
+SPTRD2215613,pre,1,"Loop Media, Inc.",[SEC]  filed 2025-07-25,20250725,sec.gov,edgar
+SPTRD2215613,pre,1,"Loop Media, Inc.",[SEC]  filed 2025-09-17,20250917,sec.gov,edgar
+SPTRD2215613,pre,1,"Loop Media, Inc.",[SEC]  filed 2025-07-01,20250701,sec.gov,edgar
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Nunes diz torcer por candidatura de Bolsonaro à Presidência  para Tarcísio disputar a reeleio  ,20250327,brasil247.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Tiger Woods y Vanessa Trump confirmaron su noviazgo,20250324,eldiariony.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Bruna Biancardi surge no Instagram após ... ,20250318,vejasp.abril.com.br,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",嘉宾专访 | 2025福庆孕婴板战略经营峰会媒体现场访谈 _ 中华网,20250312,hea.china.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Trump suspende temporalmente ayuda militar a Ucrania tras tenso cruce con Zelenski,20250304,jornadaonline.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Nuevo retrato del violador serial mujeres choferes en CdMx,20250220,milenio.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",North American Morning Briefing : Stock Futures - 2 - ,20250218,morningstar.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.","DR - chef : Dokumentar kan have bidraget til at skabe » slør og usikkerhed «, som kan misbruges i valgkamp",20250214,jyllands-posten.dk,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.","Debatt , Debatten | Eller kanskje var det naturlig å ikke løse sakene slik kommunikasjonssjefen ønsket ? ",20250213,gd.no,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Velocity Media Expands its Advertising Sales Network with Loop Media Agreement,20250212,prnewswire.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Lidia Brondi sai da toca e prestigia o marido em noite de estreia,20250125,ofuxico.com.br,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Policía inglesa busca al poeta mexicano Julio Trujillo . Esto se sabe sobre su desaparición,20250116,reporteindigo.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",  El Chiringuito  desvela un bombazo sobre los fichajes del Barcelona en invierno,20250108,larazon.es,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.","Quién era Shamsud - Din Jabbar , el hombre que atropelló a una multitud en pleno Año Nuevo en Nueva Orleans",20250102,diariopanorama.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.","Loop Media ( NYSEAMERICAN : LPTV ) Dismisses Marcum LLP and Engages Grassi & Co ., CPAs , P . C . as Independent Registered Public Accounting Firm",20250102,wkrb13.com,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",Atentado en Nueva Orleans : el asesino llevaba una bandera de Isis,20250101,diariopopular.com.ar,gdelt
+SPTRD2215613,baseline,0,"Loop Media, Inc.",[SEC]  filed 2025-01-03,20250103,sec.gov,edgar
+SPTRD2215613,baseline,0,"Loop Media, Inc.",[SEC]  filed 2025-02-26,20250226,sec.gov,edgar
+SPTRD2215613,baseline,0,"Loop Media, Inc.",[SEC]  filed 2024-12-30,20241230,sec.gov,edgar

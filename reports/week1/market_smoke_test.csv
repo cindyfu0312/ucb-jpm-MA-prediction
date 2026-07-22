@@ -1,0 +1,2 @@
+source,tickers,start,end,checked_at,status,row_count,elapsed_seconds,error
+yfinance,"JPM,MSFT,PFE",2024-01-01,2024-02-01,2026-06-16T01:32:02+00:00,blocked,0,0.0,Optional package yfinance is not installed.

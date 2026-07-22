@@ -1,0 +1,28 @@
+{
+  "n_verified": 22,
+  "n_total": 22,
+  "n_events": 8,
+  "examples": [
+    {
+      "company": "Clearwater Analytics",
+      "citations": [
+        {"signal": "ma_rumor_intensity", "score": 8, "quote": "Warburg Pincus, Permira said to be in talks to buy Clearwater Analytics", "source": "[d61] seekingalpha.com"},
+        {"signal": "acquisition_likelihood", "score": 80, "quote": "Buyout firm Thoma Bravo has offered to buy Clearwater Analytics, sources say", "source": "[d63] marketscreener.com"}
+      ]
+    },
+    {
+      "company": "ANSYS",
+      "citations": [
+        {"signal": "ma_rumor_intensity", "score": 8, "quote": "Ansys explores sale amid takeover interest - sources", "source": "[d73] kelo.com"},
+        {"signal": "acquisition_likelihood", "score": 80, "quote": "Synopsys Reportedly in Advanced Talks to Acquire Ansys", "source": "[d86] marketscreener.com"}
+      ]
+    },
+    {
+      "company": "Instructure",
+      "citations": [
+        {"signal": "ma_rumor_intensity", "score": 8, "quote": "Thoma Bravo explores sale of Instructure, sources say", "source": "[d28] marketscreener.com"},
+        {"signal": "acquisition_likelihood", "score": 85, "quote": "KKR Emerges as Front-Runner for Instructure Buyout", "source": "[d91] themiddlemarket.com"}
+      ]
+    }
+  ]
+}

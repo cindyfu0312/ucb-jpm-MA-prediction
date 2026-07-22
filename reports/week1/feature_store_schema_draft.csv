@@ -1,0 +1,15 @@
+column,type,required,description
+as_of_date,date,True,Prediction date; feature availability cutoff
+ticker,string,True,Trading ticker as of as_of_date
+cik,string,False,"SEC Central Index Key, zero padded"
+company_name,string,False,Issuer name
+sector,string,False,Sector classification
+market_abnormal_return_20d,float,False,CAPM/sector-adjusted 20-day return
+market_volume_zscore_20d,float,False,20-day abnormal volume z-score
+options_call_oi_anomaly,float,False,Call open-interest anomaly score
+options_put_call_divergence,float,False,Put/call ratio divergence from sector norms
+nlp_strategic_alternatives_score,float,False,LLM-extracted strategic alternatives signal
+nlp_portfolio_optimization_score,float,False,LLM-extracted divestiture/restructuring signal
+fund_rebalance_signal,float,False,Signal from high-skill merger-arb fund holdings changes
+label_target_within_6m,int,False,1 if company is announced as acquisition target within 6 months
+label_acquirer_within_6m,int,False,1 if company is announced as acquirer within 6 months

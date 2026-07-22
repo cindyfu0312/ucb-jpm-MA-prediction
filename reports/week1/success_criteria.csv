@@ -1,0 +1,6 @@
+metric,definition,target
+Precision@50,Actual acquisition targets in top 50 ranked names,10-15 hits
+Hit Rate@K,Share of top-K names that become M&A targets,> 20%
+ROC-AUC,Discrimination across full company universe,> 0.70
+Event Capture Rate,Share of actual events appearing in top-ranked tier,> 30%
+Brier Score,Probability calibration for deal completion / event likelihood,< 0.15

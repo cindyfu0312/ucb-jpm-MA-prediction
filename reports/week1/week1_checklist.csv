@@ -1,0 +1,11 @@
+workstream,item,status,artifact
+Scope,"Objective, prediction horizon, and labels defined",complete,outputs/week1/project_config.json
+KPI,Ranking metrics and success criteria defined,complete,reports/week1/success_criteria.csv
+Infrastructure,Local data/output/report/log folders created,complete,"data/, outputs/week1/, reports/week1/, logs/"
+Dependencies,Required and optional Python packages audited,complete,reports/week1/dependency_audit.csv
+SEC,EDGAR company ticker smoke test,blocked,reports/week1/sec_smoke_test.csv
+Market,Market data prototype smoke test,blocked,reports/week1/market_smoke_test.csv
+Options,Historical options data provider identified,access_needed,reports/week1/data_access_inventory.csv
+Funds,Fund holdings source plan documented,access_needed,reports/week1/data_access_inventory.csv
+Universe,Prototype target universe seed written,complete,data/interim/universe_seed_week1.csv
+Research,Literature review backlog created,complete,reports/week1/literature_review_tracker.csv

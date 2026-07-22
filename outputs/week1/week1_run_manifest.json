@@ -1,0 +1,67 @@
+{
+  "run_id": "week1_20260616T013202Z",
+  "created_at_utc": "2026-06-16T01:32:02+00:00",
+  "project_root": "/Users/cindyfu/Desktop/UCB/Industry Project - JPM",
+  "notebook": "code/week1_foundation.ipynb",
+  "config": {
+    "project_name": "mna_prediction_market_signals_genai",
+    "week": 1,
+    "as_of_date": "2026-06-15",
+    "prediction_unit": "company-quarter / company-month",
+    "prediction_horizon_months": [
+      3,
+      6
+    ],
+    "primary_label": "acquired_or_announced_target_within_6_months",
+    "secondary_labels": [
+      "announced_acquirer_within_6_months",
+      "strategically_compatible_pair_within_6_months"
+    ],
+    "initial_universe": "S&P 500 seed list for prototype; Russell 1000 target for full build",
+    "training_window": {
+      "prototype_start": "2018-01-01",
+      "prototype_end": "2024-12-31",
+      "live_scoring_start": "2025-01-01"
+    },
+    "ranking_metrics": [
+      "precision_at_50",
+      "hit_rate_at_k",
+      "roc_auc",
+      "event_capture_rate",
+      "brier_score"
+    ],
+    "point_in_time_rule": "All features must be timestamped and available before the prediction date."
+  },
+  "sec_smoke_test": {
+    "source": "SEC company_tickers.json",
+    "url": "https://www.sec.gov/files/company_tickers.json",
+    "checked_at": "2026-06-16T01:32:02+00:00",
+    "status": "blocked",
+    "row_count": 0,
+    "elapsed_seconds": 0.0,
+    "error": "ValueError(\"SEC_USER_AGENT is not set. Use: export SEC_USER_AGENT='Name email@example.com'\")"
+  },
+  "market_smoke_test": {
+    "source": "yfinance",
+    "tickers": "JPM,MSFT,PFE",
+    "start": "2024-01-01",
+    "end": "2024-02-01",
+    "checked_at": "2026-06-16T01:32:02+00:00",
+    "status": "blocked",
+    "row_count": 0,
+    "elapsed_seconds": 0.0,
+    "error": "Optional package yfinance is not installed."
+  },
+  "artifacts": [
+    "reports/week1/data_access_inventory.csv",
+    "reports/week1/dependency_audit.csv",
+    "reports/week1/feature_store_schema_draft.csv",
+    "reports/week1/literature_review_tracker.csv",
+    "reports/week1/market_smoke_test.csv",
+    "reports/week1/sec_smoke_test.csv",
+    "reports/week1/success_criteria.csv",
+    "reports/week1/week1_checklist.csv",
+    "outputs/week1/project_config.json",
+    "outputs/week1/week1_run_manifest.json"
+  ]
+}

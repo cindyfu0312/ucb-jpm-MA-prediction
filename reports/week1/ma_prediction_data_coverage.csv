@@ -1,0 +1,12 @@
+metric,value
+universe_tickers,7613
+price_tickers,224
+event_rows,200
+event_target_tickers,195
+event_acquirer_tickers,43
+event_targets_with_price,186
+event_acquirers_with_price,40
+panel_rows,447
+panel_tickers,224
+panel_positive_target_rows,170
+panel_positive_acquirer_rows,36

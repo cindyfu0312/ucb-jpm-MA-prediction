@@ -1,0 +1,19 @@
+ticker,sector,role_hint,cik,company_name,universe_version
+JPM,Financials,acquirer_candidate,,,week1_prototype_seed
+BAC,Financials,acquirer_candidate,,,week1_prototype_seed
+MSFT,Information Technology,acquirer_candidate,,,week1_prototype_seed
+AAPL,Information Technology,acquirer_candidate,,,week1_prototype_seed
+NVDA,Information Technology,acquirer_candidate,,,week1_prototype_seed
+ADBE,Information Technology,target_or_acquirer,,,week1_prototype_seed
+CRM,Information Technology,target_or_acquirer,,,week1_prototype_seed
+PFE,Health Care,acquirer_candidate,,,week1_prototype_seed
+MRK,Health Care,acquirer_candidate,,,week1_prototype_seed
+AMGN,Health Care,target_or_acquirer,,,week1_prototype_seed
+XOM,Energy,acquirer_candidate,,,week1_prototype_seed
+CVX,Energy,acquirer_candidate,,,week1_prototype_seed
+DIS,Communication Services,target_or_acquirer,,,week1_prototype_seed
+CMCSA,Communication Services,acquirer_candidate,,,week1_prototype_seed
+WMT,Consumer Staples,acquirer_candidate,,,week1_prototype_seed
+TGT,Consumer Staples,target_or_acquirer,,,week1_prototype_seed
+BA,Industrials,target_or_acquirer,,,week1_prototype_seed
+GE,Industrials,portfolio_optimization_watch,,,week1_prototype_seed
