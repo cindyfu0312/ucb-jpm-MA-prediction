@@ -29,7 +29,7 @@
 ### Needs an OpenAI API key (`OPENAI_API_KEY` in gitignored `.env`)
 | Script | Output | Notes |
 |---|---|---|
-| `extract_llm_features.py` | `data/raw/llm/ma_event_llm_scores.csv` (+ `_probe.csv`, `_manifest.csv`) | One structured-JSON LLM call per cached (event, window): 17 M&A-precursor signals. **Resumable + `--max-cost`-capped** — re-running skips keys already scored; ~$3 for a full gpt-5-mini pass. Variants: `--mask-names`, `--task probe` (memorization test, never a model feature), `--task day0`, `--model gpt-5 --limit-events 100`. The parsed numeric matrix is committed as `data/interim/ma_llm_features.csv` so the week-6 notebook runs **without** a key. |
+| `extract_llm_features.py` | `data/raw/llm/ma_event_llm_scores.csv` (+ `_probe.csv`, `_manifest.csv`) | One structured-JSON LLM call per cached (event, window): 17 M&A-precursor signals. **Resumable + `--max-cost`-capped** — re-running skips keys already scored; ~$1 for a full `openai/gpt-4o-mini` pass via OpenRouter (`--base-url https://openrouter.ai/api/v1 --api-key-env OPENROUTER_API_KEY`). Variants: `--mask-names`, `--task probe` (memorization test, never a model feature), `--task day0`, `--model openai/gpt-4o --limit-events 100`. The parsed numeric matrix is committed as `data/interim/ma_llm_features.csv` so the week-7 notebook runs **without** a key. |
 
 ## Not in git (gitignored)
 - **Proprietary** — S&P export, CIQ transcripts, ticker→companyid crosswalk. Share via Drive, or pull from your own WRDS/CIQ.

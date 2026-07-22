@@ -1,0 +1,201 @@
+{
+  "n_events_total": 2673,
+  "n_events_cached": 1801,
+  "n_articles_cached": 39664,
+  "llm_total_cost": 2.1,
+  "llm_calls_ok": 4450,
+  "llm_tokens": 6020906,
+  "example_company": "ANSYS, Inc.",
+  "example_window": "pre",
+  "example_prompt_lines": [
+    "Company: ANSYS",
+    "Period: ~90 days ending 2024-01",
+    "SEC filings during the period: 8-K x3",
+    "",
+    "Headlines (40 of 40 kept after spam filtering, chronological; ",
+    "[d72] S & P 500 Gains and Losses Today : Nike Warns of Soft Sa",
+    "[d72] Stocks meander into Christmas after cool PCE - Newsquawk",
+    "[d72] Ansys Shares Climb 17 % After Reports of Possible Sale (",
+    "[d72] Why AAR Shares Are Trading Lower By 7 %? Here Are Other ",
+    "[d73] Tech Giants In Talks : Synopsys Reportedly Aims For Bloc",
+    "[d73] Synopsys To Acquire Engineering Software Firm Ansys (bus",
+    "[d73] Synopsys and Ansys in talks to merge : report (biztoc.co",
+    "[d73] Synopsys Submits Offer to Acquire Ansys (marketscreener.",
+    "[d73] Ansys explores sale amid takeover interest - sources (ke",
+    "[d73] Big Design - Software Companies in Talks to Merge (bizto",
+    "[d73] S & P 500 posts best weekly win streak in over six years"
+  ],
+  "example_response_lines": [
+    "{",
+    " \"ma_rumor_intensity\": 10,",
+    " \"strategic_alternatives_review\": 0,",
+    " \"activist_pressure\": 0,",
+    " \"management_instability\": 0,",
+    " \"financial_distress\": 0,",
+    " \"acquisition_likelihood\": 90,",
+    " \"dominant_theme\": \"ma_speculation\",",
+    " \"recognized_company\": true,",
+    " \"recognized_deal\": true,",
+    " \"evidence_quotes\": [",
+    "  \"Ansys Shares Climb 17 % After Reports of Possibl\\u2026\",",
+    "  \"Synopsys Reportedly in Advanced Talks to Acquire\\u2026\"",
+    " ],",
+    " \"rationale\": \"The coverage primarily discusses potential ac",
+    "}"
+  ],
+  "auc": {
+    "A: classic NLP (week4)": {
+      "Logistic Regression": {
+        "auc": 0.525,
+        "lo": 0.47,
+        "hi": 0.58,
+        "pr": 0.532,
+        "cv": 0.506
+      },
+      "Random Forest": {
+        "auc": 0.523,
+        "lo": 0.472,
+        "hi": 0.578,
+        "pr": 0.507,
+        "cv": 0.517
+      },
+      "Gradient Boosting": {
+        "auc": 0.499,
+        "lo": 0.446,
+        "hi": 0.557,
+        "pr": 0.5,
+        "cv": 0.515
+      }
+    },
+    "B: LLM signals only": {
+      "Logistic Regression": {
+        "auc": 0.518,
+        "lo": 0.465,
+        "hi": 0.571,
+        "pr": 0.52,
+        "cv": 0.504
+      },
+      "Random Forest": {
+        "auc": 0.517,
+        "lo": 0.468,
+        "hi": 0.569,
+        "pr": 0.513,
+        "cv": 0.557
+      },
+      "Gradient Boosting": {
+        "auc": 0.502,
+        "lo": 0.45,
+        "hi": 0.553,
+        "pr": 0.506,
+        "cv": 0.545
+      }
+    },
+    "C: combined A+B": {
+      "Logistic Regression": {
+        "auc": 0.551,
+        "lo": 0.495,
+        "hi": 0.606,
+        "pr": 0.554,
+        "cv": 0.52
+      },
+      "Random Forest": {
+        "auc": 0.531,
+        "lo": 0.477,
+        "hi": 0.585,
+        "pr": 0.536,
+        "cv": 0.518
+      },
+      "Gradient Boosting": {
+        "auc": 0.522,
+        "lo": 0.472,
+        "hi": 0.574,
+        "pr": 0.538,
+        "cv": 0.527
+      }
+    }
+  },
+  "n_model_rows": 2002,
+  "n_test_rows": 400,
+  "n_events_llm_scored": 1156,
+  "split_date": "2025-06-23",
+  "probe": {
+    "gpt-5-mini": {
+      "n": 118,
+      "acc": 0.517,
+      "auc_conf": 0.555,
+      "acq_precision": 0.706,
+      "n_recall_claims": 17,
+      "acc_pre_cutoff": 0.522,
+      "acc_post_cutoff": 0.5
+    },
+    "openai/gpt-4o-mini": {
+      "n": 3602,
+      "acc": 0.504,
+      "auc_conf": 0.52,
+      "acq_precision": 0.544,
+      "n_recall_claims": 226,
+      "acc_pre_cutoff": 0.506,
+      "acc_post_cutoff": 0.501
+    }
+  },
+  "masking": {
+    "n": 2002,
+    "auc_unmasked": 0.518,
+    "auc_masked": 0.501,
+    "delta": 0.017
+  },
+  "repeat": {
+    "n": 53,
+    "mean_spearman": 0.902,
+    "likelihood_mean_abs_diff": 1.58
+  },
+  "sensitivity": {
+    "n": 143,
+    "mean_spearman": 0.577,
+    "auc": {
+      "openai/gpt-4o-mini": 0.462,
+      "openai/gpt-4o": 0.614
+    },
+    "cost_ratio": 17.0
+  },
+  "criteria": [
+    {
+      "criterion": "(1) Best AUC across A/B/C",
+      "threshold": "< 0.58 -> null",
+      "observed": "0.551",
+      "fired": true
+    },
+    {
+      "criterion": "(2) LLM lift: best(B,C) - best(A)",
+      "threshold": ">= +0.05 -> lift",
+      "observed": "+0.026",
+      "fired": false
+    },
+    {
+      "criterion": "(3) Probe accuracy (chance 50%)",
+      "threshold": ">= 60% -> contaminated",
+      "observed": "50.4%",
+      "fired": false
+    },
+    {
+      "criterion": "(4) Masking dAUC (unmasked-masked)",
+      "threshold": ">= +0.05 -> contaminated",
+      "observed": "+0.017",
+      "fired": false
+    }
+  ],
+  "registered": {
+    "null_ceiling": 0.58,
+    "lift_min": 0.05,
+    "probe_acc_max": 0.6,
+    "mask_delta_max": 0.05
+  },
+  "verdict": "NULL RESULT, CONSISTENT WITH WEEK 4: even a generative LLM reading the same free-news corpus cannot separate pre-announcement windows from quiet periods. This strengthens the week-4 conclusion \u2014 the information is absent from the source, not merely hard to extract. Next: richer text (full articles, filings bodies) or paid/insider-adjacent sources.",
+  "contaminated": false,
+  "llm_lift": false,
+  "all_null": true,
+  "primary_model": "openai/gpt-4o-mini",
+  "sensitivity_model": "openai/gpt-4o",
+  "prompt_version": "v1",
+  "knowledge_cutoff": "2023-10-01"
+}

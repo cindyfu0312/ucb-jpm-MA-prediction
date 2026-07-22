@@ -5,7 +5,7 @@ For every (transaction_id, window) pair in the local news cache built by
 (noise-filtered, deduplicated) GDELT headlines plus a one-line summary of the window's SEC
 filings, and receives a strict-JSON vector of M&A-precursor signals (rumor intensity,
 strategic-alternatives language, activist pressure, management instability, ...). Those
-fields become "feature set B" in `week6_llm_ma_prediction.ipynb`, compared against the
+fields become "feature set B" in `week7_llm_ma_prediction.ipynb`, compared against the
 week-4 classic-NLP stack ("feature set A") computed on the exact same corpus.
 
 Three tasks share the same cache/resume machinery (`--task`):
@@ -50,6 +50,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import re
 import threading
 import time
@@ -74,12 +75,17 @@ NEGATIVE_SHIFT = 180
 
 PROMPT_VERSION = "v1"
 
-# Published per-1M-token prices (input, output). Verify against current OpenAI pricing;
-# override with --price-in/--price-out for any model not listed here.
+# Published per-1M-token prices (input, output). Verify against current provider pricing;
+# override with --price-in/--price-out for any model not listed here. OpenRouter model IDs
+# are namespaced (provider/model) and priced at the underlying provider's rate.
 PRICES = {
     "gpt-5": (1.25, 10.00),
     "gpt-5-mini": (0.25, 2.00),
     "gpt-5-nano": (0.05, 0.40),
+    # OpenRouter (base-url https://openrouter.ai/api/v1); see openrouter.ai/models.
+    "openai/gpt-4o-mini": (0.15, 0.60),
+    "openai/gpt-4o": (2.50, 10.00),
+    "google/gemini-2.5-flash-lite": (0.10, 0.40),
 }
 
 # Approximate published knowledge cutoffs, used by the notebook to split events into
@@ -88,6 +94,9 @@ MODEL_KNOWLEDGE_CUTOFF = {
     "gpt-5": "2024-10-01",
     "gpt-5-mini": "2024-06-01",
     "gpt-5-nano": "2024-06-01",
+    "openai/gpt-4o-mini": "2023-10-01",
+    "openai/gpt-4o": "2023-10-01",
+    "google/gemini-2.5-flash-lite": "2025-01-01",
 }
 
 # ── Institutional/analyst-bot noise filter ─────────────────────────────────────
@@ -655,7 +664,15 @@ def run(args) -> None:
     load_dotenv(PROJECT_ROOT / ".env")
     import openai  # noqa: F401  (exception types used in call_llm)
     from openai import OpenAI
-    client = OpenAI(timeout=90.0, max_retries=0)
+    api_key = os.environ.get(args.api_key_env)
+    if not api_key:
+        raise SystemExit(f"No API key found in ${args.api_key_env} (checked environment + .env).")
+    client_kwargs = dict(api_key=api_key, timeout=90.0, max_retries=0)
+    if args.base_url:
+        client_kwargs["base_url"] = args.base_url
+    client = OpenAI(**client_kwargs)
+    print(f"  endpoint: {args.base_url or 'https://api.openai.com/v1 (default)'} "
+          f"| key from ${args.api_key_env}")
 
     meter = CostMeter(price_in, price_out, args.max_cost)
     writer = RowWriter(out_path, columns)
@@ -748,8 +765,15 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--blackout-cache", type=Path, default=DEFAULT_BLACKOUT_CACHE)
     p.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     p.add_argument("--model", default="gpt-5-mini")
+    p.add_argument("--base-url", default=None,
+                   help="Override API base URL, e.g. https://openrouter.ai/api/v1 for OpenRouter "
+                        "(default: OpenAI). OpenRouter models use namespaced IDs like openai/gpt-4o-mini.")
+    p.add_argument("--api-key-env", default="OPENAI_API_KEY",
+                   help="Env var (in environment or .env) holding the API key; use OPENROUTER_API_KEY "
+                        "with --base-url https://openrouter.ai/api/v1.")
     p.add_argument("--reasoning-effort", default="minimal",
-                   help="Passed to gpt-5-family models; auto-dropped if the model rejects it.")
+                   help="Passed to reasoning models (gpt-5 family); pass '' for non-reasoning models "
+                        "like gpt-4o-mini. Auto-dropped if the model rejects it.")
     p.add_argument("--mask-names", action="store_true",
                    help="Blank the company's own name tokens from headlines (contamination A/B).")
     p.add_argument("--repeat-tag", default="r1",
