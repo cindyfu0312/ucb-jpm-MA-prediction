@@ -22,7 +22,9 @@ data/raw/text/
 data/raw/index/ticker_to_ciq_*
 
 # --- Large regenerable data outputs (re-create by running the scripts) ---
-data/raw/news/
+data/raw/news/*
+# shared exception: scraped GDELT+EDGAR headline cache (saves teammates a ~20h re-scrape)
+!data/raw/news/ma_event_news.csv
 data/raw/funds/
 
 # --- Secrets: API keys live in .env, never in git ---
