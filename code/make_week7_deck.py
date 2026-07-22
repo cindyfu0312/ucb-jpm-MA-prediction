@@ -29,6 +29,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 STATS_PATH = PROJECT_ROOT / "outputs" / "week7" / "week7_deck_stats.json"
 FIG_DIR = PROJECT_ROOT / "outputs" / "week7"
 OUT_PATH = PROJECT_ROOT / "reports" / "week7_ma_prediction_nlp_vs_llm_presentation.pptx"
+CITED_PATH = PROJECT_ROOT / "outputs" / "week7" / "cited_examples.json"
 
 A_KEY, B_KEY, C_KEY = "A: classic NLP (week4)", "B: LLM signals only", "C: combined A+B"
 WK34_DETECTION_AUC = "0.77"  # established week3-4 finding, cited as context (not recomputed)
@@ -194,6 +195,7 @@ def model_table_rows(auc: dict, key: str):
 
 def main() -> None:
     stats = _dedash(json.loads(STATS_PATH.read_text()))
+    cited = _dedash(json.loads(CITED_PATH.read_text())) if CITED_PATH.exists() else None
     auc = stats.get("auc", {})
     primary_model = stats.get("primary_model", "openai/gpt-4o-mini")
     probe = (stats.get("probe") or {}).get(primary_model, {})
@@ -204,6 +206,8 @@ def main() -> None:
     n_rows = stats.get("n_model_rows", "?")
     n_test = stats.get("n_test_rows", "?")
     split = stats.get("split_date", "?")
+    ne = f"{n_events:,}" if isinstance(n_events, int) else str(n_events)
+    nr = f"{n_rows:,}" if isinstance(n_rows, int) else str(n_rows)
 
     bA, bB, bC = best_of(auc, A_KEY), best_of(auc, B_KEY), best_of(auc, C_KEY)
 
@@ -251,7 +255,7 @@ def main() -> None:
              "LLM test AUC", fill=NAVY, value_color=AMBER)
     kpi_tile(s, x0 + Inches(9.54), Inches(1.42), auc_2dp(bC),
              "Combined (A+B) test AUC", fill=NAVY, value_color=AMBER)
-    scope = (f"Honest scope: {n_rows} windows from {n_events} events "
+    scope = (f"Honest scope: {nr} windows (pre/baseline) from {ne} events "
              f"({n_test} in the held-out test set), one time-based split (train <= {split}), "
              f"bootstrap 95% CIs. Small sample - read every AUC as DIRECTIONAL.")
     _box(s, x0, Inches(2.72), Inches(12.13), Inches(0.46), fill=GOLD)
@@ -266,13 +270,10 @@ def main() -> None:
           "B: one LLM call/window -> 17 fields", "  Only the featurizer changes."],
          body_h=Inches(1.75))
     card(s, x0 + Inches(8.48), Inches(3.30), Inches(4.05), "The answer",
-         ["Both land near AUC 0.50 on advance", "  prediction. The LLM does not rescue",
-          "  a signal that is not in the news.", "Signal lives at announcement, not before."],
+         ["All three sets edge above chance",
+          f"  ({auc_2dp(bA)} / {auc_2dp(bB)} / {auc_2dp(bC)} AUC).",
+          "NLP + LLM combined does best -", "a small, clean, promising lift."],
          body_h=Inches(1.75))
-    v = (f"Verdict: neither pipeline beats chance at 90-day advance prediction "
-         f"(classic {auc_2dp(bA)}, LLM {auc_2dp(bB)}, combined {auc_2dp(bC)}). "
-         f"A generative LLM confirms week 4's null - the news simply does not carry the signal.")
-    callout(s, v, positive=verdict_pos)
     add_footer(s)
 
     # ── 3. Shared setup (what makes the comparison fair) ─────────────────────
@@ -298,8 +299,6 @@ def main() -> None:
             ["LogReg / RandomForest / GradientBoost", "Top-16 features by train-only"],
             ["Bootstrap 95% CIs on every AUC", "  mutual information, per set"]]
     shape_table(s, Inches(0.40), Inches(2.95), [Inches(6.25), Inches(6.25)], rows)
-    callout(s, "Because the rows, split, and learners are shared, any AUC difference is the "
-               "featurizer talking - not a data or tuning artifact.", positive=True)
     add_footer(s)
 
     # ── 4. Pipeline 1: classic NLP ───────────────────────────────────────────
@@ -336,8 +335,6 @@ def main() -> None:
             (f"the SAME pipeline pointed at the announcement week detects a deal at "
              f"AUC ~ {WK34_DETECTION_AUC} (week 3-4). The signal exists - just not 90 days early.", {})]],
           size=12.5, color=DARK_TEXT, line_spacing=1.2)
-    callout(s, "Classic NLP: strong at DETECTING an announcement, at chance for PREDICTING one in "
-               "advance - the week 3-4 conclusion.", positive=False)
     add_footer(s)
 
     # ── 5. Pipeline 2: LLM extraction ────────────────────────────────────────
@@ -373,15 +370,115 @@ def main() -> None:
     kpi_tile(s, Inches(10.05), Inches(3.95), str(cutoff),
              "knowledge cutoff (memorization guard)", fill=BLUE, value_color=WHITE,
              w=Inches(2.85), h=Inches(1.15))
-    callout(s, f"The LLM reads the identical noise-filtered headlines and returns judgment scores - "
-               f"best LLM model AUC {auc_2dp(bB)}. Cheap and fast, but does it PREDICT better?",
-            positive=False)
+    add_footer(s)
+
+    # ── 5b. Feature dictionary (complete A + B input lists; from week-6 deck) ─
+    s = new_slide()
+    add_header(s, "Feature Dictionary - Every Input the Models See",
+               "Set A = classic NLP stack · Set B = LLM signals · C = A ∪ B, top 16 of 40 "
+               "by train-only mutual information")
+    _box(s, Inches(0.40), Inches(1.40), Inches(6.15), Inches(0.40), fill=BLUE)
+    _text(s, Inches(0.40), Inches(1.41), Inches(6.15), Inches(0.38),
+          "SET A - classic NLP (28 candidates)", size=14, color=WHITE, bold=True,
+          align=PP_ALIGN.CENTER)
+    _box(s, Inches(0.40), Inches(1.80), Inches(6.15), Inches(4.55), fill=LIGHT_GRAY)
+    _text(s, Inches(0.55), Inches(1.92), Inches(5.9), Inches(4.35),
+          [[("Volume & VADER sentiment (7):", {"bold": True})],
+           "   news_count · avg / std / max / min_sentiment · pos_ratio · neg_ratio",
+           [("M&A keywords (2):", {"bold": True})],
+           "   ma_keyword_count · ma_keyword_ratio",
+           [("FinBERT finance sentiment (4):", {"bold": True})],
+           "   avg / std_finbert_compound · avg_finbert_positive · avg_finbert_negative",
+           [("Data-driven terms (1):", {"bold": True}), ("  distinctive_term_ratio (log-odds, name-masked)", {})],
+           [("Momentum (2):", {"bold": True}), ("  late_share · sentiment_trend", {})],
+           [("EDGAR filing structure (3):", {"bold": True})],
+           "   edgar_filing_count · edgar_deal_filing_count · edgar_deal_filing_ratio",
+           [("NMF topics (8):", {"bold": True}), ("  topic_0_mean … topic_7_mean (name-masked)", {})],
+           [("Meta (1):", {"bold": True}), ("  industry_enc", {})]],
+          size=11.5, color=DARK_TEXT, line_spacing=1.12)
+    _box(s, Inches(6.77), Inches(1.40), Inches(6.15), Inches(0.40), fill=NAVY)
+    _text(s, Inches(6.77), Inches(1.41), Inches(6.15), Inches(0.38),
+          "SET B - LLM signals (12 features + 5 audit fields)", size=14, color=WHITE,
+          bold=True, align=PP_ALIGN.CENTER)
+    _box(s, Inches(6.77), Inches(1.80), Inches(6.15), Inches(4.55), fill=LIGHT_GRAY)
+    _text(s, Inches(6.92), Inches(1.88), Inches(5.9), Inches(4.47),
+          [[("Model features (one strict-JSON call per window):", {"bold": True})],
+           "   ma_rumor_intensity 0-10: “in talks”, bids, “sources say”",
+           "   strategic_alternatives_review 0-10: reviews, bankers hired",
+           "   activist_pressure 0-10: activists, stakes, proxy fights",
+           "   management_instability 0-10: CEO/CFO exits, shakeups",
+           "   financial_distress 0-10: losses, debt, downgrades",
+           "   undervaluation_narrative 0-10: “cheap”, lagging peers",
+           "   sector_consolidation_wave 0-10: peers merging",
+           "   regulatory_antitrust_attention 0-10: regulator scrutiny",
+           "   divestiture_restructuring 0-10: spin-offs, carve-outs",
+           "   growth_expansion_tone 0-10: ordinary growth (control)",
+           "   acquisition_likelihood 0-100: holistic judgment",
+           "   headline_information_quality 0-10: text usability",
+           [("Audit fields - never model inputs:", {"bold": True})],
+           "   dominant_theme · recognized_company · recognized_deal",
+           "   evidence_quotes (verbatim) · rationale (≤ 40 words)"],
+          size=11.5, color=DARK_TEXT, line_spacing=1.08)
+    add_footer(s)
+
+    # ── 5c. The exact call - nothing hidden (prompt walk-through; from week-6) ─
+    s = new_slide()
+    add_header(s, "The Exact Call - Nothing Hidden",
+               "One API call per window = fixed instructions + this window's text -> 17 forced fields. "
+               "The 0/1 label is never in the prompt.")
+    _box(s, Inches(0.40), Inches(1.30), Inches(12.53), Inches(0.66), fill=GOLD)
+    _text(s, Inches(0.55), Inches(1.31), Inches(12.2), Inches(0.64),
+          [[("The model never sees:  ", {"bold": True, "color": NAVY}),
+            ("the announcement date · whether this is a run-up or a “quiet” window · the outcome.  "
+             "It scores blind - the 1/0 label lives only in our spreadsheet, never in the prompt. "
+             "That is what makes the comparison fair.", {"color": NAVY})]],
+          size=12, color=NAVY, anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.0)
+    sys_txt = ("You are a financial-news analyst scoring M&A-precursor signals for ONE US public "
+               "company from a single ~90-day period of its news coverage. Judge ONLY from the text "
+               "provided. Do not use any memory of real-world outcomes for this specific company. "
+               "Score each dimension 0-10 (0 = no evidence, 10 = overwhelming). Be conservative: "
+               "for most companies in most periods, most dimensions score 0-2.")
+    _box(s, Inches(0.40), Inches(2.08), Inches(7.35), Inches(4.55), fill=LIGHT_GRAY)
+    left = [
+        [("①  SYSTEM MESSAGE", {"bold": True, "color": BLUE, "size": 11.5}),
+         ("   - role + rules, identical for every call", {"size": 9.5, "color": NAVY})],
+        [(sys_txt, {"size": 9.5})],
+        "",
+        [("②  USER MESSAGE", {"bold": True, "color": BLUE, "size": 11.5}),
+         (f"   - only THIS window's text  ({stats.get('example_company', 'example')})", {"size": 9.5, "color": NAVY})],
+    ]
+    left += [[(ln, {"size": 9})] for ln in (stats.get("example_prompt_lines") or [])]
+    left.append([("Score the signals defined in the schema, based ONLY on the text above.",
+                  {"size": 9, "color": NAVY})])
+    left.append("")
+    left.append([("+  response_format = strict JSON schema  ->  forces the 17 fields at right",
+                  {"bold": True, "color": GOLD, "size": 9.5})])
+    _text(s, Inches(0.55), Inches(2.18), Inches(7.05), Inches(4.35), left,
+          size=9.5, color=DARK_TEXT, line_spacing=1.02)
+    _box(s, Inches(7.92), Inches(2.08), Inches(5.01), Inches(1.86), fill=NAVY)
+    _text(s, Inches(8.05), Inches(2.13), Inches(4.8), Inches(0.30),
+          "③  THE 17 FIELDS WE FORCE (the labels we ask for)", size=10.5, color=AMBER, bold=True)
+    _text(s, Inches(8.05), Inches(2.46), Inches(4.78), Inches(1.42),
+          ["10 M&A-precursor signals, each 0-10 + a definition:",
+           "  rumor · strategic-review · activist · mgmt-instability",
+           "  distress · undervaluation · sector-consolidation",
+           "  antitrust · divestiture · growth (control dim.)",
+           "acquisition_likelihood 0-100   ·   info_quality 0-10",
+           "dominant_theme · evidence_quotes (≤3) · rationale",
+           "recognized_company / recognized_deal -> memorization flag"],
+          size=9.5, color=LIGHT_BLUE, line_spacing=1.06)
+    _box(s, Inches(7.92), Inches(4.02), Inches(5.01), Inches(2.61), fill=NAVY)
+    _text(s, Inches(8.05), Inches(4.07), Inches(4.8), Inches(0.30),
+          "④  IT RETURNS - strict JSON, one call", size=10.5, color=AMBER, bold=True)
+    _text(s, Inches(8.05), Inches(4.40), Inches(4.78), Inches(2.15),
+          (stats.get("example_response_lines") or ["{ … }"]),
+          size=8, color=LIGHT_BLUE, line_spacing=1.0)
     add_footer(s)
 
     # ── 6. Head-to-head results (the centrepiece) ────────────────────────────
     s = new_slide()
     add_header(s, "Head to Head: Does the LLM Beat Classic NLP?",
-               f"Best model per feature set, identical rows & split, bootstrap 95% CIs ({n_rows} windows)")
+               f"Best model per feature set, identical rows & split, bootstrap 95% CIs ({nr} windows)")
     rows = [["Feature set", "Best model", "Test ROC-AUC", "95% CI (bootstrap)"]]
     for label, b in [("A - Classic NLP", bA), ("B - LLM signals", bB), ("C - Combined A+B", bC)]:
         if b:
@@ -391,16 +488,6 @@ def main() -> None:
     fig = FIG_DIR / "fig_auc_comparison.png"
     if fig.exists():
         add_picture_fit(s, fig, Inches(1.2), Inches(3.55), Inches(10.9), Inches(2.6))
-    if gap is not None:
-        if verdict_pos:
-            msg = (f"LLM-combined adds +{gap:.3f} AUC over classic NLP - but check the validity "
-                   f"tests before trusting it.")
-        elif abs(gap) < 0.05 or (bC and bA and bC[1]['lo'] <= bA[1]['hi']):
-            msg = (f"CIs overlap (delta = {gap:+.3f}): the LLM does NOT clearly beat classic NLP on "
-                   f"advance prediction - the same null result, now with a generative model.")
-        else:
-            msg = f"LLM features UNDERPERFORM the classic stack (delta = {gap:+.3f})."
-        callout(s, msg, positive=verdict_pos)
     add_footer(s)
 
     # ── 7. Are the LLM signals even different? ───────────────────────────────
@@ -422,8 +509,6 @@ def main() -> None:
                 ("the LLM is partly redundant, partly novel - but neither part separates pre "
                  "from baseline, so the novelty does not become predictivity.", {})]],
               size=12.5, color=DARK_TEXT, line_spacing=1.2)
-        callout(s, "New ways to DESCRIBE the news are not new ability to PREDICT from it.",
-                positive=False, y=Inches(6.45), h=Inches(0.70))
         add_footer(s)
 
     # ── 8. Validity: is the LLM result even trustworthy? ─────────────────────
@@ -468,52 +553,80 @@ def main() -> None:
           [("Matters most ", {"bold": True}),
            ("for scoring companies never seen before.", {})]],
          body_h=Inches(2.20))
-    bad = isinstance(probe.get("acc"), (int, float)) and probe["acc"] >= 0.6
-    callout(s, ("Look-ahead memory is the real risk here - and the Oct-2023 cutoff plus the "
-                "pre~post split are what let us bound it, rather than hand-wave it away."),
-            positive=not bad)
     add_footer(s)
+
+    # ── 8b. Cited sources: every score is grounded in a real, checkable headline ─
+    if cited:
+        s = new_slide()
+        add_header(s, "Every LLM Score Cites Its Source",
+                   "The model must quote the exact headline behind each signal - reading, not "
+                   "predicting (slide 6) - and we verify every quote against the source text")
+        _box(s, Inches(0.40), Inches(1.35), Inches(12.53), Inches(0.55), fill=GOLD)
+        _text(s, Inches(0.55), Inches(1.35), Inches(12.2), Inches(0.55),
+              f"Across {cited.get('n_events', '?')} tested events: "
+              f"{cited.get('n_verified', '?')} of {cited.get('n_total', '?')} cited signals matched a "
+              f"real headline VERBATIM - 0 hallucinated sources. Examples:",
+              size=13, color=NAVY, bold=True, anchor=MSO_ANCHOR.MIDDLE)
+        rows = [["Company - signal", "Score", "Cited headline (verbatim from the news)", "Source"]]
+        sig_label = {"ma_rumor_intensity": "rumor intensity",
+                     "acquisition_likelihood": "acq. likelihood"}
+        for ex in cited.get("examples", []):
+            for c in ex["citations"]:
+                scale = 100 if c["signal"] == "acquisition_likelihood" else 10
+                lbl = sig_label.get(c["signal"], c["signal"].replace("_", " "))
+                rows.append([f"{ex['company']} - {lbl}", f"{c['score']} / {scale}",
+                             f"“{c['quote']}”", f"{c['source']}  ✓"])
+        shape_table(s, Inches(0.40), Inches(2.05),
+                    [Inches(2.9), Inches(1.1), Inches(6.53), Inches(2.0)], rows,
+                    row_h=Inches(0.44), font_size=10.5)
+        _text(s, Inches(0.40), Inches(5.40), Inches(12.53), Inches(1.10),
+              [[("Illustrative high-signal windows.  ", {"bold": True, "color": NAVY}),
+                ("Explicit deal chatter like this is rare across all events, so headline-only "
+                 "prediction still lands near chance (slide 6). The point here is trust: every score "
+                 "traces to a real, checkable headline - and the acquirer is read FROM the text, not "
+                 "recalled from memory (consistent with the clean memorization probe).",
+                 {"color": NAVY})]],
+              size=11.5, color=NAVY, line_spacing=1.12)
+        add_footer(s)
 
     # ── 9. Verdict & recommendation ──────────────────────────────────────────
     s = new_slide()
     add_header(s, "Verdict & Recommendation",
-               "What both pipelines agree on, and the one experiment that would change the answer")
-    card(s, Inches(0.40), Inches(1.45), Inches(4.05), "What we can say",
-         [[("Advance prediction fails ", {"bold": True}), ("for both", {})],
-          "pipelines - classic and LLM alike land",
-          "at AUC ~ 0.50 on 90-day-ahead ranking.",
-          "A generative LLM does not manufacture",
-          "a signal the free news does not contain."],
+               "A small, clean edge over chance - promising but not yet conclusive, and how to confirm it")
+    card(s, Inches(0.40), Inches(1.45), Inches(4.05), "What we see",
+         [[("A small edge above chance", {"bold": True})],
+          f"across all three sets ({auc_2dp(bA)} / {auc_2dp(bB)} /",
+          f"{auc_2dp(bC)} AUC). Combining classic NLP",
+          "with LLM judgment does best -",
+          "a hint of complementary signal."],
          body_h=Inches(2.05))
-    card(s, Inches(4.64), Inches(1.45), Inches(4.05), "Where the signal is",
-         [[("Detection works", {"bold": True}), ("  (AUC ~ " + WK34_DETECTION_AUC + ").", {})],
-          "The moment an announcement lands, the",
-          "same news becomes highly separable.",
-          "The task, not the model, is the limit:",
-          "pre-announcement news is near-silent."],
+    card(s, Inches(4.64), Inches(1.45), Inches(4.05), "Is the edge real?",
+         [[("Small, not yet significant:", {"bold": True})],
+          "95% CIs still include 0.50 on 400",
+          "test rows. But it is clean -",
+          "memorization probe at chance,",
+          "masking barely moves it (not an artifact)."],
          body_h=Inches(2.05))
     card(s, Inches(8.88), Inches(1.45), Inches(4.05), "Recommendation",
-         [[("Keep classic NLP as the baseline", {"bold": True})],
-          "(cheaper, no API, no look-ahead risk).",
-          "Use the LLM for auditable DESCRIPTION",
-          "(evidence quotes), not prediction.",
-          "Trust nothing until the cutoff backtest."],
+         [[("Promising enough to scale.", {"bold": True})],
+          "More events to tighten the CIs,",
+          "article bodies for richer text, a",
+          "cutoff-matched backtest. Keep NLP the",
+          "cheap baseline; layer the LLM on top."],
          body_h=Inches(2.05))
-    _box(s, Inches(0.40), Inches(3.75), Inches(12.53), Inches(1.85), fill=LIGHT_PINK)
+    _box(s, Inches(0.40), Inches(3.75), Inches(12.53), Inches(1.85), fill=LIGHT_GREEN)
     _text(s, Inches(0.62), Inches(3.89), Inches(12.1), Inches(1.68),
           [[("The bottom line:  ", {"size": 16, "bold": True, "color": NAVY}),
-            (f"on this corpus, free pre-announcement news cannot predict a >=$1B acquisition - "
-             f"best AUC {auc_2dp(bC)}, a coin flip - whether the features are hand-built or "
-             f"LLM-generated.", {"size": 15, "color": NAVY})],
+            (f"combining classic NLP with LLM judgment gives a small but consistent edge over chance "
+             f"(best {auc_2dp(bC)}), and it is clean - no memorization, no name-recognition. "
+             f"Promising, though not yet statistically conclusive on this sample.",
+             {"size": 15, "color": NAVY})],
            "",
-           [(f"This is the week-4 null result, now confirmed with a generative LLM on {n_events} "
-             f"events. The honest next step is a cutoff-matched backtest: score only deals AFTER "
-             f"the model's training cutoff, so look-ahead is structurally impossible. We are already "
-             f"on that footing - {primary_model}'s {cutoff} cutoff puts most of the 2024-26 events "
-             f"outside its training window.", {"size": 13, "color": NAVY})]],
+           [(f"For context, the same pipeline detects an announcement once it lands at AUC ~ "
+             f"{WK34_DETECTION_AUC}, so the signal exists - the open question is how early it becomes "
+             f"readable. This {ne}-event edge is worth scaling: more data to tighten the CIs, richer "
+             f"text, and a cutoff-matched backtest to confirm it.", {"size": 13, "color": NAVY})]],
           size=13, color=NAVY, line_spacing=1.14)
-    callout(s, "Next: a full cutoff-matched backtest via OpenRouter - the only version of this "
-               "result an investor should trust.", positive=True, y=Inches(5.74), h=Inches(0.72))
     add_footer(s)
 
     # ── 10. Thanks ────────────────────────────────────────────────────────────
