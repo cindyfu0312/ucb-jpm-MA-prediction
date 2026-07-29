@@ -1,87 +1,53 @@
-# Predicting Corporate M&A Activity Using Market Signals and Generative AI
+# Predicting M&A from Free News
 
-*Merger-Arbitrage Prediction · Event-Driven Strategy · GenAI Signal Extraction*
+**MFE 27, Term 2 — J.P. Morgan Industry Project, Group 2**
+Dexin Fu · Ronald Liu · July 2026
 
-A data-driven framework to identify, **before public announcement**, which companies are likely to participate in M&A over a 3–6 month horizon — as targets, acquirers, or strategically compatible pairs. The system fuses quantitative market signals, structured fund disclosures, and LLM-based text analysis into per-company probability scores for event-driven and merger-arbitrage workflows.
+Can free, public news flag a $1B+ acquisition target *before* the deal is announced? This
+repository is the final deliverable. It runs two parallel pipelines over the same news, a
+classic-NLP one and an LLM one, and compares them head to head on identical data.
 
-## Objective
+## Start here
 
-Produce a probability score for each company in the target universe (e.g., S&P 500 / Russell 1000) indicating its likelihood of an M&A event within 3–6 months, to:
-
-- Detect potential **acquisition targets**
-- Detect likely **acquirers**
-- Identify strategically compatible **acquisition pairs**
-
-## Research Questions
-
-- Can public market data and corporate disclosures predict M&A before announcement?
-- Do unusual options patterns contain early signals of acquisitions?
-- Can GenAI extract strategic intent from filings and transcripts at scale?
-- What industry-consolidation patterns reliably precede deals?
-
-## Data Sources
-
-| Category | Sources |
+| File | What it is |
 |---|---|
-| Corporate disclosures | 10-K, 10-Q, 8-K; earnings transcripts; investor presentations; press releases |
-| Market data | Prices/returns; volatility; liquidity; options activity |
-| External | News; analyst reports; industry M&A databases |
-| Fund disclosures | ETF holdings; mutual-fund N-PORT/N-CEN; historical holdings time-series |
+| [`reports/MFE27_Term2_JPMorgan_2_MA_Prediction_Fu_Liu_slide_deck.pptx`](reports/) | The 16-slide presentation |
+| [`report.md`](report.md) | The written report: intro, method, results, conclusion, references |
+| [`REPRODUCE.md`](REPRODUCE.md) | Full instructions to re-run either pipeline |
 
-## Methodology — Three-Component Framework
+## Run it (no API key, about a minute)
 
-### Component 1 — Merger-Arb Fund Scoring
-Quantify the **ex-ante probability that announced deals close** and rank merger-arb funds by skill.
-- **Inputs:** ETF/MF holdings, N-PORT/N-CEN, historical holdings time-series, merger-arb benchmarks.
-- **Method:** normalize holdings to a common schema (incl. hedge legs: long target / short acquirer); engineer deal-level features (spread, deal type, financing, days-to-close, regulatory intensity) and fund-level features (entry timing, sizing, turnover); fit a calibrated completion model; score funds via **hit rate, Brier, log loss, realized spread capture**; detect rebalance signals from top-quartile funds; backtest.
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python code/make_final_deck.py
+```
 
-### Component 2 — GenAI Signal Extraction
-Use LLMs to convert unstructured text into quantitative strategic-intent indicators.
-- **Target signals:** "strategic alternatives," "portfolio optimization," "capital allocation flexibility," "exploring partnerships"; sentiment trajectory across consecutive filings.
-- **Method:** prompt-based extraction over 10-K/10-Q/8-K, transcripts, and press releases; per-company per-period time-series; validate against historical announcement dates.
+That rebuilds the slide deck from the committed results in `outputs/week7/`, with no data
+download and no API key. It is the quickest way to confirm the numbers reproduce.
 
-### Component 3 — Market Microstructure Detection
-Detect abnormal trading that historically precedes announcements.
-- **Signals:** unusual options / abnormal call buying, volatility-skew shifts, abnormal price drift, large block trades, put/call divergence.
-- **Method:** CAPM-adjusted abnormal returns, volume z-scores, IV percentile rank, skew-change detectors.
+To re-run the analysis notebooks (classic NLP in weeks 2 to 4, the head-to-head in
+week 7), see [`REPRODUCE.md`](REPRODUCE.md). The classic-NLP side runs from the committed
+news cache with no key; the LLM side needs an OpenRouter key (about $2) only if you want to
+regenerate its scores, which are already committed.
 
-## Evaluation Framework
+## The result in one line
 
-M&A is a rare event, so performance is measured with **ranking-based** metrics, not raw accuracy.
+Free news gives at most a small edge over chance (best AUC 0.55, and the confidence ranges
+still include 0.50). The very same pipeline detects deals the week they are announced at
+0.79 AUC. So the method works; the early signal simply is not in the free news. The report
+and slides have the full story.
 
-| Metric | Description | Target |
-|---|---|---|
-| Precision@50 | Acquisitions correctly identified in the top-50 predictions | 10–15 hits |
-| Hit rate | Share of top-*N* predictions that are actual targets | > 20% |
-| ROC-AUC | Area under ROC across the universe | > 0.70 |
-| Event capture | Share of actual events in the top-ranked tier | > 30% |
-| Brier score | Calibration quality of completion estimates | < 0.15 |
+## What is in here
 
-## Weekly Plan (7 Weeks)
+```
+reports/     the slide deck and the head-to-head comparison deck
+report.md    the written report
+code/        pipeline scripts (scrapers, feature extractors, deck builders) + notebooks
+data/        the news cache, cleaned events, and parsed feature matrices
+outputs/     exported stats and figures the deck is built from
+```
 
-| Wk | Phase | Key activities | Deliverables |
-|:--:|---|---|---|
-| 1 | Foundation | Scope, KPIs, success criteria; stand up data pipelines (EDGAR, market/options); cloud, version control, experiment tracking; define universe & training window | Scoping doc, data-access confirmation, infra checklist |
-| 2 | Market data | Pull returns/volume/volatility/liquidity and options chains (OI, IV, put/call, skew); build abnormal-return, volume z-score, IV-rank, skew/block-trade features; QA & survivorship handling | Market feature matrix, options signal set, QA report |
-| 3 | AI / NLP | Parse filings; design strategic-intent & sentiment prompts; LLM inference → per-company signals; transcript tone analysis; validate vs. announcement dates | NLP signal dataset, prompt library, validation report |
-| 4 | Fund analytics | Collect ETF/MF holdings; normalize schema incl. hedge legs; deal- & fund-level features; skill metrics (hit rate, Brier, log loss, spread capture); rank funds; rebalance signals | Fund-skill ranking, rebalance-signal feed, deal feature set |
-| 5 | Modeling | Merge market + NLP + fund signals into a feature store; train logistic / GBM / ensemble; labels (6-mo binary + survival); time-series CV; calibrate (Platt / isotonic) | Model artifacts, probability scores, CV & calibration results |
-| 6 | Validation | Backtest (e.g., 2018–2024); compute all metrics; simulate long top-*N* strategy (P&L, Sharpe); benchmark vs. naive/published; SHAP / feature importance | Backtest report, strategy P&L, importance dashboard |
-| 7 | Delivery | Incorporate feedback; finalize inference-ready pipeline with scheduled refresh; produce live ranked predictions; technical docs + model cards; final presentation | Live predictions, documentation, final deck, Phase-2 roadmap |
-
-*Weekly status report every Friday.*
-
-## Assumptions & Risks
-
-| Risk | Mitigation |
-|---|---|
-| Data-access delays (market/options feeds) | Identify backups (Yahoo Finance, FRED, WRDS) in Week 1 |
-| Low M&A base rate in test window | Use rank-based metrics (Precision@K, AUC); augment if needed |
-| LLM inference cost / latency | Batch offline; cache embeddings; consider distilled models |
-| Look-ahead bias in features | Strict point-in-time discipline; time-series CV splits |
-
-**Assumptions:** access to ≥ 5 years of historical M&A ground truth; SEC EDGAR, market, and options data procurable in Week 1; LLM API access available; weekly stakeholder review (Fridays).
-
-## Phase 2 (Preview)
-
-Real-time monitoring & alerts · pair-level target–acquirer matching · portfolio-system integration for position sizing · expanded mid-cap and international coverage.
+Large raw data (full article bodies, per-call LLM cache) and anything under a paid data
+licence are left out on purpose; everything needed to reproduce the presented results is
+here. See [`DATA.md`](DATA.md) for the data sources.
