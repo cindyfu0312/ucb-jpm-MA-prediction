@@ -48,7 +48,7 @@ and slides.
 ## Layout
 
 ```
-code/     the pipeline notebook + the news scraper and LLM extractor it uses
+code/     the pipeline notebook, plus the data-collection scripts behind it (see code/README.md)
 data/     the news cache, cleaned events, and parsed feature matrices
 outputs/  exported figures from the notebook
 reports/  the slide deck
