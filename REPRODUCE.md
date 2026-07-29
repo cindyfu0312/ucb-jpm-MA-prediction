@@ -66,14 +66,14 @@ need this step if you want to regenerate it yourself.
 jupyter lab code/week7_llm_ma_prediction.ipynb
 ```
 
-This is where Pipeline A and Pipeline B are compared on identical rows and split. Two
-things to know:
+This is where Pipeline A and Pipeline B are compared on identical rows and split. It runs
+from a fresh clone with no API key: the LLM scores load from the raw cache if present, and
+otherwise from the committed `data/interim/ma_llm_features.csv`.
 
-- It loads the LLM scores from `data/raw/llm/` (the raw per-call cache), which is
-  gitignored. Run step 4 first to create it, or work from the committed
-  `data/interim/ma_llm_features.csv`.
-- Feature Set A is *built* in the appendix but *loaded* in section 3, so a single
-  top-to-bottom pass models on the previous matrix. **Run the notebook twice.**
+Run it once, top to bottom. The head-to-head results (the numbers in the deck) come from the
+committed feature matrices in the first two thirds of the notebook. The appendix at the end
+rebuilds Feature Set A from the news cache with FinBERT (slow, and only needed to regenerate
+that matrix from scratch).
 
 ## What is committed vs regenerable
 
